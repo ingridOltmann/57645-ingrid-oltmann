@@ -14,6 +14,8 @@ header{
     width: 100%;
     height: 14.0625rem;
     contain: content;
+    display: flex;
+    flex-direction: column;
     /*position: sticky;
     top: 0px;
     /*ESTO ME QUEDA MAL*/
@@ -25,11 +27,18 @@ header{
         background-color: black;
         align-items: center;
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         }
         .logoCompleto{
-            margin-right: 26.375rem;
+            margin-left: 1.5rem;
             width: 28.375rem;
             height: auto;
+        }
+        .superiorDer{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
         }
         .buscador{
             background-color: ghostwhite;
@@ -44,7 +53,7 @@ header{
             justify-content: space-between;
         }
         .buscador p{ 
-            font-size: 14px;
+            font-size: .875rem;
             font-weight: normal;
         }
         .buscador img{
@@ -84,6 +93,39 @@ header{
             padding: 1.25rem;
         }
 
+/*BREADCRUM*/
+
+.breadcrum{
+    margin-left: 1.5rem;
+    padding-inline: .5rem;
+    width: 100%;
+    height: 1.5rems;
+    contain: content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.breadcrum span a{
+    height: 1.25rem;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: .5rem;
+}
+.breadcrum span img{
+    height: 1rem;
+    width: 1rem;
+}
+.breadcrum p{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-inline: .5rem;
+}
 
 footer{
     background-color: black;
@@ -339,37 +381,7 @@ main div h1{
     contain: content;
     padding-left: 1.5rem;
 }
-.breadcrumAlimentos{
-    margin-left: 1rem;
-    padding-inline: .5rem;
-    width: 100%;
-    height: 1.5rems;
-    contain: content;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.breadcrumAlimentos span a{
-    height: 1.25rem;
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    text-decoration: none;
-    padding: .5rem;
-}
-.breadcrumAlimentos span img{
-    height: 1rem;
-    width: 1rem;
-}
-.breadcrumAlimentos p{
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    text-decoration: none;
-    padding-inline: .5rem;
-}
+
 .botones{
     display: flex;
     flex-direction: row;
@@ -387,13 +399,13 @@ main div h1{
     justify-content: center;
 }
 .perros a{
-    color: ghostwhite;
+    color: #5b5a5a;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
 }
-.gatos{
+.gatos{    
     margin: 1.5rem;
     width: 50%;
     height: 12.5rem;
@@ -402,9 +414,10 @@ main div h1{
     border-radius: 1.5625rem 1.5625rem 1.5625rem 1.5625rem;
     align-content: center;
     justify-content: center;
+
 }
 .gatos a{
-    color: rgb(60, 60, 60);
+    color: #5b5a5a;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -412,41 +425,7 @@ main div h1{
 }
 
 /*MAIN ALIMENTOS PERROS*/
-/*main{
-    width: 100%; 
-    height: fit-content;
-}*/
-.breadcrumAlimentosperros{
-    margin: 1rem;
-    padding-inline: .5rem;
-    width: 100%;
-    height: 1.5rems;
-    contain: content;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.breadcrumAlimentosperros span a{
-    height: 1.25rem;
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    text-decoration: none;
-    padding: .5rem;
-}
-.breadcrumAlimentosperros span img{
-    height: 1rem;
-    width: 1rem;
-}
-.breadcrumAlimentosperros p{
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    text-decoration: none;
-    padding-inline: .5rem;
-}
+
 .contenidoAp{
     width: 100%;
     display: flex;
