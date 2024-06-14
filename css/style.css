@@ -608,7 +608,7 @@ main div h1{
 
 /*MAIN VETERINARIA*/
 
-body{
+.bodyVet{
     width: 100%;
     height: 100vh;
     display: grid;
@@ -652,5 +652,5 @@ body{
 
 }
 .footerVeterinaria{
-    
+
 }
