@@ -227,6 +227,7 @@ footer{
 /*MAIN INDEX*/
 main{ 
     width: 100%;
+    height: auto;
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
@@ -238,7 +239,7 @@ main div h1{
     font-size: 1.25rem;
     font-weight: 400;
     background-color: black;
-    padding: 20;
+    padding: .5rem;
     grid-area: main div h1;
 }
 
@@ -378,6 +379,16 @@ main div h1{
     width: 100%;
     height: 62.5rem;
     contain: content;
+}
+h1{
+    text-align: center;
+    text-decoration: none;
+    color: ghostwhite;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: black;
+    padding: .5rem;
 }
 .alimentos{
     contain: content;
@@ -608,49 +619,99 @@ main div h1{
 
 /*MAIN VETERINARIA*/
 
-.bodyVet{
+
+.mainVet{
     width: 100%;
     height: 100vh;
+    contain: content;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(7,1fr);
+    grid-template-rows: repeat(6,1fr);
     grid-template-areas: 
-    "headerVeterinaria headerVeterinaria HeaderVeterinaria"
     "breadcrumVeterinaria breadcrumVeterinaria breadcrumVeterinaria"
     "tituloPagina tituloPagina tituloPagina"
     "afiliate afiliate afiliate"
     "beneficios1 bonificaciones urgencias"
     "planes planes planes"
-    "agendaConsulta agendaConsulta agendaConsulta"
-    "footerVeterinaria footerVeterinaria footerVeterinaria";
-}
-.headerVeterinaria{
-
+    "agendaConsulta agendaConsulta agendaConsulta";
+    gap: 1.25rem;
 }
 .breadcrumVeterinaria{
-
+grid-area: breadcrumVeterinaria;
 }
 .tituloPagina{
-
+grid-area: tituloPagina;
 }
 .afiliate{
-
+    background-color: #D62F38;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: ghostwhite;
+    padding: 1.5rem;
+    text-align: center;
+    grid-area: afiliate;
 }
 .beneficios1{
-
+    margin-left: 1.5rem;
+    grid-area: beneficios1;
 }
 .bonificaciones{
-
+grid-area: bonificaciones;
 }
 .urgencias{
-
+    margin-right: 1.5rem;
+grid-area: urgencias;
 }
 .planes{
-
+grid-area: planes;
 }
 .agendaConsulta{
-
+grid-area: agendaConsulta;
 }
-.footerVeterinaria{
 
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    color: ghostwhite;
+    background-color: black;
+    padding: .5rem;
+    text-align: center;
+}
+
+.beneficios1 p{
+    font-family: "Roboto", sans-serif;
+    font-size: .75rem;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    line-height: 1.25rem;
+    padding: 1rem;
+}
+.bonificaciones li{
+    font-family: "Roboto", sans-serif;
+    font-size: .75rem;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+.urgencias p{
+    font-family: "Roboto", sans-serif;
+    font-size: .75rem;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    line-height: 1.25rem;
+    padding: 1rem;
+}
+.planes p{
+    font-family: "Roboto", sans-serif;
+    font-size: .75rem;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    line-height: 1.25rem;
+    padding: 1rem;
 }
