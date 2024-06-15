@@ -96,10 +96,7 @@ header{
 /*BREADCRUM*/
 
 .breadcrum{
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    padding-inline: .5rem;
+    margin: 1.5rem;
     width: 100%;
     height: 1.5rem;
     contain: content;
@@ -107,16 +104,16 @@ header{
     flex-direction: row;
     align-items: center;
 }
-.breadcrum span a{
-    height: 1.25rem;
+.breadcrum a{
     color: black;
     font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 400;
     text-decoration: none;
-    padding: .5rem;
+    padding-left: .5rem;
 }
-.breadcrum span img{
+.breadcrum img{
+    margin-left: .5rem;
     height: 1rem;
     width: 1rem;
 }
@@ -126,13 +123,12 @@ header{
     font-size: .75rem;
     font-weight: 400;
     text-decoration: none;
-    padding-inline: .5rem;
+    padding-left: .5rem;
 }
 
 footer{
     background-color: black;
     width: 100%;
-    height: 12.5rem;
     contain: content;
     display: flex;
     flex-direction: row;
@@ -227,7 +223,6 @@ footer{
 /*MAIN INDEX*/
 main{ 
     width: 100%;
-    height: auto;
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
@@ -257,33 +252,27 @@ main div h1{
         justify-content: space-around;
         align-items: center;
     }
-        .item1{
+        .banner div{
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-left: 5rem;
+            margin-left: 6.25rem;
         }
-        .item1 h2{
-            margin: .5rem;
-            font-family: "Roboto", sans-serif;
-            font-size: 2.25rem;
-            font-weight: 300;
-        }
-        .item1 img{
+        
+        .banner div img{
             margin: .5rem;
             width: 18.75rem;
             height: auto;
         }
-        .item1 p{
+        .banner div p{
             margin: .5rem;
             font-family: "Roboto", sans-serif;
             font-size: 1rem;
             font-weight: 300;
         }
-        .item2{
+        .towCanionWetlands{
             margin: .5rem;
-            height: 21.6875rem;
-            width: auto;
+            height: 23.75rem;
             padding-right: 5rem;
         }
 /*subtitulos de secciones*/
@@ -622,11 +611,10 @@ h1{
 
 .mainVet{
     width: 100%;
-    height: 100vh;
-    contain: content;
+    margin-bottom: 2.5rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: 1fr;
     grid-template-areas: 
     "breadcrumVeterinaria breadcrumVeterinaria breadcrumVeterinaria"
     "tituloPagina tituloPagina tituloPagina"
@@ -637,7 +625,34 @@ h1{
     gap: 1.25rem;
 }
 .breadcrumVeterinaria{
-grid-area: breadcrumVeterinaria;
+    height: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: .25rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-area: breadcrumVeterinaria;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.breadcrumVeterinaria p{
+    margin-left: .5rem;
+}
+.breadcrumVeterinaria a{
+    margin-left: .5rem;
+}
+.breadcrumVeterinaria img{
+    margin-left: .5rem;
+    height: 1rem;
+    width: 1rem;
 }
 .tituloPagina{
 grid-area: tituloPagina;
@@ -648,7 +663,8 @@ grid-area: tituloPagina;
     font-size: 1.5rem;
     font-weight: 500;
     color: ghostwhite;
-    padding: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     text-align: center;
     grid-area: afiliate;
 }
@@ -663,14 +679,25 @@ grid-area: bonificaciones;
     margin-right: 1.5rem;
 grid-area: urgencias;
 }
-.planes{
+.planes{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 grid-area: planes;
 }
 .agendaConsulta{
-grid-area: agendaConsulta;
+    background-color: #D62F38;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: ghostwhite;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    grid-area: agendaConsulta;
 }
 
-h2{
+.mainVet h2{
     font-family: "Roboto", sans-serif;
     font-size: .875rem;
     font-weight: 400;
@@ -681,6 +708,7 @@ h2{
 }
 
 .beneficios1 p{
+    margin-top: .5rem;
     font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 300;
@@ -690,14 +718,17 @@ h2{
     padding: 1rem;
 }
 .bonificaciones li{
+    margin-top: .5rem;
     font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 300;
     color: black;
     text-align: center;
     padding: 1rem;
+    list-style: none;
 }
 .urgencias p{
+    margin-top: .5rem;
     font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 300;
@@ -714,4 +745,34 @@ h2{
     text-align: center;
     line-height: 1.25rem;
     padding: 1rem;
+}
+.planes{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.afiliaciones{
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.categoriasPlan{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.mensual{
+    width: 25rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.anual{
+    width:25rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
 }
