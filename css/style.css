@@ -11,17 +11,18 @@ font-family: "Roboto", sans-serif;
     box-sizing: border-box;
     }
 header{
+    background-color: white;
     width: 100%;
     height: 14.0625rem;
     contain: content;
     display: flex;
-    flex-direction: column;
-    /*position: sticky;
+    flex-direction: column;    
+    position: sticky;
     top: 0px;
     /*ESTO ME QUEDA MAL*/
     }
     .barraSuperior{
-        padding: 1.25rem 1rem 1.25rem 1rem;
+        padding: 2.5rem 1rem 1.25rem 1rem;
         width: 100%;
         height: 9.375rem;
         background-color: black;
@@ -32,8 +33,10 @@ header{
         }
         .logoCompleto{
             margin-left: 1.5rem;
-            width: 28.375rem;
+            margin-top: 5rem;
+            width: 50%;
             height: auto;
+            align-self: center;
         }
         .superiorDer{
             display: flex;
@@ -42,7 +45,7 @@ header{
         }
         .buscador{
             background-color: ghostwhite;
-            width: 28.375rem;
+            width: 17.5rem;
             height: 1.75rem;
             font-family: "Roboto", sans-serif;
             font-size: .875rem;
@@ -92,6 +95,8 @@ header{
             font-weight: 400;
             padding: 1.25rem;
         }
+/*MEDIA QUERY*/
+
 
 /*BREADCRUM*/
 
@@ -132,24 +137,32 @@ footer{
     contain: content;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
 }
-    footer section div{
+    footer section{
         margin: 1rem;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         contain: content;
+        align-items: start;
         align-content: center;
     }
-    footer section div article{
+    footer section article{
+        margin: 1rem;
         width: 12.5rem;
+        display: flex;
+        flex-direction: column;
     }
-    footer section div div a img{
+    .logoCompletoFooter{
+        margin: 1rem;
         width: 17.0625rem;
         height: auto;
     }
-    footer div article h4 {
+    footer article h4 {
+        margin: .5rem;
         font-family: "Roboto", sans-serif;
         font-size: .875rem;
         font-weight: 400;
@@ -157,7 +170,8 @@ footer{
         text-align: center;
         color: ghostwhite;
     }
-    footer div article p{
+    footer article p{
+        margin: .5rem;
         width: max-content;
         font-family: "Roboto", sans-serif;
         font-size: .875rem;
@@ -166,55 +180,6 @@ footer{
         text-align: center;
         color: ghostwhite;
     }
-    .nosotros{
-        contain: content;
-        width: 12.5rem;
-    }
-    footer{
-        background-color: black;
-        width: 100%;
-        height: 12.5rem;
-        contain: content;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-        footer section div{
-            margin: 1rem;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            contain: content;
-            align-content: center;
-        }
-        footer section div article{
-            width: 12.5rem;
-        }
-        footer section div div a img{
-            width: 17.0625rem;
-            height: auto;
-        }
-        footer div article h4 {
-            font-family: "Roboto", sans-serif;
-            font-size: .875rem;
-            font-weight: 400;
-            text-decoration: none;
-            text-align: center;
-            color: ghostwhite;
-        }
-        footer div article p{
-            width: max-content;
-            font-family: "Roboto", sans-serif;
-            font-size: .875rem;
-            font-weight: 200;
-            text-decoration: none;
-            text-align: center;
-            color: ghostwhite;
-        }
-        .nosotros{
-            contain: content;
-            width: 12.5rem;
-        }
 
 /*Hasta acá todos los html iguales*/
 
@@ -226,7 +191,7 @@ main{
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
-main div h1{
+main h1{
     text-align: center;
     text-decoration: none;
     color: ghostwhite;
@@ -235,7 +200,6 @@ main div h1{
     font-weight: 400;
     background-color: black;
     padding: .5rem;
-    grid-area: main div h1;
 }
 
 
@@ -251,34 +215,43 @@ main div h1{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        align-content: center;
     }
         .banner div{
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-left: 6.25rem;
+            justify-content: center;
         }
         
         .banner div img{
             margin: .5rem;
-            width: 18.75rem;
+            width: 50%;
             height: auto;
         }
-        .banner div p{
-            margin: .5rem;
+        .tituloBanner{
+            margin-bottom: .5rem;
             font-family: "Roboto", sans-serif;
-            font-size: 1rem;
+            font-size: 36px;
             font-weight: 300;
+            color: black;
+        }
+        .subTituloBanner{
+            margin-top: .5rem;
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            color: black;
         }
         .towCanionWetlands{
-            margin: .5rem;
-            height: 23.75rem;
-            padding-right: 5rem;
+            margin: 1rem;
+            height: 80%;
         }
+        
 /*subtitulos de secciones*/
         main section h2{
             font-family: "Roboto", sans-serif;
-            font-size: 1.25rem;
+            font-size: 20px;
             font-weight: 400;
             display: flex;
             flex-direction: row;
@@ -286,38 +259,16 @@ main div h1{
             padding-top: 1rem;
         }
 
-/*2da sección*/
-    .recomendados section{
-        margin-top: 2.5rem;
-        margin-bottom: 2.5rem;
-        width: 100%;
-        height: 25rem;
-        contain: content;
-        display: flex;
-        flex-direction: column;
-    }
-    .marcas{
-        display: flex;
+/*2da y 3ra sección*/
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: 1,1fr;
         justify-content: center;
         align-items: center;
     }
-    .brand{
-        width: 9.375rem;
-        height: auto;
-        padding: 1rem;
-        margin: 1rem;
-    }
-
-/*3er sección*/
-    .meds{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .med{     
-        margin-top: 2.5rem;   
-        margin-bottom: 2.5rem;
-        width: 9.375rem;
+    .item{
+        width: 8rem;
         height: auto;
         padding: 1rem;
         margin: 1rem;
@@ -332,6 +283,10 @@ main div h1{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    .nota{
+        height: 300px;
+        width: 370px;
     }
     .nota h3{
         margin-inline: .5rem;
@@ -351,7 +306,7 @@ main div h1{
         margin-inline: .5rem;
         padding: 2rem;
         padding-top: 1.5rem;
-        height: 15.625rem;
+        height: 250px;
         background-color: #5b5a5a;
         border-radius: 0 0 1.5625rem 1.5625rem;
         font-family: "Roboto", sans-serif;
@@ -361,6 +316,8 @@ main div h1{
         text-align: center;
         color: ghostwhite;
     }
+
+
 /*ACA TERMINA MAIN DE INDEX*/
 
 /*MAIN ALIMENTOS*/
@@ -473,6 +430,7 @@ h1{
 
 .alimentosPerros{
     margin: 1rem;
+    margin-right: 1.5rem;
     width: 64.9375rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -776,3 +734,390 @@ grid-area: planes;
     display: flex;
     flex-direction: column;
 }
+
+/*MEDIA QUERY*/
+
+@media(min-width:1900px) and (max-width:2560px) {
+    header{
+        width: 100%;
+    }
+    .menuDesp{
+        display: none;
+    }
+    .logoLineal{
+        display:none;
+    }
+    .logoCompleto{
+        width: 30%;
+    }
+    footer section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .isotipo{
+        width: 30%;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1900px) {
+    header{
+        width: 100%;
+    }
+    .menuDesp{
+        display: none;
+    }
+    .logoLineal{
+        display:none;
+    }
+    .logoCompleto{
+        width: 40%;
+    }
+    footer section{
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .isotipo{
+        width: 40%;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1200px){
+    .menuDesp{
+        display: none;
+    }
+    .logoLineal{
+        display:none;
+    }
+    .logoCompleto{
+        width: 60%;
+    }
+    .item{
+        overflow: hidden;
+    }
+    footer section{
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .isotipo{
+        width: 50%;
+    }
+    footer article{
+        width: 5rem;
+    }
+}
+
+
+@media(min-width:744px) and (max-width:1024px){
+    .menuDesp{
+        display: none;
+    }
+    .logoLineal{
+        display:none;
+    }
+    .logoCompleto{
+        width: 80%;
+    }
+    .productos{
+        display: flex;
+        height: 8rem;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        overscroll-behavior-y: none;
+        scroll-snap-type: x proximity;   
+        overflow: auto;     
+    }
+    .articulos{
+        height: 300px;
+        min-width: 744px;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
+        overflow: auto;
+    }
+.nota{
+    height: 300px;
+    min-width: 370px;
+}
+footer section{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    contain: content;
+}
+footer article{
+    width: 5rem;
+}
+.isotipo{
+    width: 50%;
+}
+}
+
+
+
+
+@media(min-width:480px) and (max-width: 744px){
+    header{
+        height: 4rem;
+        width: 100%;
+    }
+    .barraSuperior{
+        height: 4rem;
+        width: auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logoCompleto{
+        display: none;
+    }
+    .buscador{
+        display: none;
+    }    
+    .logoLineal{
+        height: 1.5625rem;
+    }
+    .menuNav{
+        display: none;
+    }
+
+    /*MEDIA QUERY MAIN INDEX*/
+    main h1{
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: black;
+        background-color: white;
+        justify-content: start;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: .5rem;
+        text-align: left;
+    }
+    .towCanionWetlands{
+        width: 20%;
+        height: fit-content;
+    }
+    .banner div img{
+        width: 60%;
+        height: fit-content;
+    }
+    .banner{
+        height: 11rem;
+        justify-content: space-around;
+    }
+    .banner div{
+        width: 50%;
+    }
+    .tituloBanner{
+        font-family: "Roboto", sans-serif;
+        font-size: 1.125rem;
+    }
+    .subTituloBanner{
+        font-family: "Roboto", sans-serif;
+        font-size: .5625rem;
+    }
+    h2{
+        width: 100%;
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+    }
+    .productos{
+            display: flex;
+            height: 8rem;
+            overflow-x: scroll;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: x proximity;  
+            overflow: auto; 
+    }
+    .articulos{
+        display: flex;
+        height: 300px;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;   
+        overflow: auto;
+    }
+    .nota{
+        height: 300px;
+        min-width: 370px;
+    }
+    footer section{
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 2, 50%;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        grid-template-areas: 
+        "isotipo art1 art3"
+        "isotipo art2 art4";
+    }
+        .isotipo{
+            width: 80%;
+            grid-area: isotipo;
+        }
+        .art1{
+            width: 5rem;
+            grid-area: art1;
+        }
+        .art2{
+            width: 5rem;
+            grid-area: art2;
+        }
+        .art3{
+            width: 5rem;
+            grid-area: art3;
+        }
+        .art4{
+            width: 5rem;
+            grid-area: art4;
+        }
+
+}
+
+@media(min-width:320px) and (max-width:480px) {
+    header{
+        height: 4rem;
+        width: 100%;
+    }
+    .barraSuperior{
+        height: 4rem;
+        width: auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logoCompleto{
+        display: none;
+    }
+    .buscador{
+        display: none;
+    }    
+    .logoLineal{
+        height: 1.5625rem;
+    }
+    .menuNav{
+        display: none;
+    }
+    main h1{
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: black;
+        background-color: white;
+        justify-content: start;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: .5rem;
+        text-align: left;
+    }
+    .tituloBanner{
+        font-family: "Roboto", sans-serif;
+        font-size: .875rem;
+    }
+    .subTituloBanner{
+        font-family: "Roboto", sans-serif;
+        font-size: .375rem;
+    }
+    .towCanionWetlands{
+        width: 25%;
+        height: fit-content;
+    }
+    .banner div img{
+        width: 60%;
+        height: fit-content;
+    }
+    .banner{
+        height: 11rem;
+        justify-content: space-around;
+    }
+    .productos{
+        display: flex;
+        height: 8rem;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;   
+        overflow: auto;
+}
+    .articulos{
+        display: flex;
+        height: 300px;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;   
+        overflow: auto;
+    }
+    .nota{
+        height: 300px;
+        min-width: 320;
+        border-radius: 1.5625rem 1.5625rem 1.5625rem 1.5625rem; 
+    }
+    .nota h3{
+        height: 300px;
+        min-width: 320px;
+        border-radius: 1.5625rem 1.5625rem 1.5625rem 1.5625rem; 
+    }
+    .nota p{
+    display: none;
+    }
+    footer section article p{
+        display: none;
+    }
+    footer section{
+        margin-top: .5rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        grid-template-areas: 
+        "isotipo art1 art3"
+        "isotipo art2 art4";
+        gap: .5rem;
+    }
+        .isotipo{
+            width: 90%;
+            grid-area: isotipo;
+        }
+        .art1{
+            width: 5rem;
+            grid-area: art1;
+        }
+        .art2{
+            width: 5rem;
+            grid-area: art2;
+        }
+        .art3{
+            width: 5rem;
+            grid-area: art3;
+        }
+        .art4{
+            width: 5rem;
+            grid-area: art4;
+        }
+    }
