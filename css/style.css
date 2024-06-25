@@ -104,7 +104,6 @@ header{
     margin: 1.5rem;
     width: 100%;
     height: 1.5rem;
-    contain: content;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -210,7 +209,6 @@ main h1{
         width: 100%;
         height: 25rem;
         background-color: #D9D9D9;
-        contain: content;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -735,6 +733,27 @@ grid-area: planes;
     flex-direction: column;
 }
 
+/*MAIN ENVIOS*/
+
+.coordiEnvios{
+    width: 95%;
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    align-content: center;
+    justify-content: center;
+}
+.coordiEnvios img{
+    width: 80%;
+    height: auto;
+    justify-self: center;
+}
+.coordiEnvios img:hover{
+    width:85%;
+}
+
 /*MEDIA QUERY*/
 
 @media(min-width:1900px) and (max-width:2560px) {
@@ -960,6 +979,23 @@ footer article{
         height: 300px;
         min-width: 370px;
     }
+
+    /*MAIN ENVIOS*/
+
+    .coordiEnvios{
+        width: 100%;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        justify-content: center;
+        column-gap: 1.5rem;
+    }
+    .coordiEnvios img{
+        width: 80%;
+        height: auto;
+    }
+
     footer section{
         margin-top: 1rem;
         margin-left: 1.5rem;
@@ -1082,6 +1118,23 @@ footer article{
     .nota p{
     display: none;
     }
+    
+    /*MAIN ENVIOS*/
+
+    .coordiEnvios{
+        width: 100%;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        justify-content: center;
+        column-gap: 1.5rem;
+    }
+    .coordiEnvios img{
+        width: 80%;
+        height: auto;
+    }
+
     footer section article p{
         display: none;
     }
