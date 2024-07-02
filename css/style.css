@@ -19,7 +19,6 @@ header{
     flex-direction: column;    
     position: sticky;
     top: 0px;
-    /*ESTO ME QUEDA MAL*/
     }
     .barraSuperior{
         padding: 2.5rem 1rem 1.25rem 1rem;
@@ -432,9 +431,11 @@ h1{
     width: 64.9375rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(12,1fr);
-    grid-area: alimentosPerros;   
+    grid-template-rows: repeat(12,1fr);  
     gap: .5rem;
+}
+.alimentosPerros select{
+    border: unset;
 }
 .alimPerro1{
     width: 20.8125rem;
@@ -481,7 +482,6 @@ h1{
 .alimPerro7{
     width: 20.8125rem;
     height: 26.625rem;
-    contain: content;
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -489,7 +489,6 @@ h1{
 .alimPerro8{
     width: 20.8125rem;
     height: 26.625rem;
-    contain: content;
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -497,7 +496,6 @@ h1{
 .alimPerro9{
     width: 20.8125rem;
     height: 26.625rem;
-    contain: content;
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -513,7 +511,6 @@ h1{
 .alimPerro11{
     width: 20.8125rem;
     height: 26.625rem;
-    contain: content;
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -521,7 +518,6 @@ h1{
 .alimPerro12{
     width: 20.8125rem;
     height: 26.625rem;
-    contain: content;
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
