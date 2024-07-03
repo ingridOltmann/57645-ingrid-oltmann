@@ -851,9 +851,11 @@ grid-area: planes;
         height: 8rem;
         overflow-x: scroll;
         overscroll-behavior-x: contain;
-        overscroll-behavior-y: none;
         scroll-snap-type: x proximity;   
-        overflow: auto;     
+        overflow: hidden;     
+    }
+    .item{
+        margin: .5rem;
     }
     .articulos{
         height: 300px;
@@ -962,6 +964,9 @@ footer article{
             overscroll-behavior-x: contain;
             scroll-snap-type: x proximity;  
             overflow: auto; 
+    }
+    .item{
+        margin: .5rem;
     }
     .articulos{
         display: flex;
