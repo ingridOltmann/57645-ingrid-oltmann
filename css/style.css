@@ -12,58 +12,22 @@ font-family: "Roboto", sans-serif;
     }
 header{
     width: 100%;
-    height: 14.0625rem;
     display: flex;
     flex-direction: column;    
     position: sticky;
     top: 0px;
     }
-    .barraSuperior{
-        padding: 2.5rem 1rem 1.25rem 1rem;
-        width: 100%;
-        height: 9.375rem;
-        background-color: black;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        }
+    .header nav{
+        padding: 1.5rem,1.5rem,1rem,1.5rem;
+    }
         .logoCompleto{
             margin-left: 1.5rem;
-            margin-top: 5rem;
-            width: 50%;
+            margin-top: 1rem;
+            width: 80%;
             height: auto;
-            align-self: center;
         }
-        .superiorDer{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-        .buscador{
-            background-color: ghostwhite;
-            width: 17.5rem;
-            height: 1.75rem;
-            font-family: "Roboto", sans-serif;
-            font-size: .875rem;
-            padding: 1rem;
-            align-items: center;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-        .buscador p{ 
-            font-size: .875rem;
-            font-weight: normal;
-        }
-        .buscador img{
-            width: 1.5rem;
-            height: 1.5rem;
-        }
-        .buscador input{
-            border: none;
-            background-color: ghostwhite;
-            height: 1.75rem;
+        .logoLineal{
+            width: 80%;
         }
         .iconos{
             width: 1.5rem;
@@ -73,7 +37,7 @@ header{
         }
     .menuNav {
         width: 100%;    
-        height: 4.6875rem;
+        height: 3.75rem;
         margin-right: 1.5rem;
     }
         .menuNav nav ul{ 
@@ -103,7 +67,6 @@ header{
 
 
         }
-/*MEDIA QUERY*/
 
 
 /*BREADCRUM*/
@@ -141,7 +104,6 @@ header{
 footer{
     background-color: black;
     width: 100%;
-    contain: content;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -153,20 +115,19 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        contain: content;
         align-items: start;
         align-content: center;
     }
-    footer section article{
-        margin: 1rem;
+    .art{
+        margin: .5rem;
         width: 12.5rem;
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
-    .logoCompletoFooter{
+    .isotipo{
         margin: 1rem;
-        width: 17.0625rem;
-        height: auto;
+        width: 50%;
     }
     footer article h4 {
         margin: .5rem;
@@ -270,6 +231,7 @@ main h1{
         display: grid;
         grid-template-columns: repeat(6,1fr);
         grid-template-rows: 1,1fr;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -293,14 +255,16 @@ main h1{
     .nota{
         height: 300px;
         width: 370px;
+        margin: .5rem;
+        background-color: #5b5a5a;
+        border-radius: 1.5625rem;
+
     }
     .nota h3{
         margin-inline: .5rem;
         padding: 1rem;
         padding-top: 1rem;
         height: 3rem;
-        background-color: #5b5a5a;
-        border-radius: 1.5625rem 1.5625rem 0 0;
         font-family: "Roboto", sans-serif;
         font-size: 1rem;
         font-weight: 400;
@@ -312,9 +276,6 @@ main h1{
         margin-inline: .5rem;
         padding: 2rem;
         padding-top: 1.5rem;
-        height: 250px;
-        background-color: #5b5a5a;
-        border-radius: 0 0 1.5625rem 1.5625rem;
         font-family: "Roboto", sans-serif;
         font-size: .875rem;
         font-weight: 300;
@@ -758,111 +719,184 @@ grid-area: planes;
 .coordiEnvios img:hover{
     width:85%;
 }
-
+/*MAIN PRODUCTOS2*/
+.carouselExample{
+    width: 100%
+}
+.carousel-item{
+    width: 13.5rem;
+}
+.card-img-top{
+    width: 100%;
+}
 /*MEDIA QUERY*/
 
-@media(min-width:1900px) and (max-width:2560px) {
-    header{
-        width: 100%;
+
+@media(min-width:1440px){
+    /*HEADER*/
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
-    .menuDesp{
+    .menuHamburguesa{
         display: none;
     }
     .logoLineal{
-        display:none;
+        display: none;
     }
     .logoCompleto{
-        width: 30%;
+        width: 100%;
+        padding-right: 5rem;
     }
-    footer section{
+    /*FOOTER*/
+    footer{
+        height: 14.125rem;
+        padding: 1.5rem;
         display: flex;
         flex-direction: row;
-        justify-content: center;
         justify-content: space-between;
     }
     .isotipo{
-        width: 30%;
+        width: 25%;
     }
-}
-
-@media(min-width:1200px) and (max-width:1900px) {
-    header{
-        width: 100%;
-    }
-    .menuDesp{
-        display: none;
-    }
-    .logoLineal{
-        display:none;
-    }
-    .logoCompleto{
-        width: 40%;
-    }
-    footer section{
-        margin-top: 1rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        justify-content: space-evenly;
-    }
-    .isotipo{
-        width: 40%;
-    }
-}
-
-@media(min-width:1024px) and (max-width:1200px){
-    .menuDesp{
-        display: none;
-    }
-    .logoLineal{
-        display:none;
-    }
-    .logoCompleto{
-        width: 60%;
-    }
-    .item{
-        overflow: hidden;
-    }
-    footer section{
-        margin-top: 1rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        justify-content: space-evenly;
-    }
-    .isotipo{
-        width: 50%;
-    }
-    footer article{
-        width: 5rem;
-    }
-}
-
-
-@media(min-width:744px) and (max-width:1024px){
-    .menuDesp{
-        display: none;
-    }
-    .logoLineal{
-        display:none;
-    }
-    .logoCompleto{
-        width: 80%;
-    }
+    /*MAIN INDEX*/
     .productos{
         display: flex;
         height: 8rem;
         overflow-x: scroll;
         overscroll-behavior-x: contain;
         scroll-snap-type: x proximity;   
-        overflow: hidden;     
+        overflow: hidden;  
     }
+
+
+}
+@media(min-width:740px) and (max-width: 1440px){
+    /*HEADER*/
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logoCompleto{
+        width: 100%;;
+    }
+    .logoLineal{
+        display: none;
+    }
+    .menuHamburguesa{
+        display: none;
+    }
+    .buscador{
+        width: 15.375rem;
+        height: 2.25rem;
+    }  
+    /*FOOTER*/
+    footer{
+        height: 14.125rem;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .isotipo{
+        width: 25%;
+    }
+
+    /*MAIN INDEX*/
+    .productos{
+        display: flex;
+        height: 8rem;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;   
+        overflow: hidden;  
+    }
+    
+}
+@media(min-width: 320px) and (max-width: 740px) {
+    /*HEADER*/
+    header nav{
+        height: 4.25rem;;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logoLineal{
+        width: 100%;
+        
+    }
+    .logoCompleto{
+        display: none;
+    }
+    .buscador{
+        display: none;
+    }
+    .carrito{
+        display: none;
+    }
+    .menuNav{
+        display: none;
+    }
+    /*FOOTER*/
+    footer{
+        height: 14.125rem;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .isotipo{
+        width: 25%;
+    }
+
+
+}
+@media(max-width:320px){/*HEADER*/
+    header nav{
+        height: 4.25rem;
+        width: 100%;
+        padding-right: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logoCompleto{
+        display: none;
+    }
+    .buscador{
+        display: none;
+    }
+    .menuNav{
+        display: none;
+    }
+    /*FOOTER*/
+    footer{
+        height: 14.125rem;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .isotipo{
+        width: 25%;
+    }
+
+}
+
+
+
+
+/*
+
+@media(min-width:1024px){
+    .item{
+        overflow: hidden;
+    }
+
+@media(min-width:744px) and (max-width:1024px){
+    
     .item{
         margin: .5rem;
     }
@@ -897,33 +931,8 @@ footer article{
     width: 50%;
 }
 }
-
-
-
-
+*/
 @media(min-width:480px) and (max-width: 744px){
-    header{
-        height: 4rem;
-        width: 100%;
-    }
-    .barraSuperior{
-        height: 4rem;
-        width: auto;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .logoCompleto{
-        display: none;
-    }
-    .buscador{
-        display: none;
-    }    
-    .logoLineal{
-        height: 1.5625rem;
-    }
-    .menuNav{
-        display: none;
-    }
 
     /*MEDIA QUERY MAIN INDEX*/
     main h1{
@@ -1042,7 +1051,7 @@ footer article{
             grid-area: art4;
         }
 
-}
+
 
 @media(min-width:320px) and (max-width:480px) {
     header{
@@ -1213,4 +1222,5 @@ footer article{
         width: 100%;
         height: 100%;
     }
+}
 }

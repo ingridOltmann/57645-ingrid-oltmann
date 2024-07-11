@@ -9,20 +9,32 @@
 </head>
 <body>
     <header>
-        <div class="barraSuperior">
-            <img class="menuDesp" src="../assets/iconografia/pila.png" alt="menú">
-            <a href="../index.html"><img class="logoLineal" src="../assets/prontoperro/pp-lineal.png" alt=""></a>
-            <a href="../index.html"><img class="logoCompleto" src="../assets/prontoperro/logo-completo.png" alt="logo-de-pronto-perro"></a>
-            <div class="superiorDer">
-                <div class="buscador">
-                    <p>Busca tu producto...</p>
-                    <img src="../assets/iconografia/lupa-black.png" alt="buscador">                
+        <!--BARRA SUPERIOR-->
+        <nav class="container-fluid row navbar bg-black d-flex flex-row justify-content-center">
+            <div class="col menuHamburguesa d-min-width-740px-none d-md-">
+                <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true"><img class="iconos" src="./assets/iconografia/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></a>
+                <ul class="dropdown-menu">                    
+                    <li><a class="dropdown-item" href="./alimentos-perros.html">ALIMENTOS</a></li>
+                    <li><a class="dropdown-item" href="./veterinaria.html">VETERINARIA</a></li>
+                    <li><a class="dropdown-item" href="#">FARMACIA</a></li>
+                    <li><a class="dropdown-item" href="#">ACCESORIOS</a></li>
+                    <li><a class="dropdown-item" href="./envios.html">ENVIOS</a></li>
+                </ul>     
+            </div>  
+                <a class="col" href="../index.html"><img class="logoCompleto" src="../assets/prontoperro/pp-compacto.png" alt=""></a>
+                <a class="col" href="../index.html"><img class="logoLineal" src="../assets/prontoperro/pp-lineal.png" alt=""></a>    
+                <div class="col row d-flex flex-row justify-content-end">
+                    <form class="col d-flex flex-row" role="search">
+                        <input class="form-control buscador me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+                        <button class="btn btn-outline-color-warning" type="submit"><img class="iconos" src="../assets/iconografia/lupa.png" alt="buscador"></button>
+                    </form>
+                    <div class="col row d-flex flex-row">
+                        <a class="col carrito" href="#"><img class="iconos" src="../assets/iconografia/carrito.png" alt="carrito de compras"></a>
+                        <a class="col" href="#"><img class="iconos" src="../assets/iconografia/user.png" alt="cuenta"></a>    
+                    </div>
                 </div>
-                    <a href=""><img class="iconos" src="../assets/iconografia/user.png" alt="usuario"></a>
-                    <a href=""><img class="iconos" src="../assets/iconografia/carrito.png" alt="carrito-de-compras"></a>
-                </div>    
-            </div>
-        </div>
+        </nav>
+        <!--NAV INFERIOR-->
         <div class="row container-fluid menuNav">
             <ul class="col d-min-width-320px-none nav nav-underline menuNav justify-content-end">
                 <li class="nav-item dropdown">
@@ -42,7 +54,7 @@
                     <a class="nav-link" href="#">ACCESORIOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">ENVIOS</a>
+                    <a class="nav-link" href="./envios.html">ENVIOS</a>
                 </li>  
             </ul>
         </div>
@@ -64,26 +76,26 @@
     </main>
     <footer>
         <section>
-                <a href="#"><img class="isotipo" src="../assets/prontoperro/Isotipo.png" alt="Logo de Pronto Perro"></a>
-                <article class="art1">
+            <a href="#"><img class="isotipo" src="../assets/prontoperro/Isotipo.png" alt="Logo de Pronto Perro"></a>
+            <article class="art">
                 <h4>Dirección</h4>
                 <p>Av. Giannattasio km21.800</p>
                 <p>Lagomar | canelones | Uruguay</p>
-                </article>
-                <article class="art2">
-                    <h4>Atención al cliente</h4>
-                    <p>lunes a viernes | 10:00 a 19:00hs</p>
-                    <p>sábado | 10:00 a 19:00hs</p>
-                </article>
-                <article class="art3">
-                    <h4>Contacto</h4>
-                    <p>+598 98....</p>
-                    <p>+598 2.....</p>
-                </article>
-                <article class="art4">
-                    <h4>Nosotros</h4>
-                </article>
-    </section>        
+            </article>
+            <article class="art">
+                <h4>Atención al cliente</h4>
+                <p>lunes a viernes | 10:00 a 19:00hs</p>
+                <p>sábado | 10:00 a 19:00hs</p>
+            </article>
+            <article class="art">
+                <h4>Contacto</h4>
+                <p>+598 98....</p>
+                <p>+598 2.....</p>
+            </article>
+            <article class="art">
+                <h4>Nosotros</h4>
+            </article>
+        </section>        
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
