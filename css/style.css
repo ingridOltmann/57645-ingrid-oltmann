@@ -841,6 +841,7 @@ grid-area: planes;
     }
     /*FOOTER*/
     footer{
+        width: 100vw;
         height: 14.125rem;
         padding: 1.5rem;
         display: flex;
@@ -850,7 +851,95 @@ grid-area: planes;
     .isotipo{
         width: 25%;
     }
-
+    /*MAIN VETERINARIA*/
+    .mainVet{
+        width: 100wv;
+        margin-bottom: 2.5rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(8,1fr);
+        grid-template-areas: 
+        "breadcrumVeterinaria"
+        "tituloPagina"
+        "afiliate"
+        "beneficios1"
+        "bonificaciones"
+        "urgencias"
+        "planes"
+        "agendaConsulta";
+        gap: 1.25rem;
+    }
+    .breadcrumVeterinaria{
+        height: 1.5rem;
+        width: 100vw;
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: .25rem;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-area: breadcrumVeterinaria;
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-size: .75rem;
+        font-weight: 400;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .tituloPagina{
+        width: 100vw;
+        grid-area: tituloPagina;
+        }
+    .afiliate{
+        width: 100vw;
+        background-color: #D62F38;
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: ghostwhite;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        grid-area: afiliate;
+    }
+        .beneficios1{
+            width: 100vw;
+            margin-left: 1.5rem;
+            grid-area: beneficios1;
+        }
+        .bonificaciones{
+            width: 100vw;
+        grid-area: bonificaciones;
+        }
+        .urgencias{
+            width: 100vw;
+            margin-right: 1.5rem;
+            grid-area: urgencias;
+        }
+        .planes{ 
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            justify-content: center;
+            grid-area: planes;
+        }
+        .agendaConsulta{
+            width: 100vw;
+            background-color: #D62F38;
+            font-family: "Roboto", sans-serif;
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: ghostwhite;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            text-align: center;
+            grid-area: agendaConsulta;
+        }
+        
 
 }
 @media(max-width:320px){/*HEADER*/
@@ -873,6 +962,7 @@ grid-area: planes;
     }
     /*FOOTER*/
     footer{
+        width: 100vw;
         height: 14.125rem;
         padding: 1.5rem;
         display: flex;
