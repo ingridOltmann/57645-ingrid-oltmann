@@ -11,62 +11,6 @@
   margin: .5rem;
   padding: 0rem, 1rem, 0rem, 1rem; }
 
-header {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  position: sticky;
-  top: 0px; }
-  header nav {
-    width: 100%;
-    height: 6.875rem;
-    padding: 1.5rem,1.5rem,1rem,1.5rem;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-evenly; }
-    header nav a .logoCompleto {
-      margin-left: 1.5rem;
-      width: 50%;
-      height: auto; }
-    header nav a .logoLineal {
-      width: 80%; }
-    header nav div {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-around;
-      justify-content: center; }
-      header nav div form {
-        display: flex;
-        flex-direction: row;
-        align-items: center; }
-      header nav div div {
-        display: flex;
-        flex-direction: row;
-        align-items: center; }
-
-.menuNav {
-  width: 100%;
-  height: 3.75rem;
-  margin-right: 1.5rem;
-  display: flex;
-  flex-direction: row-reverse; }
-  .menuNav ul {
-    width: 100%;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    padding: 1rem; }
-    .menuNav ul li {
-      display: inline-flex; }
-    .menuNav ul a {
-      color: black;
-      text-decoration: none;
-      font-family: "Roboto", sans-serif;
-      font-size: .75rem;
-      font-weight: 400; }
-
 main {
   width: 100%;
   padding-top: .5rem;
@@ -747,6 +691,105 @@ main {
     .carouselExample .carousel-item .card-img-top {
       width: 50%; }
 
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0px; }
+  header nav {
+    width: 100%;
+    height: 6.875rem;
+    padding: 1.5rem,1.5rem,1rem,1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly; }
+    header nav a .logoCompleto {
+      margin-left: 1.5rem;
+      width: 50%;
+      height: auto; }
+    header nav a .logoLineal {
+      width: 80%; }
+    header nav div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      justify-content: center; }
+      header nav div form {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+      header nav div div {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+
+.menuNav {
+  width: 100%;
+  height: 3.75rem;
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: row-reverse; }
+  .menuNav ul {
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 1rem; }
+    .menuNav ul li {
+      display: inline-flex; }
+    .menuNav ul a {
+      color: black;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+
+footer {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around; }
+  footer .isotipo {
+    margin: 1rem;
+    width: 25%; }
+  footer section {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    align-content: center; }
+
+.art {
+  margin: .5rem;
+  width: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .art h4 {
+    margin: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    color: ghostwhite; }
+  .art p {
+    margin: .5rem;
+    width: max-content;
+    font-family: "Roboto", sans-serif;
+    font-size: .875rem;
+    font-weight: 200;
+    text-decoration: none;
+    text-align: center;
+    color: ghostwhite; }
+
 .breadcrum {
   margin: 1.5rem;
   width: 100%;
@@ -831,7 +874,8 @@ main {
     flex-direction: row;
     justify-content: space-between; }
   .isotipo {
-    width: 50%; }
+    margin: .5rem;
+    width: 25%; }
   .art {
     margin: .5rem; }
   .art p {
@@ -894,7 +938,8 @@ main {
     grid-template-columns: repeat(2, 1fr);
     column-gap: .5rem; }
   .isotipo {
-    width: 50%; }
+    margin: .5rem;
+    width: 25%; }
   .art p {
     display: none; }
   /*MAIN INDEX*/
@@ -1053,6 +1098,9 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
+  .isotipo {
+    margin: .5rem;
+    width: 25%; }
   footer section {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }

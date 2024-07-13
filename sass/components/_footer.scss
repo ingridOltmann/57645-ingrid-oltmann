@@ -6,6 +6,10 @@ footer{
     align-items: center;
     align-content: center;
     justify-content: space-around;
+    .isotipo {
+        margin: 1rem;
+        width: 25%;
+    }
     section{
         margin: 1rem;
         display: flex;
@@ -42,8 +46,3 @@ footer{
         color: ghostwhite;
     }    
 }
-.isotipo{
-    margin: 1rem;
-    width: 25%;
-}
-    

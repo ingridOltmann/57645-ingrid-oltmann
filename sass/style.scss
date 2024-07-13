@@ -4,11 +4,14 @@
 @import "./base/tipografias";
 @import "./base/iconos";
 
-@import "./layout/header";
+
 @import "./layout/main-index";
 @import "./layout/main-alimentos-perros";
 
+
 @import "./components/bootstrap";
+@import "./components/header";
+@import "./components/footer";
 @import "./components/breadcrum";
 
 @import "./layout/mediaQ/media-min1440";

@@ -26,6 +26,10 @@
         flex-direction: row;
         justify-content: space-around;
     }
+    .isotipo{
+        margin: .5rem;
+        width: 25%;
+    }
     footer section{
         display: grid;
         grid-template-columns: repeat(2,1fr);
