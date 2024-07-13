@@ -1,0 +1,42 @@
+@media(min-width:1440px){
+    /*HEADER*/
+    header{
+        width: 100vw;
+    }
+    header nav{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menuHamburguesa{
+        display: none;
+    }
+    .logoLineal{
+        display: none;
+    }
+    .logoCompleto{
+        width: 100%;
+        padding-right: 5rem;
+    }
+    /*FOOTER*/
+    footer{
+        height: 14.125rem;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .isotipo{
+        width: 25%;
+    }
+    /*MAIN INDEX*/
+    .productos{
+        display: flex;
+        height: 8rem;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;   
+        overflow: hidden;  
+    }
+}

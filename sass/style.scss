@@ -1,0 +1,17 @@
+@import "./utilities/variables";
+
+@import "./base/reset";
+@import "./base/tipografias";
+@import "./base/iconos";
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-alimentos-perros";
+
+@import "./components/bootstrap";
+@import "./components/breadcrum";
+
+@import "./layout/mediaQ/media-min1440";
+@import "./layout/mediaQ/media-md";
+@import "./layout/mediaQ/media-sm";
+@import "./layout/mediaQ/media-max320";

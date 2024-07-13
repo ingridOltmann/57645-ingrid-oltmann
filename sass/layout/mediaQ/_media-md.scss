@@ -1,0 +1,74 @@
+@media(min-width:740px) and (max-width: 1440px){
+    /*HEADER*/
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logoCompleto{
+        width: 100%;;
+    }
+    .logoLineal{
+        display: none;
+    }
+    .menuHamburguesa{
+        display: none;
+    }
+    .buscador{
+        width: 15.375rem;
+        height: 2.25rem;
+    }  
+    /*FOOTER*/
+    footer{
+        height: 14.125rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .isotipo{
+        width: 50%;
+    }
+    .art{
+        margin: .5rem;
+    }
+    .art p{
+        display: none;
+    }
+
+    /*MAIN INDEX*/
+    .tituloBanner{
+        font-family: "Roboto", sans-serif;
+        font-size: .875rem;
+    }
+    .subTituloBanner{
+        font-family: "Roboto", sans-serif;
+        font-size: .375rem;
+    }
+    .towCanionWetlands{
+        width: 25%;
+        height: auto;
+    }
+    .towLogo{
+        width: 50%;
+        height: fit-content;
+    }
+    .banner{
+        height: 11rem;
+        justify-content: space-around;
+        justify-content: center;
+    }
+
+    .productos{
+        display: flex;
+        height: 8rem;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;   
+        overflow: hidden;  
+    }
+    .item{
+        overflow: hidden;
+        margin: .5rem;
+    }
+}

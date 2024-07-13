@@ -1,0 +1,108 @@
+@media(max-width:320px){
+    /*HEADER*/
+    header nav{
+        height: 4.25rem;
+        width: 100%;
+        padding-right: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logoCompleto{
+        display: none;
+    }
+    .buscador{
+        display: none;
+    }
+    .menuNav{
+        display: none;
+    }
+    /*FOOTER*/
+    footer{
+        width: 100vw;
+        height: 14.125rem;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    footer section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .art p{
+        display: none;
+    }
+
+    /*MAIN INDEX*/
+    main h1{
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: black;
+        background-color: white;
+        justify-content: start;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: .5rem;
+        text-align: left;
+    }
+
+    .tituloBanner{
+        font-family: "Roboto", sans-serif;
+        font-size: .875rem;
+    }
+    .subTituloBanner{
+        font-family: "Roboto", sans-serif;
+        font-size: .375rem;
+    }
+    .towCanionWetlands{
+        width: 25%;
+        height: fit-content;
+    }
+    .towLogo{
+        width: 50%;
+        height: fit-content;
+    }
+    .banner{
+        height: 11rem;
+        justify-content: space-around;
+        justify-items: center;
+    }
+
+    /*MAIN PRODUCTO2*/
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+    .carousel-inner{
+        padding: 1em;
+    }
+    .card{
+        margin: 0.5em;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*MAIN ENVIOS*/
+
+    .coordiEnvios{
+        width: 100%;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        justify-content: center;
+        column-gap: 1.5rem;
+    }
+    .coordiEnvios img{
+        width: 80%;
+        height: auto;
+    }
+}

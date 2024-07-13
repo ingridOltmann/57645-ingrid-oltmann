@@ -1,165 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-/*fuentes
+.iconos {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: .5rem;
+  padding: 0rem, 1rem, 0rem, 1rem; }
 
-font-family: "Roboto", sans-serif;
-
-*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-header{
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0px; }
+  header nav {
     width: 100%;
-    display: flex;
-    flex-direction: column;    
-    position: sticky;
-    top: 0px;
-    }
-    .header nav{
-        padding: 1.5rem,1.5rem,1rem,1.5rem;
-    }
-        .logoCompleto{
-            margin-left: 1.5rem;
-            margin-top: 1rem;
-            width: 80%;
-            height: auto;
-        }
-        .logoLineal{
-            width: 80%;
-        }
-        .iconos{
-            width: 1.5rem;
-            height: 1.5rem;
-            margin: .5rem;
-            padding: 0rem, 1rem, 0rem, 1rem;
-        }
-    .menuNav {
-        width: 100%;    
-        height: 3.75rem;
-        margin-right: 1.5rem;
-    }
-        .menuNav nav ul{ 
-            width: 100%;
-            list-style: none;
-            text-decoration: none;
-            display: flex;
-            flex-direction: row-reverse;
-            padding: 1rem 1rem 1rem 1rem;
-        }
-        .menuNav ul li a{
-            display: inline-flex;
-            color: black;
-            text-decoration: none;    
-            font-family: "Roboto", sans-serif;
-            font-size: 1rem;
-            font-weight: 400;
-            padding: 1.25rem;
-        }
-        .button{
-            border: none;
-            background-color: none;
-            font-family: "Roboto", sans-serif;
-            font-size: 1rem;
-            font-weight: 400;
-            padding: 1.25rem;
-
-
-        }
-
-
-/*BREADCRUM*/
-
-.breadcrum{
-    margin: 1.5rem;
-    width: 100%;
-    height: 1.5rem;
+    height: 6.875rem;
+    padding: 1.5rem,1.5rem,1rem,1.5rem;
     display: flex;
     flex-direction: row;
-    align-items: center;
-}
-.breadcrum a{
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: .75rem;
-    font-weight: 400;
-    text-decoration: none;
-    padding-left: .5rem;
-}
-.breadcrum img{
-    margin-left: .5rem;
-    height: 1rem;
-    width: 1rem;
-}
-.breadcrum p{
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: .75rem;
-    font-weight: 400;
-    text-decoration: none;
-    padding-left: .5rem;
-}
-
-footer{
-    background-color: black;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     align-content: center;
-    justify-content: space-around;
-}
-    footer section{
-        margin: 1rem;
+    justify-content: space-evenly; }
+    header nav a .logoCompleto {
+      margin-left: 1.5rem;
+      width: 50%;
+      height: auto; }
+    header nav a .logoLineal {
+      width: 80%; }
+    header nav div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      justify-content: center; }
+      header nav div form {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        align-items: start;
-        align-content: center;
-    }
-    .art{
-        margin: .5rem;
-        width: 12.5rem;
+        align-items: center; }
+      header nav div div {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .isotipo{
-        margin: 1rem;
-        width: 50%;
-    }
-    footer article h4 {
-        margin: .5rem;
-        font-family: "Roboto", sans-serif;
-        font-size: .875rem;
-        font-weight: 400;
-        text-decoration: none;
-        text-align: center;
-        color: ghostwhite;
-    }
-    footer article p{
-        margin: .5rem;
-        width: max-content;
-        font-family: "Roboto", sans-serif;
-        font-size: .875rem;
-        font-weight: 200;
-        text-decoration: none;
-        text-align: center;
-        color: ghostwhite;
-    }
+        flex-direction: row;
+        align-items: center; }
 
-/*Hasta acá todos los html iguales*/
-
-/*Se van a cambiar los H por p*/
-
-/*MAIN INDEX*/
-main{ 
+.menuNav {
+  width: 100%;
+  height: 3.75rem;
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: row-reverse; }
+  .menuNav ul {
     width: 100%;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}
-main h1{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 1rem; }
+    .menuNav ul li {
+      display: inline-flex; }
+    .menuNav ul a {
+      color: black;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+
+main {
+  width: 100%;
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+  main h1 {
     text-align: center;
     text-decoration: none;
     color: ghostwhite;
@@ -167,204 +79,111 @@ main h1{
     font-size: 1.25rem;
     font-weight: 400;
     background-color: black;
-    padding: .5rem;
-}
-
-
-/*1er sección*/
-    .banner{
-        margin-top: 1.6875rem;
-        margin-bottom: 2.5rem;
-        width: 100%;
-        height: 25rem;
-        background-color: #D9D9D9;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
-    }
-        .banner div{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .banner div img{
-            margin: .5rem;
-            width: 50%;
-            height: auto;
-        }
-        .tituloBanner{
-            margin-bottom: .5rem;
-            font-family: "Roboto", sans-serif;
-            font-size: 36px;
-            font-weight: 300;
-            color: black;
-        }
-        .subTituloBanner{
-            margin-top: .5rem;
-            font-family: "Roboto", sans-serif;
-            font-size: 16px;
-            font-weight: 300;
-            color: black;
-        }
-        .towCanionWetlands{
-            margin: 1rem;
-            height: 80%;
-        }
-        
-/*subtitulos de secciones*/
-        main section h2{
-            font-family: "Roboto", sans-serif;
-            font-size: 20px;
-            font-weight: 400;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            padding-top: 1rem;
-        }
-
-/*2da y 3ra sección*/
-    .productos{
-        display: grid;
-        grid-template-columns: repeat(6,1fr);
-        grid-template-rows: 1,1fr;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    .item{
-        width: 8rem;
-        height: auto;
-        padding: 1rem;
-        margin: 1rem;
-    }
-
-/*4ta sección*/
-    .articulos{
-        margin-top: 2.5rem;
-        margin-bottom: 2.5rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .nota{
-        height: 300px;
-        width: 370px;
-        margin: .5rem;
-        background-color: #5b5a5a;
-        border-radius: 1.5625rem;
-
-    }
-    .nota h3{
-        margin-inline: .5rem;
-        padding: 1rem;
-        padding-top: 1rem;
-        height: 3rem;
-        font-family: "Roboto", sans-serif;
-        font-size: 1rem;
-        font-weight: 400;
-        align-items: center;
-        text-align: center;
-        color: ghostwhite;
-    }
-    .nota p{
-        margin-inline: .5rem;
-        padding: 2rem;
-        padding-top: 1.5rem;
-        font-family: "Roboto", sans-serif;
-        font-size: .875rem;
-        font-weight: 300;
-        align-content: top;
-        text-align: center;
-        color: ghostwhite;
-    }
-
-
-/*ACA TERMINA MAIN DE INDEX*/
-
-/*MAIN ALIMENTOS*/
-.mainAlimentos{
-    width: 100%;
-    height: 62.5rem;
-    contain: content;
-}
-h1{
-    text-align: center;
-    text-decoration: none;
-    color: ghostwhite;
+    padding: .5rem; }
+  main h2 {
     font-family: "Roboto", sans-serif;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 400;
-    background-color: black;
-    padding: .5rem;
-}
-.alimentos{
-    contain: content;
-    padding-left: 1.5rem;
-}
-
-.botones{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.perros{
-    margin: 1.5rem;
-    width: 50%;
-    height: 12.5rem;
-    background-color: #D9D9D9;
-    border: #5b5a5a;
-    border-radius: 1.5625rem 1.5625rem 1.5625rem 1.5625rem;
-    align-content: center;
     justify-content: center;
-}
-.perros a{
-    color: #5b5a5a;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-decoration: none;
-}
-.gatos{    
-    margin: 1.5rem;
-    width: 50%;
-    height: 12.5rem;
-    background-color: #D9D9D9;
-    border: #5b5a5a;
-    border-radius: 1.5625rem 1.5625rem 1.5625rem 1.5625rem;
-    align-content: center;
-    justify-content: center;
+    padding-top: 1rem; }
 
-}
-.gatos a{
-    color: #5b5a5a;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-/*MAIN ALIMENTOS PERROS*/
-
-.contenidoAp{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.mainFiltro{
+.banner {
+  margin-top: 1.6875rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  height: 25rem;
+  background-color: #D9D9D9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; }
+  .banner div {
     display: flex;
     flex-direction: column;
-    margin-top: 1.5rem;
-    grid-area: mainFiltro;
-}
-.mainFiltro p{
+    align-items: center;
+    justify-content: center; }
+
+/*PRIMER SECCION*/
+.tituloBanner {
+  margin-bottom: .5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: black; }
+
+.subTituloBanner {
+  margin-top: .5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: black; }
+
+.towLogo {
+  margin: .5rem;
+  width: 50%;
+  height: auto; }
+
+.towCanionWetlands {
+  margin: 1rem;
+  width: 25%; }
+
+/*SEGUNDA Y TERCER SECCIÓN*/
+.productos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1,1fr;
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+
+.item {
+  width: 8rem;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem; }
+
+/*CUARTA SECCIÓN*/
+.articulos {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .articulos article {
+    height: 300px;
+    width: 370px;
+    margin: .5rem;
+    background-color: #5b5a5a;
+    border-radius: 1.5625rem; }
+    .articulos article h3 {
+      margin-inline: .5rem;
+      padding: 1rem;
+      padding-top: 1rem;
+      height: 3rem;
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      align-items: center;
+      text-align: center;
+      color: ghostwhite; }
+
+.contenidoAp {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.mainFiltro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  grid-area: mainFiltro; }
+  .mainFiltro p {
     width: 12.5rem;
     padding: .5rem;
     margin-left: 1.5rem;
@@ -373,186 +192,764 @@ h1{
     font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 400;
-    text-decoration: none;    
-}
-.mainFiltroop{
-    padding: .5rem;
-    margin-left: 1.5rem;
-    width: 12.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    border: black;
-    border-width: .125rem;
-    border-style: solid;
-}
-.mainFiltroop label{
+    text-decoration: none; }
+
+.mainFiltroop {
+  padding: .5rem;
+  margin-left: 1.5rem;
+  width: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: black;
+  border-width: .125rem;
+  border-style: solid; }
+  .mainFiltroop label {
     color: black;
     font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 400;
     text-decoration: none;
-    padding: .5rem;
-}
+    padding: .5rem; }
 
-.alimentosPerros{
-    margin: 1rem;
-    margin-right: 1.5rem;
-    width: 64.9375rem;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(12,1fr);  
-    gap: .5rem;
-}
-.alimentosPerros select{
-    border: unset;
-}
-.alimPerro1{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro2{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro3{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro4{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro5{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro6{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro7{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro8{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro9{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro10{
-    width: 20.8125rem;
-    height: 26.625rem;
-    border: black;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro11{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
-.alimPerro12{
-    width: 20.8125rem;
-    height: 26.625rem;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-}
+.alimentosPerros {
+  margin: 1rem;
+  margin-right: 1.5rem;
+  width: 64.9375rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: .5rem; }
 
-
-.pngAlim{
+.alimPerro1 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro1 a {
     width: 20rem;
-    height: auto;
-    
-}
-.infoProd1{
+    height: auto; }
+    .alimPerro1 a img {
+      width: 100%; }
+  .alimPerro1 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-}
-.infoProd2{
+    align-items: center; }
+    .alimPerro1 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro1 .infoProd1 select {
+      border: unset; }
+  .alimPerro1 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; }
+    .alimPerro1 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro1 .infoProd2 select {
+      border: unset; }
+    .alimPerro1 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro2 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro2 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro2 a img {
+      width: 100%; }
+  .alimPerro2 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro2 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro2 .infoProd1 select {
+      border: unset; }
+  .alimPerro2 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro2 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro2 .infoProd2 select {
+      border: unset; }
+    .alimPerro2 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro3 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro3 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro3 a img {
+      width: 100%; }
+  .alimPerro3 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro3 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro3 .infoProd1 select {
+      border: unset; }
+  .alimPerro3 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro3 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro3 .infoProd2 select {
+      border: unset; }
+    .alimPerro3 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro4 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro4 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro4 a img {
+      width: 100%; }
+  .alimPerro4 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro4 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro4 .infoProd1 select {
+      border: unset; }
+  .alimPerro4 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro4 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro4 .infoProd2 select {
+      border: unset; }
+    .alimPerro4 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro5 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro5 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro5 a img {
+      width: 100%; }
+  .alimPerro5 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro5 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro5 .infoProd1 select {
+      border: unset; }
+  .alimPerro5 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro5 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro5 .infoProd2 select {
+      border: unset; }
+    .alimPerro5 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro6 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro6 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro6 a img {
+      width: 100%; }
+  .alimPerro6 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro6 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro6 .infoProd1 select {
+      border: unset; }
+  .alimPerro6 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro6 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro6 .infoProd2 select {
+      border: unset; }
+    .alimPerro6 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro7 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro7 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro7 a img {
+      width: 100%; }
+  .alimPerro7 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro7 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro7 .infoProd1 select {
+      border: unset; }
+  .alimPerro7 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro7 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro7 .infoProd2 select {
+      border: unset; }
+    .alimPerro7 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro8 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro8 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro8 a img {
+      width: 100%; }
+  .alimPerro8 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro8 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro8 .infoProd1 select {
+      border: unset; }
+  .alimPerro8 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro8 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro8 .infoProd2 select {
+      border: unset; }
+    .alimPerro8 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro9 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro9 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro9 a img {
+      width: 100%; }
+  .alimPerro9 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro9 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro9 .infoProd1 select {
+      border: unset; }
+  .alimPerro9 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro9 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro9 .infoProd2 select {
+      border: unset; }
+    .alimPerro9 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro10 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro10 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro10 a img {
+      width: 100%; }
+  .alimPerro10 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro10 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro10 .infoProd1 select {
+      border: unset; }
+  .alimPerro10 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro10 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro10 .infoProd2 select {
+      border: unset; }
+    .alimPerro10 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro11 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro11 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro11 a img {
+      width: 100%; }
+  .alimPerro11 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro11 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro11 .infoProd1 select {
+      border: unset; }
+  .alimPerro11 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro11 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro11 .infoProd2 select {
+      border: unset; }
+    .alimPerro11 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.alimPerro12 {
+  width: 20.8125rem;
+  height: 26.625rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; }
+  .alimPerro12 a {
+    width: 20rem;
+    height: auto; }
+    .alimPerro12 a img {
+      width: 100%; }
+  .alimPerro12 .infoProd1 {
+    margin: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro12 .infoProd1 p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 400; }
+    .alimPerro12 .infoProd1 select {
+      border: unset; }
+  .alimPerro12 .infoProd2 {
+    margin-inline: .5rem;
+    width: 20rem;
+    height: 2.5625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .alimPerro12 .infoProd2 p {
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400; }
+    .alimPerro12 .infoProd2 select {
+      border: unset; }
+    .alimPerro12 .infoProd2 button {
+      background-color: white;
+      border: none; }
+
+.carouselExample {
+  width: 100%; }
+  .carouselExample .carousel-item {
+    width: 13.5rem; }
+    .carouselExample .carousel-item .cardA {
+      width: 13.5rem;
+      height: auto; }
+    .carouselExample .carousel-item .card-img-top {
+      width: 50%; }
+
+.breadcrum {
+  margin: 1.5rem;
+  width: 100%;
+  height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start; }
+  .breadcrum a {
+    color: black;
     font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 400;
-}
-.agregarAcarrito{
-    background-color: white;
-    border: none;
-}
+    text-decoration: none;
+    padding-left: .5rem; }
+  .breadcrum img {
+    margin-left: .5rem;
+    height: 1rem;
+    width: 1rem; }
+  .breadcrum p {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: .5rem; }
 
-/*MAIN VETERINARIA*/
-
-
-.mainVet{
+@media (min-width: 1440px) {
+  /*HEADER*/
+  header {
+    width: 100vw; }
+  header nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .menuHamburguesa {
+    display: none; }
+  .logoLineal {
+    display: none; }
+  .logoCompleto {
     width: 100%;
+    padding-right: 5rem; }
+  /*FOOTER*/
+  footer {
+    height: 14.125rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .isotipo {
+    width: 25%; }
+  /*MAIN INDEX*/
+  .productos {
+    display: flex;
+    height: 8rem;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    overflow: hidden; } }
+
+@media (min-width: 740px) and (max-width: 1440px) {
+  /*HEADER*/
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .logoCompleto {
+    width: 100%; }
+  .logoLineal {
+    display: none; }
+  .menuHamburguesa {
+    display: none; }
+  .buscador {
+    width: 15.375rem;
+    height: 2.25rem; }
+  /*FOOTER*/
+  footer {
+    height: 14.125rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .isotipo {
+    width: 50%; }
+  .art {
+    margin: .5rem; }
+  .art p {
+    display: none; }
+  /*MAIN INDEX*/
+  .tituloBanner {
+    font-family: "Roboto", sans-serif;
+    font-size: .875rem; }
+  .subTituloBanner {
+    font-family: "Roboto", sans-serif;
+    font-size: .375rem; }
+  .towCanionWetlands {
+    width: 25%;
+    height: auto; }
+  .towLogo {
+    width: 50%;
+    height: fit-content; }
+  .banner {
+    height: 11rem;
+    justify-content: space-around;
+    justify-content: center; }
+  .productos {
+    display: flex;
+    height: 8rem;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    overflow: hidden; }
+  .item {
+    overflow: hidden;
+    margin: .5rem; } }
+
+@media (min-width: 320px) and (max-width: 740px) {
+  /*HEADER*/
+  header nav {
+    height: 4.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .logoLineal {
+    width: 100%; }
+  .logoCompleto {
+    display: none; }
+  .buscador {
+    display: none; }
+  .carrito {
+    display: none; }
+  .menuNav {
+    display: none; }
+  /*FOOTER*/
+  footer {
+    width: 100vw;
+    height: 14.125rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  footer section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: .5rem; }
+  .isotipo {
+    width: 50%; }
+  .art p {
+    display: none; }
+  /*MAIN INDEX*/
+  main h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    justify-content: start;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: .5rem;
+    text-align: left; }
+  .tituloBanner {
+    font-family: "Roboto", sans-serif;
+    font-size: .875rem; }
+  .subTituloBanner {
+    font-family: "Roboto", sans-serif;
+    font-size: .375rem; }
+  .towCanionWetlands {
+    width: 25%;
+    height: fit-content; }
+  .towLogo {
+    width: 50%;
+    height: fit-content; }
+  .banner {
+    height: 11rem;
+    justify-content: space-around; }
+  .productos {
+    display: flex;
+    height: 8rem;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    overflow: hidden; }
+  .item {
+    overflow: hidden;
+    margin: .5rem; }
+  /*MAIN VETERINARIA*/
+  .mainVet {
+    width: 100wv;
     margin-bottom: 2.5rem;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "breadcrumVeterinaria breadcrumVeterinaria breadcrumVeterinaria"
-    "tituloPagina tituloPagina tituloPagina"
-    "afiliate afiliate afiliate"
-    "beneficios1 bonificaciones urgencias"
-    "planes planes planes"
-    "agendaConsulta agendaConsulta agendaConsulta";
-    gap: 1.25rem;
-}
-.breadcrumVeterinaria{
-    height: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: "breadcrumVeterinaria" "tituloPagina" "afiliate" "beneficios1" "bonificaciones" "urgencias" "planes" "agendaConsulta"; }
+  .breadcrumVeterinaria {
+    height: 1rem;
+    width: 100vw;
     margin-left: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: .25rem;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
     grid-area: breadcrumVeterinaria;
@@ -563,51 +960,52 @@ h1{
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    align-items: center;
-}
-.breadcrumVeterinaria p{
-    margin-left: .5rem;
-}
-.breadcrumVeterinaria a{
-    margin-left: .5rem;
-}
-.breadcrumVeterinaria img{
-    margin-left: .5rem;
-    height: 1rem;
-    width: 1rem;
-}
-.tituloPagina{
-grid-area: tituloPagina;
-}
-.afiliate{
+    align-items: center; }
+  .tituloPagina {
+    width: 100vw;
+    grid-area: tituloPagina;
+    height: 1.5rem;
+    grid-column-start: 1;
+    grid-column-end: 2; }
+  .afiliate {
+    width: 100vw;
     background-color: #D62F38;
     font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
+    font-size: .5625rem;
     font-weight: 500;
     color: ghostwhite;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     grid-area: afiliate;
-}
-.beneficios1{
-    margin-left: 1.5rem;
+    grid-column-start: 1;
+    grid-column-end: 2; }
+  .beneficios1 {
+    width: 100vw;
     grid-area: beneficios1;
-}
-.bonificaciones{
-grid-area: bonificaciones;
-}
-.urgencias{
-    margin-right: 1.5rem;
-grid-area: urgencias;
-}
-.planes{ 
+    grid-column-start: 1;
+    grid-column-end: 2; }
+  .bonificaciones {
+    width: 100vw;
+    grid-area: bonificaciones;
+    grid-column-start: 1;
+    grid-column-end: 2; }
+  .urgencias {
+    width: 100vw;
+    grid-area: urgencias;
+    grid-column-start: 1;
+    grid-column-end: 2; }
+  .planes {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-grid-area: planes;
-}
-.agendaConsulta{
+    justify-content: center;
+    grid-area: planes;
+    grid-column-start: 1;
+    grid-column-end: 2; }
+  .agendaConsulta {
+    width: 100vw;
     background-color: #D62F38;
     font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
@@ -617,700 +1015,100 @@ grid-area: planes;
     padding-bottom: 3rem;
     text-align: center;
     grid-area: agendaConsulta;
-}
-
-.mainVet h2{
-    font-family: "Roboto", sans-serif;
-    font-size: .875rem;
-    font-weight: 400;
-    color: ghostwhite;
-    background-color: black;
-    padding: .5rem;
-    text-align: center;
-}
-
-.beneficios1 p{
-    margin-top: .5rem;
-    font-family: "Roboto", sans-serif;
-    font-size: .75rem;
-    font-weight: 300;
-    color: black;
-    text-align: center;
-    line-height: 1.25rem;
-    padding: 1rem;
-}
-.bonificaciones li{
-    margin-top: .5rem;
-    font-family: "Roboto", sans-serif;
-    font-size: .75rem;
-    font-weight: 300;
-    color: black;
-    text-align: center;
-    padding: 1rem;
-    list-style: none;
-}
-.urgencias p{
-    margin-top: .5rem;
-    font-family: "Roboto", sans-serif;
-    font-size: .75rem;
-    font-weight: 300;
-    color: black;
-    text-align: center;
-    line-height: 1.25rem;
-    padding: 1rem;
-}
-.planes p{
-    font-family: "Roboto", sans-serif;
-    font-size: .75rem;
-    font-weight: 300;
-    color: black;
-    text-align: center;
-    line-height: 1.25rem;
-    padding: 1rem;
-}
-.planes{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    display: flex;
-    flex-direction: column;
-
-}
-.afiliaciones{
-    margin-top: .5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.categoriasPlan{
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-}
-.mensual{
-    width: 25rem;
-    margin: .5rem;
-    display: flex;
-    flex-direction: column;
-}
-.anual{
-    width:25rem;
-    margin: .5rem;
-    display: flex;
-    flex-direction: column;
-}
-
-/*MAIN ENVIOS*/
-
-.coordiEnvios{
-    width: 95%;
-    margin: 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr;
-    gap: 1rem;
-    align-content: center;
-    justify-content: center;
-}
-.coordiEnvios img{
-    width: 80%;
-    height: auto;
-    justify-self: center;
-}
-.coordiEnvios img:hover{
-    width:85%;
-}
-/*MAIN PRODUCTOS2*/
-.carouselExample{
-    width: 100%
-}
-.carousel-item{
-    width: 13.5rem;
-}
-.card-img-top{
+    grid-column-start: 1;
+    grid-column-end: 2; }
+  /*MAIN ENVIOS*/
+  .coordiEnvios {
     width: 100%;
-}
-/*MEDIA QUERY*/
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    column-gap: 1.5rem; }
+  .coordiEnvios img {
+    width: 80%;
+    height: auto; } }
 
-
-@media(min-width:1440px){
-    /*HEADER*/
-    header nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .menuHamburguesa{
-        display: none;
-    }
-    .logoLineal{
-        display: none;
-    }
-    .logoCompleto{
-        width: 100%;
-        padding-right: 5rem;
-    }
-    /*FOOTER*/
-    footer{
-        height: 14.125rem;
-        padding: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .isotipo{
-        width: 25%;
-    }
-    /*MAIN INDEX*/
-    .productos{
-        display: flex;
-        height: 8rem;
-        overflow-x: scroll;
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x proximity;   
-        overflow: hidden;  
-    }
-
-
-}
-@media(min-width:740px) and (max-width: 1440px){
-    /*HEADER*/
-    header nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .logoCompleto{
-        width: 100%;;
-    }
-    .logoLineal{
-        display: none;
-    }
-    .menuHamburguesa{
-        display: none;
-    }
-    .buscador{
-        width: 15.375rem;
-        height: 2.25rem;
-    }  
-    /*FOOTER*/
-    footer{
-        height: 14.125rem;
-        padding: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .isotipo{
-        width: 25%;
-    }
-
-    /*MAIN INDEX*/
-    .productos{
-        display: flex;
-        height: 8rem;
-        overflow-x: scroll;
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x proximity;   
-        overflow: hidden;  
-    }
-    
-}
-@media(min-width: 320px) and (max-width: 740px) {
-    /*HEADER*/
-    header nav{
-        height: 4.25rem;;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .logoLineal{
-        width: 100%;
-        
-    }
-    .logoCompleto{
-        display: none;
-    }
-    .buscador{
-        display: none;
-    }
-    .carrito{
-        display: none;
-    }
-    .menuNav{
-        display: none;
-    }
-    /*FOOTER*/
-    footer{
-        width: 100vw;
-        height: 14.125rem;
-        padding: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .isotipo{
-        width: 25%;
-    }
-    /*MAIN VETERINARIA*/
-    .mainVet{
-        width: 100wv;
-        margin-bottom: 2.5rem;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(8,1fr);
-        grid-template-areas: 
-        "breadcrumVeterinaria"
-        "tituloPagina"
-        "afiliate"
-        "beneficios1"
-        "bonificaciones"
-        "urgencias"
-        "planes"
-        "agendaConsulta";
-        gap: 1.25rem;
-    }
-    .breadcrumVeterinaria{
-        height: 1.5rem;
-        width: 100vw;
-        margin-left: 1.5rem;
-        margin-top: 1.5rem;
-        margin-bottom: .25rem;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        grid-area: breadcrumVeterinaria;
-        color: black;
-        font-family: "Roboto", sans-serif;
-        font-size: .75rem;
-        font-weight: 400;
-        text-decoration: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .tituloPagina{
-        width: 100vw;
-        grid-area: tituloPagina;
-        }
-    .afiliate{
-        width: 100vw;
-        background-color: #D62F38;
-        font-family: "Roboto", sans-serif;
-        font-size: 1rem;
-        font-weight: 500;
-        color: ghostwhite;
-        padding-top: 3rem;
-        padding-bottom: 1rem;
-        text-align: center;
-        grid-area: afiliate;
-    }
-        .beneficios1{
-            width: 100vw;
-            margin-left: 1.5rem;
-            grid-area: beneficios1;
-        }
-        .bonificaciones{
-            width: 100vw;
-        grid-area: bonificaciones;
-        }
-        .urgencias{
-            width: 100vw;
-            margin-right: 1.5rem;
-            grid-area: urgencias;
-        }
-        .planes{ 
-            width: 100vw;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            justify-content: center;
-            grid-area: planes;
-        }
-        .agendaConsulta{
-            width: 100vw;
-            background-color: #D62F38;
-            font-family: "Roboto", sans-serif;
-            font-size: 1.5rem;
-            font-weight: 300;
-            color: ghostwhite;
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-            text-align: center;
-            grid-area: agendaConsulta;
-        }
-        
-
-}
-@media(max-width:320px){/*HEADER*/
-    header nav{
-        height: 4.25rem;
-        width: 100%;
-        padding-right: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .logoCompleto{
-        display: none;
-    }
-    .buscador{
-        display: none;
-    }
-    .menuNav{
-        display: none;
-    }
-    /*FOOTER*/
-    footer{
-        width: 100vw;
-        height: 14.125rem;
-        padding: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .isotipo{
-        width: 25%;
-    }
-
-}
-
-
-
-
-/*
-
-@media(min-width:1024px){
-    .item{
-        overflow: hidden;
-    }
-
-@media(min-width:744px) and (max-width:1024px){
-    
-    .item{
-        margin: .5rem;
-    }
-    .articulos{
-        height: 300px;
-        min-width: 744px;
-        overflow-x: scroll;
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x proximity;
-        overflow: auto;
-    }
-.nota{
-    height: 300px;
-    min-width: 370px;
-}
-footer section{
-    margin-top: 1rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+@media (max-width: 320px) {
+  /*HEADER*/
+  header nav {
+    height: 4.25rem;
+    width: 100%;
+    padding-right: 1.5rem;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    justify-content: space-around;
-    contain: content;
-}
-footer article{
-    width: 5rem;
-}
-.isotipo{
+    justify-content: space-around; }
+  .logoCompleto {
+    display: none; }
+  .buscador {
+    display: none; }
+  .menuNav {
+    display: none; }
+  /*FOOTER*/
+  footer {
+    width: 100vw;
+    height: 14.125rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  footer section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .art p {
+    display: none; }
+  /*MAIN INDEX*/
+  main h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    justify-content: start;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: .5rem;
+    text-align: left; }
+  .tituloBanner {
+    font-family: "Roboto", sans-serif;
+    font-size: .875rem; }
+  .subTituloBanner {
+    font-family: "Roboto", sans-serif;
+    font-size: .375rem; }
+  .towCanionWetlands {
+    width: 25%;
+    height: fit-content; }
+  .towLogo {
     width: 50%;
-}
-}
-*/
-@media(min-width:480px) and (max-width: 744px){
-
-    /*MEDIA QUERY MAIN INDEX*/
-    main h1{
-        font-family: "Roboto", sans-serif;
-        font-size: 1rem;
-        font-weight: 500;
-        color: black;
-        background-color: white;
-        justify-content: start;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-left: .5rem;
-        text-align: left;
-    }
-    .towCanionWetlands{
-        width: 20%;
-        height: fit-content;
-    }
-    .banner div img{
-        width: 60%;
-        height: fit-content;
-    }
-    .banner{
-        height: 11rem;
-        justify-content: space-around;
-    }
-    .banner div{
-        width: 50%;
-    }
-    .tituloBanner{
-        font-family: "Roboto", sans-serif;
-        font-size: 1.125rem;
-    }
-    .subTituloBanner{
-        font-family: "Roboto", sans-serif;
-        font-size: .5625rem;
-    }
-    h2{
-        width: 100%;
-        font-family: "Roboto", sans-serif;
-        font-size: 12px;
-    }
-    .productos{
-            display: flex;
-            height: 8rem;
-            overflow-x: scroll;
-            overscroll-behavior-x: contain;
-            scroll-snap-type: x proximity;  
-            overflow: auto; 
-    }
-    .item{
-        margin: .5rem;
-    }
-    .articulos{
-        display: flex;
-        height: 300px;
-        overflow-x: scroll;
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x proximity;   
-        overflow: auto;
-    }
-    .nota{
-        height: 300px;
-        min-width: 370px;
-    }
-
-    /*MAIN ENVIOS*/
-
-    .coordiEnvios{
-        width: 100%;
-        margin: 1rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3,1fr);
-        justify-content: center;
-        column-gap: 1.5rem;
-    }
-    .coordiEnvios img{
-        width: 80%;
-        height: auto;
-    }
-
-    footer section{
-        margin-top: 1rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 2, 50%;
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
-        justify-content: space-around;
-        grid-template-areas: 
-        "isotipo art1 art3"
-        "isotipo art2 art4";
-    }
-        .isotipo{
-            width: 80%;
-            grid-area: isotipo;
-        }
-        .art1{
-            width: 5rem;
-            grid-area: art1;
-        }
-        .art2{
-            width: 5rem;
-            grid-area: art2;
-        }
-        .art3{
-            width: 5rem;
-            grid-area: art3;
-        }
-        .art4{
-            width: 5rem;
-            grid-area: art4;
-        }
-
-
-
-@media(min-width:320px) and (max-width:480px) {
-    header{
-        height: 4rem;
-        width: 100%;
-    }
-    .barraSuperior{
-        height: 4rem;
-        width: auto;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .logoCompleto{
-        display: none;
-    }
-    .buscador{
-        display: none;
-    }    
-    .logoLineal{
-        height: 1.5625rem;
-    }
-    .menuNav{
-        display: none;
-    }
-    main h1{
-        font-family: "Roboto", sans-serif;
-        font-size: 1rem;
-        font-weight: 500;
-        color: black;
-        background-color: white;
-        justify-content: start;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-left: .5rem;
-        text-align: left;
-    }
-    .tituloBanner{
-        font-family: "Roboto", sans-serif;
-        font-size: .875rem;
-    }
-    .subTituloBanner{
-        font-family: "Roboto", sans-serif;
-        font-size: .375rem;
-    }
-    .towCanionWetlands{
-        width: 25%;
-        height: fit-content;
-    }
-    .banner div img{
-        width: 60%;
-        height: fit-content;
-    }
-    .banner{
-        height: 11rem;
-        justify-content: space-around;
-    }
-    .productos{
-        display: flex;
-        height: 8rem;
-        overflow-x: scroll;
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x proximity;   
-        overflow: auto;
-}
-    .articulos{
-        display: flex;
-        height: 300px;
-        overflow-x: scroll;
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x proximity;   
-        overflow: auto;
-    }
-    .nota{
-        height: 300px;
-        min-width: 320;
-        border-radius: 1.5625rem 1.5625rem 1.5625rem 1.5625rem; 
-    }
-    .nota h3{
-        height: 300px;
-        min-width: 320px;
-        border-radius: 1.5625rem 1.5625rem 1.5625rem 1.5625rem; 
-    }
-    .nota p{
-    display: none;
-    }
-    
-    /*MAIN ENVIOS*/
-
-    .coordiEnvios{
-        width: 100%;
-        margin: 1rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3,1fr);
-        justify-content: center;
-        column-gap: 1.5rem;
-    }
-    .coordiEnvios img{
-        width: 80%;
-        height: auto;
-    }
-
-    footer section article p{
-        display: none;
-    }
-    footer section{
-        margin-top: .5rem;
-        margin-left: .5rem;
-        margin-right: .5rem;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(2,1fr);
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
-        grid-template-areas: 
-        "isotipo art1 art3"
-        "isotipo art2 art4";
-        gap: .5rem;
-    }
-        .isotipo{
-            width: 90%;
-            grid-area: isotipo;
-        }
-        .art1{
-            width: 5rem;
-            grid-area: art1;
-        }
-        .art2{
-            width: 5rem;
-            grid-area: art2;
-        }
-        .art3{
-            width: 5rem;
-            grid-area: art3;
-        }
-        .art4{
-            width: 5rem;
-            grid-area: art4;
-        }
-    }
-/*producto.html*/
-
-.headerProd{
-    margin: 0;
-    position: sticky;
-    top: 0px;
-}
-.menuHamburgesa{
-    padding: 0;
-}
-@media screen and (min-width:320px){
-    .carousel-inner{
-        display: flex;
-    }
-    .carousel-item{
-        display: block;
-        margin-right: 0;
-        flex: 0 0 calc(100%/3);
-    }
-    .carousel-inner{
-        padding: 1em;
-    }
-    .card{
-        margin: 0.5em;
-    }
-    .card-img-top{
-        width: 100%;
-        height: 100%;
-    }
-}
-}
+    height: fit-content; }
+  .banner {
+    height: 11rem;
+    justify-content: space-around;
+    justify-items: center; }
+  /*MAIN PRODUCTO2*/
+  .carousel-inner {
+    display: flex; }
+  .carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100%/3); }
+  .carousel-inner {
+    padding: 1em; }
+  .card {
+    margin: 0.5em; }
+  .card-img-top {
+    width: 100%;
+    height: 100%; }
+  /*MAIN ENVIOS*/
+  .coordiEnvios {
+    width: 100%;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    column-gap: 1.5rem; }
+  .coordiEnvios img {
+    width: 80%;
+    height: auto; } }
