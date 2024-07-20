@@ -5,10 +5,12 @@
         .cardA{
             width: 13.5rem;
             height: auto;
-        }
-        .card-img-top{
-            width: 50%;
+            div{
+                width: 50%;
+                .card-img-top{
+                    width: 100%;
+                }        
+            }
         }
     }     
 }
-
