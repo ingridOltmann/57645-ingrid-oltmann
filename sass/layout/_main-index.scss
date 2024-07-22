@@ -1,6 +1,7 @@
 
 main{ 
     width: 100%;
+    height: auto;
     padding-top: .5rem;
     padding-bottom: .5rem;
     h1{
@@ -13,52 +14,168 @@ main{
         padding: .5rem;
     } 
     section{
-        width: 100%;
-        height: 18.75rem;
         div{
-            div{/*carousel-inner*/
+            width: 100%;
+            height: 25rem;
+            div{
                 width: 100%;
-                div{/*carousel-item*/
+                height: auto;
+                div{/*item publi1*/
+                    width: 100%;
+                    height: auto;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    .publi1{
                         width: 100%;
+                        height: auto;
+                        padding: 2rem;
+                        background-color: map-get($colores, colorSec );
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
-                        justify-content: space-between;
-                        background-color: map-get($colores, colorSec );
-                        div{
+                        align-content: center;
+                        justify-content: space-around;
+                        .infoP{
                             width: 50%;
+                            height: 9.375rem;
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
-                            align-items: center;
+                            justify-content: space-around;
                             .tituloBanner{
-                                font-size: 2.5rem;
-                                font-weight: 400;
+                                font-size: 2.25rem;
+                                font-weight: 300;
                             }
                             div{
                                 img{
                                     width: 100%;
-                                } 
+                                    height: auto;
+                                }
                             }
-                            .subtBanner{
+                            .sutBanner{
+                                display: inline;
                                 font-size: 1.5rem;
                                 font-weight: 300;
+                                text-align: center;
                             }
                         }
                         div{
                             width: 50%;
-                            align-items: center;
                             img{
                                 width: 50%;
                             }
                         }
+                    }
+                }
+                div{
+                    width:100%;
+                    height: 25rem;
+                    .publi2{
+                        width: 100%;
+                        height: auto;
+                        padding-left: 2rem;
+                        padding-right: 2rem;
+                        padding-top: 2rem;
+                        background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        column-gap: 0;
+                        .tituloBanner{
+                            width: 100%;
+                            height: auto;
+                            font-size: 2.25rem;
+                            font-weight: 300;
+                            align-content: start;
+                            padding-left: 2rem;
+                        }        
+                        .ferProd{
+                            width: 100%;
+                            height: 9.375rem;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-content: baseline;
+                            justify-content: space-between;
+                            img{
+                                width: 30%;
+                                height: auto;
+                                margin-left: 1rem;
+                                margin-right: 1rem;
+                            }
+                        }
+                        div{
+                            width: 100%;
+                            height: auto;
+                            display: inline-flex;
+                            justify-content: end;
+                            .logoFer{
+                                width: 10%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+                div{
+                    width: 100%;
+                    height: 25rem;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    .publi3{
+                        width: 100%;
+                        height: 25rem;
+                        background-color: map-get($colores, colorSec );
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        justify-content: space-around;
+                        div{
+                            width: 40%;
+                            height: 25rem;
+                            img{
+                                width: 90%;
+                                justify-items: baseline;
+                            }
+                        }
+                        .infoP{
+                            width: 40%;
+                            height: 25rem;
+                            padding: 2rem;
+                            display: flex;
+                            flex-direction: column;                            
+                            justify-content: center;
+                            align-content: center;
+                            justify-content: space-around;
+                            .tituloBanner{
+                                font-size: 2.25rem;
+                                font-weight: 300;
+                            }
+                            div{
+                                width: 90%;
+                                height: auto;
+                                display: flex;
+                                flex-wrap: wrap;
+                                align-content: center;
+                                align-items: center;
+                                img{
+                                    width: 50%;
+                                    height: auto;
+                                }
+                            }
+                            .sutBanner{
+                                display: inline;
+                                font-size: 1.5rem;
+                                font-weight: 300;
+                                text-align: center;
+                            }
+                        }
+                    }
                 }
             }
         }
     }
-}
-
-/*
     h2{
         font-size: 20px;
         font-weight: 400;
@@ -66,88 +183,15 @@ main{
         flex-direction: row;
         justify-content: center;
         padding-top: 1rem;
-    }      
-}    
-
-.publi1{
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    background-color: map-get($colores, colorSec );
-    div{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .tituloBanner{
-            font-size: 2.5rem;
-            font-weight: 400;
-        }
-        div{
-            img{
-                width: 100%;
-            }
-        }
-        .subtBanner{
-            font-size: 1.5rem;
-            font-weight: 300;
-        }
-    }
-    div{
-        width: 50%;
-        img{
-            width: 50%;
-        }
     }
 }
 
-.publi2{
-    background-color: white;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    img{
-        width: 50%;
-    }
-    img{
-        width: 50%;
-    }
-    div{
-        align-content: end;
-        img{
-            width: 25%;
-            height: auto;
-            align-items: flex-end;
-        }
-    }
-}
 
-.publi3{    
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: map-get($colores, colorSec );    
-    div{
-        width: 25%;
-        align-items: baseline;
-        img{
-            width: 50%;
-        }    
-    }    
-    div{
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        div{
-            img{
-                width: 50%;
-            }
-        }
-    }
-}
+
+
+          
+    
+
 /*SEGUNDA Y TERCER SECCIÓN*/
 
 .productos{
