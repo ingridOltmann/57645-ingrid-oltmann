@@ -9,52 +9,52 @@
 </head>
 <body> <!--HTML BOOTSTRAP-->
     <header>
-        <!--BARRA SUPERIOR-->
-        <nav class="container-fluid row navbar bg-black d-flex flex-row justify-content-center">
-            <div class="col menuHamburguesa d-min-width-740px-none d-md-">
-                <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true"><img class="iconos" src="./assets/iconografia/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></a>
+        <nav class="container-fluid row bg-black d-flex flex-row justify-content-center">
+            <div class="col-1 sm-col-1 d-min-width-740px-none d-md-none menuHamburguesa">
+                <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true"><img class="iconos" src="../assets/iconografia/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></a>
                 <ul class="dropdown-menu">                    
-                    <li><a class="dropdown-item" href="./alimentos-perros.html">ALIMENTOS</a></li>
-                    <li><a class="dropdown-item" href="./veterinaria.html">VETERINARIA</a></li>
+                    <li><a class="dropdown-item" href="../pages/alimentos-perros.html">ALIMENTOS</a></li>
+                    <li><a class="dropdown-item" href="#">VETERINARIA</a></li>
                     <li><a class="dropdown-item" href="#">FARMACIA</a></li>
                     <li><a class="dropdown-item" href="#">ACCESORIOS</a></li>
-                    <li><a class="dropdown-item" href="./envios.html">ENVIOS</a></li>
+                    <li><a class="dropdown-item" href="../pages/envios.html">ENVIOS</a></li>
                 </ul>     
             </div>  
-                <a class="col" href="../index.html"><img class="logoCompleto" src="../assets/prontoperro/pp-compacto.png" alt=""></a>
-                <a class="col" href="../index.html"><img class="logoLineal" src="../assets/prontoperro/pp-lineal.png" alt=""></a>    
-                <div class="col row d-flex flex-row justify-content-end">
-                    <form class="col d-flex flex-row" role="search">
-                        <input class="form-control buscador me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-                        <button class="btn btn-outline-color-warning" type="submit"><img class="iconos" src="../assets/iconografia/lupa.png" alt="buscador"></button>
-                    </form>
-                    <div class="col row d-flex flex-row">
-                        <a class="col carrito" href="#"><img class="iconos" src="../assets/iconografia/carrito.png" alt="carrito de compras"></a>
-                        <a class="col" href="#"><img class="iconos" src="../assets/iconografia/user.png" alt="cuenta"></a>    
-                    </div>
-                </div>
+            <a class="col-7 sm-col-9 logoL" href="../index.html"><img class="logoLineal" src="../assets/prontoperro/pp-lineal.png" alt="Pronto Perro"></a>
+            <div class="col-4 sm-col-2 navR row d-flex flex-row justify-content-end">
+                <form class="col-8 md-lg-xl-xxl-col-10 d-flex flex-row" role="search">
+                    <input class="form-control buscador" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+                    <button class="btn btn-outline-color-warning" type="submit"><img class="iconos" src="../assets/iconografia/lupa.png" alt="buscador"></button>
+                </form>
+                <a class="col-1 max320-sm-d-none md-lg-xl-xxl-col-1 carrito" href="#"><img class="iconos" src="../assets/iconografia/carrito.png" alt="carrito de compras"></a>
+                <a class="col-1 max320-sm-md-lg-xl-xxl-col-1" href="#"><img class="iconos" src="../assets/iconografia/user.png" alt="cuenta"></a>    
+            </div>
         </nav>
         <!--NAV INFERIOR-->
         <div class="row container-fluid menuNav">
             <ul class="col d-min-width-320px-none nav nav-underline menuNav justify-content-end">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">ALIMENTOS</a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./alimentos-perros.html">PERROS</a></li>
-                    <li><a class="dropdown-item" href="#">GATOS</a></li>
-                    </ul>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                            ALIMENTOS
+                            </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-bg-dark active" href="./alimentos-perros.html">PERROS</a></li>
+                            <li><a class="dropdown-item" href="#">GATOS</a></li>
+                        </ul>
+                    </div>    
                 </li>  
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./veterinaria.html">VETERINARIA</a>
+                <a class="nav-link link-dark" aria-current="page" href="./veterinaria.html">VETERINARIA</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">FARMACIA</a>
+                <a class="nav-link link-dark" href="#">FARMACIA</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ACCESORIOS</a>
+                    <a class="nav-link link-dark" href="#">ACCESORIOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./envios.html">ENVIOS</a>
+                    <a class="nav-link link-dark" href="./envios.html">ENVIOS</a>
                 </li>  
             </ul>
         </div>

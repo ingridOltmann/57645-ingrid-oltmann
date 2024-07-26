@@ -1,23 +1,43 @@
 @media(min-width:740px) and (max-width: 1440px){
     /*HEADER*/
+    header{
+        width: 100vw;
+    }
     header nav{
+        width: 100vw;
+        height: 6.875rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        .menuHamburguesa{
+            display: none;
+        }
+        .logoL{
+            width: 30%;
+            height: 6.875rem;
+            align-content: center;
+            justify-content: start;
+            .logoLineal{
+                width: 100%;
+                height: auto;
+                padding: 1rem;
+            }
+        }
+        .navR{
+            width: 70%;
+            height: 6.875rem;
+            align-content: center;
+            align-items: center;
+            justify-content: end;
+            .navR form{
+                width: 17.875rem;
+                height: 6.875rem;
+                justify-content: start;
+                align-content: center;
+                }
+        }
     }
-    .logoCompleto{
-        width: 100%;;
-    }
-    .logoLineal{
-        display: none;
-    }
-    .menuHamburguesa{
-        display: none;
-    }
-    .buscador{
-        width: 15.375rem;
-        height: 2.25rem;
-    }  
+}    
     /*FOOTER*/
     footer{
         height: 14.125rem;
@@ -72,4 +92,4 @@
         overflow: hidden;
         margin: .5rem;
     }
-}
+

@@ -1,15 +1,29 @@
 @media(max-width:320px){
     /*HEADER*/
+    header{
+        width: 100vw;
+    }
     header nav{
+        width: 100vw;
         height: 4.25rem;
-        width: 100%;
-        padding-right: 1.5rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    }
-    .logoCompleto{
-        display: none;
+        .menuHamburguesa{
+            width: 10%;
+            height: 4.25rem;
+            justify-content: center;
+            align-content: center;
+            align-items: start;
+            .menuHamburguesa a{
+                width: 1.5rem;
+                height: 1.5rem;
+                .menuHamburguesa a img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
     }
     .buscador{
         display: none;

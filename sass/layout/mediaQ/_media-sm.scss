@@ -1,23 +1,53 @@
 @media(min-width: 320px) and (max-width: 740px) {
     /*HEADER*/
+    header{
+        width: 100vw;
+    }
     header nav{
-        height: 4.25rem;;
+        width: 100vw;
+        height: 4.25rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    }
-    .logoLineal{
-        width: 100%;
-        
-    }
-    .logoCompleto{
-        display: none;
-    }
-    .buscador{
-        display: none;
-    }
-    .carrito{
-        display: none;
+        .menuHamburguesa{
+            width: 10%;
+            height: 4.25rem;
+            justify-content: center;
+            align-content: center;
+            align-items: start;
+            .menuHamburguesa a{
+                width: 1.5rem;
+                height: 1.5rem;
+                .menuHamburguesa a img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .logoL{
+            width: 60%;
+            height: 4.25rem;
+            align-content: center;
+            justify-content: center;
+            .logoLineal{
+                width: 100%; 
+                height: auto;
+                justify-content: center;
+            }
+        }
+        .navR{
+            width: 30%;
+            height: 4.25rem;
+            align-items: center;
+            align-content: center;
+            justify-content: end;
+            .buscador{
+                display: none;
+            }
+            .carrito{
+                display: none;
+            }
+        }
     }
     .menuNav{
         display: none;

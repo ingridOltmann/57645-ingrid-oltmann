@@ -18,12 +18,12 @@ html, body {
   margin: .5rem;
   padding: 0rem, 1rem, 0rem, 1rem; }
 
-main {
+.mainIndex {
   width: 100%;
   height: auto;
   padding-top: .5rem;
   padding-bottom: .5rem; }
-  main h1 {
+  .mainIndex h1 {
     text-align: center;
     text-decoration: none;
     color: ghostwhite;
@@ -31,20 +31,20 @@ main {
     font-weight: 400;
     background-color: black;
     padding: .5rem; }
-  main section div {
+  .mainIndex section div {
     width: 100%;
     height: 25rem; }
-    main section div div {
+    .mainIndex section div div {
       width: 100%;
       height: auto; }
-      main section div div div {
+      .mainIndex section div div div {
         /*item publi1*/
         width: 100%;
         height: auto;
         justify-content: center;
         align-content: center;
         align-items: center; }
-        main section div div div .publi1 {
+        .mainIndex section div div div .publi1 {
           width: 100%;
           height: auto;
           padding: 2rem;
@@ -54,32 +54,38 @@ main {
           justify-content: center;
           align-content: center;
           justify-content: space-around; }
-          main section div div div .publi1 .infoP {
+          .mainIndex section div div div .publi1 .infoP {
             width: 50%;
             height: 9.375rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            justify-content: space-around; }
-            main section div div div .publi1 .infoP .tituloBanner {
+            justify-content: space-around;
+            align-items: center; }
+            .mainIndex section div div div .publi1 .infoP .tituloBanner {
               font-size: 2.25rem;
               font-weight: 300; }
-            main section div div div .publi1 .infoP div img {
+            .mainIndex section div div div .publi1 .infoP div {
               width: 100%;
               height: auto; }
-            main section div div div .publi1 .infoP .sutBanner {
+              .mainIndex section div div div .publi1 .infoP div img {
+                width: 50%;
+                height: auto; }
+            .mainIndex section div div div .publi1 .infoP .sutBanner {
               display: inline;
               font-size: 1.5rem;
               font-weight: 300;
               text-align: center; }
-          main section div div div .publi1 div {
-            width: 50%; }
-            main section div div div .publi1 div img {
+          .mainIndex section div div div .publi1 div {
+            width: 50%;
+            height: auto;
+            align-items: center; }
+            .mainIndex section div div div .publi1 div img {
               width: 50%; }
-      main section div div div {
+      .mainIndex section div div div {
         width: 100%;
         height: 25rem; }
-        main section div div div .publi2 {
+        .mainIndex section div div div .publi2 {
           width: 100%;
           height: auto;
           padding-left: 2rem;
@@ -90,14 +96,14 @@ main {
           flex-direction: column;
           justify-content: space-between;
           column-gap: 0; }
-          main section div div div .publi2 .tituloBanner {
+          .mainIndex section div div div .publi2 .tituloBanner {
             width: 100%;
             height: auto;
             font-size: 2.25rem;
             font-weight: 300;
             align-content: start;
             padding-left: 2rem; }
-          main section div div div .publi2 .ferProd {
+          .mainIndex section div div div .publi2 .ferProd {
             width: 100%;
             height: 9.375rem;
             display: flex;
@@ -105,26 +111,26 @@ main {
             justify-content: center;
             align-content: baseline;
             justify-content: space-between; }
-            main section div div div .publi2 .ferProd img {
+            .mainIndex section div div div .publi2 .ferProd img {
               width: 30%;
               height: auto;
               margin-left: 1rem;
               margin-right: 1rem; }
-          main section div div div .publi2 div {
+          .mainIndex section div div div .publi2 div {
             width: 100%;
             height: auto;
             display: inline-flex;
             justify-content: end; }
-            main section div div div .publi2 div .logoFer {
+            .mainIndex section div div div .publi2 div .logoFer {
               width: 10%;
               height: auto; }
-      main section div div div {
+      .mainIndex section div div div {
         width: 100%;
         height: 25rem;
         justify-content: center;
         align-content: center;
         align-items: center; }
-        main section div div div .publi3 {
+        .mainIndex section div div div .publi3 {
           width: 100%;
           height: 25rem;
           background-color: #efefef;
@@ -132,13 +138,13 @@ main {
           flex-direction: row;
           justify-content: center;
           justify-content: space-around; }
-          main section div div div .publi3 div {
+          .mainIndex section div div div .publi3 div {
             width: 40%;
             height: 25rem; }
-            main section div div div .publi3 div img {
+            .mainIndex section div div div .publi3 div img {
               width: 90%;
               justify-items: baseline; }
-          main section div div div .publi3 .infoP {
+          .mainIndex section div div div .publi3 .infoP {
             width: 40%;
             height: 25rem;
             padding: 2rem;
@@ -147,25 +153,25 @@ main {
             justify-content: center;
             align-content: center;
             justify-content: space-around; }
-            main section div div div .publi3 .infoP .tituloBanner {
+            .mainIndex section div div div .publi3 .infoP .tituloBanner {
               font-size: 2.25rem;
               font-weight: 300; }
-            main section div div div .publi3 .infoP div {
+            .mainIndex section div div div .publi3 .infoP div {
               width: 90%;
               height: auto;
               display: flex;
               flex-wrap: wrap;
               align-content: center;
               align-items: center; }
-              main section div div div .publi3 .infoP div img {
+              .mainIndex section div div div .publi3 .infoP div img {
                 width: 50%;
                 height: auto; }
-            main section div div div .publi3 .infoP .sutBanner {
+            .mainIndex section div div div .publi3 .infoP .sutBanner {
               display: inline;
               font-size: 1.5rem;
               font-weight: 300;
               text-align: center; }
-  main .recomendados {
+  .mainIndex .recomendados {
     width: 100%;
     height: 15.625rem;
     margin-top: 2rem;
@@ -174,7 +180,7 @@ main {
     justify-content: center;
     justify-items: center;
     align-content: center; }
-    main .recomendados h2 {
+    .mainIndex .recomendados h2 {
       width: 100%;
       height: auto;
       font-size: 1.5rem;
@@ -183,7 +189,7 @@ main {
       flex-direction: row;
       justify-content: center;
       text-align: center; }
-    main .recomendados .productos {
+    .mainIndex .recomendados .productos {
       width: 100%;
       height: auto;
       margin: 2rem;
@@ -193,16 +199,16 @@ main {
       justify-content: center;
       justify-content: space-between;
       align-content: center; }
-      main .recomendados .productos div {
+      .mainIndex .recomendados .productos div {
         width: 6.875rem;
         height: 6.875rem;
         align-items: center; }
-        main .recomendados .productos div .item {
+        .mainIndex .recomendados .productos div .item {
           width: 100%;
           height: auto;
           align-self: center;
           align-content: center; }
-  main .noticias h2 {
+  .mainIndex .noticias h2 {
     width: 100%;
     height: auto;
     font-size: 1.5rem;
@@ -211,11 +217,11 @@ main {
     flex-direction: row;
     justify-content: center;
     text-align: center; }
-  main .noticias .articulos {
+  .mainIndex .noticias .articulos {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-    main .noticias .articulos .nota1 {
+    .mainIndex .noticias .articulos .nota1 {
       width: 23.125rem;
       height: 18.75rem;
       margin: .5rem;
@@ -225,14 +231,14 @@ main {
       background-position: center center;
       background-size: cover;
       align-content: end; }
-      main .noticias .articulos .nota1 h3 {
+      .mainIndex .noticias .articulos .nota1 h3 {
         margin-inline: .5rem;
         padding-top: 1rem;
         font-size: 1rem;
         font-weight: 500;
         text-align: center;
-        color: black; }
-    main .noticias .articulos .nota2 {
+        color: ghostwhite; }
+    .mainIndex .noticias .articulos .nota2 {
       width: 23.125rem;
       height: 18.75rem;
       margin: .5rem;
@@ -242,15 +248,14 @@ main {
       background-position: center center;
       background-size: cover;
       align-content: end; }
-      main .noticias .articulos .nota2 h3 {
+      .mainIndex .noticias .articulos .nota2 h3 {
         margin-inline: .5rem;
         padding-top: 1rem;
         font-size: 1rem;
         font-weight: 500;
         text-align: center;
-        color: black;
-        background-color: ghostwhite / 30%; }
-    main .noticias .articulos .nota3 {
+        color: ghostwhite; }
+    .mainIndex .noticias .articulos .nota3 {
       width: 23.125rem;
       height: 18.75rem;
       margin: .5rem;
@@ -260,13 +265,13 @@ main {
       background-position: center center;
       background-size: cover;
       align-content: end; }
-      main .noticias .articulos .nota3 h3 {
+      .mainIndex .noticias .articulos .nota3 h3 {
         margin-inline: .5rem;
         padding-top: 1rem;
         font-size: 1rem;
         font-weight: 500;
         text-align: center;
-        color: black; }
+        color: ghostwhite; }
 
 .contenidoAp {
   width: 100%;
@@ -854,51 +859,74 @@ header {
   header nav {
     width: 100%;
     height: 6.875rem;
-    padding: 1.5rem,1.5rem,1rem,1.5rem;
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content: space-evenly; }
-    header nav a .logoCompleto {
-      margin-left: 1.5rem;
-      width: 50%;
-      height: auto; }
-    header nav a .logoLineal {
-      width: 80%; }
-    header nav div {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center; }
+    header nav .menuHamburguesa {
+      width: 3rem;
+      height: 2.5rem;
+      align-content: center;
+      justify-items: center;
       justify-content: center; }
-      header nav div form {
-        display: flex;
-        flex-direction: row;
-        align-items: center; }
-      header nav div div {
-        display: flex;
-        flex-direction: row;
-        align-items: center; }
+      header nav .menuHamburguesa a {
+        width: 3.5rem;
+        height: 2.5rem;
+        justify-content: center;
+        justify-items: center;
+        align-content: center; }
+        header nav .menuHamburguesa a img {
+          width: 1.5rem;
+          height: 1.5rem; }
+      header nav .menuHamburguesa ul li {
+        list-style: none; }
+        header nav .menuHamburguesa ul li a {
+          text-decoration: none;
+          font-size: .75rem;
+          font-weight: 300; }
+    header nav .logoL {
+      width: 70%;
+      height: 6.875rem;
+      align-content: center;
+      justify-content: start; }
+      header nav .logoL .logoLineal {
+        width: 50%;
+        height: auto;
+        padding: 1rem; }
+    header nav .navR {
+      width: 30%;
+      height: 6.875rem;
+      align-content: center;
+      align-items: center;
+      justify-content: end; }
+      header nav .navR .navR form {
+        width: 17.875rem;
+        height: 6.875rem; }
+      header nav .navR .navR a {
+        width: 20%;
+        height: 6.875rem; }
+        header nav .navR .navR a .navR a img {
+          width: 100%;
+          height: auto; }
   header .menuNav {
-    width: 100%;
+    width: 100vw;
     height: 3.75rem;
-    margin-right: 1.5rem;
     display: flex;
-    flex-direction: row-reverse; }
-    header .menuNav ul {
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: end; }
+    header .menuNav .menuNav ul {
       width: 100%;
-      list-style: none;
-      text-decoration: none;
-      display: flex;
-      padding: 1rem; }
-      header .menuNav ul li {
-        display: inline-flex; }
-      header .menuNav ul a {
-        color: black;
-        text-decoration: none;
-        font-family: "Roboto", sans-serif;
-        font-size: .75rem;
-        font-weight: 400; }
+      height: 3.75rem; }
+      header .menuNav .menuNav ul .menuNav ul li {
+        list-style: none; }
+        header .menuNav .menuNav ul .menuNav ul li .menuNav ul li a {
+          text-decoration: none;
+          color: black;
+          font-size: 1rem;
+          font-weight: 300; }
 
 footer {
   background-color: black;
@@ -974,18 +1002,37 @@ footer {
   /*HEADER*/
   header {
     width: 100vw; }
-  header nav {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-  .menuHamburguesa {
-    display: none; }
-  .logoLineal {
-    display: none; }
-  .logoCompleto {
-    width: 100%;
-    padding-right: 5rem; }
+    header header nav {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      header header nav .menuHamburguesa {
+        display: none; }
+      header header nav .logoL {
+        width: 50%;
+        height: 6.875rem;
+        align-content: center;
+        justify-content: start; }
+        header header nav .logoL .logoLineal {
+          width: 50%;
+          height: auto;
+          padding: 1rem; }
+      header header nav .navR {
+        width: 50%;
+        height: 6.875rem;
+        align-content: center;
+        align-items: center;
+        justify-content: end; }
+        header header nav .navR .navR form {
+          width: 80%;
+          height: 6.875rem; }
+        header header nav .navR .navR a {
+          width: 20%;
+          height: 6.875rem; }
+          header header nav .navR .navR a .navR a img {
+            width: 100%;
+            height: auto; }
   /*FOOTER*/
   footer {
     height: 14.125rem;
@@ -1007,76 +1054,130 @@ footer {
 
 @media (min-width: 740px) and (max-width: 1440px) {
   /*HEADER*/
+  header {
+    width: 100vw; }
   header nav {
+    width: 100vw;
+    height: 6.875rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-  .logoCompleto {
-    width: 100%; }
-  .logoLineal {
-    display: none; }
-  .menuHamburguesa {
-    display: none; }
-  .buscador {
-    width: 15.375rem;
-    height: 2.25rem; }
-  /*FOOTER*/
-  footer {
-    height: 14.125rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-  .isotipo {
-    margin: .5rem;
-    width: 25%; }
-  .art {
-    margin: .5rem; }
-  .art p {
-    display: none; }
-  /*MAIN INDEX*/
-  .tituloBanner {
-    font-family: "Roboto", sans-serif;
-    font-size: .875rem; }
-  .subTituloBanner {
-    font-family: "Roboto", sans-serif;
-    font-size: .375rem; }
-  .towCanionWetlands {
-    width: 25%;
-    height: auto; }
-  .towLogo {
-    width: 50%;
-    height: fit-content; }
-  .banner {
-    height: 11rem;
-    justify-content: space-around;
-    justify-content: center; }
-  .productos {
-    display: flex;
-    height: 8rem;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-    overflow: hidden; }
-  .item {
-    overflow: hidden;
-    margin: .5rem; } }
+    header nav .menuHamburguesa {
+      display: none; }
+    header nav .logoL {
+      width: 30%;
+      height: 6.875rem;
+      align-content: center;
+      justify-content: start; }
+      header nav .logoL .logoLineal {
+        width: 100%;
+        height: auto;
+        padding: 1rem; }
+    header nav .navR {
+      width: 70%;
+      height: 6.875rem;
+      align-content: center;
+      align-items: center;
+      justify-content: end; }
+      header nav .navR .navR form {
+        width: 17.875rem;
+        height: 6.875rem;
+        justify-content: start;
+        align-content: center; } }
+
+/*FOOTER*/
+footer {
+  height: 14.125rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.isotipo {
+  margin: .5rem;
+  width: 25%; }
+
+.art {
+  margin: .5rem; }
+
+.art p {
+  display: none; }
+
+/*MAIN INDEX*/
+.tituloBanner {
+  font-family: "Roboto", sans-serif;
+  font-size: .875rem; }
+
+.subTituloBanner {
+  font-family: "Roboto", sans-serif;
+  font-size: .375rem; }
+
+.towCanionWetlands {
+  width: 25%;
+  height: auto; }
+
+.towLogo {
+  width: 50%;
+  height: fit-content; }
+
+.banner {
+  height: 11rem;
+  justify-content: space-around;
+  justify-content: center; }
+
+.productos {
+  display: flex;
+  height: 8rem;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  overflow: hidden; }
+
+.item {
+  overflow: hidden;
+  margin: .5rem; }
 
 @media (min-width: 320px) and (max-width: 740px) {
   /*HEADER*/
+  header {
+    width: 100vw; }
   header nav {
+    width: 100vw;
     height: 4.25rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
-  .logoLineal {
-    width: 100%; }
-  .logoCompleto {
-    display: none; }
-  .buscador {
-    display: none; }
-  .carrito {
-    display: none; }
+    header nav .menuHamburguesa {
+      width: 10%;
+      height: 4.25rem;
+      justify-content: center;
+      align-content: center;
+      align-items: start; }
+      header nav .menuHamburguesa .menuHamburguesa a {
+        width: 1.5rem;
+        height: 1.5rem; }
+        header nav .menuHamburguesa .menuHamburguesa a .menuHamburguesa a img {
+          width: 100%;
+          height: auto; }
+    header nav .logoL {
+      width: 60%;
+      height: 4.25rem;
+      align-content: center;
+      justify-content: center; }
+      header nav .logoL .logoLineal {
+        width: 100%;
+        height: auto;
+        justify-content: center; }
+    header nav .navR {
+      width: 30%;
+      height: 4.25rem;
+      align-items: center;
+      align-content: center;
+      justify-content: end; }
+      header nav .navR .buscador {
+        display: none; }
+      header nav .navR .carrito {
+        display: none; }
   .menuNav {
     display: none; }
   /*FOOTER*/
@@ -1231,15 +1332,26 @@ footer {
 
 @media (max-width: 320px) {
   /*HEADER*/
+  header {
+    width: 100vw; }
   header nav {
+    width: 100vw;
     height: 4.25rem;
-    width: 100%;
-    padding-right: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
-  .logoCompleto {
-    display: none; }
+    header nav .menuHamburguesa {
+      width: 10%;
+      height: 4.25rem;
+      justify-content: center;
+      align-content: center;
+      align-items: start; }
+      header nav .menuHamburguesa .menuHamburguesa a {
+        width: 1.5rem;
+        height: 1.5rem; }
+        header nav .menuHamburguesa .menuHamburguesa a .menuHamburguesa a img {
+          width: 100%;
+          height: auto; }
   .buscador {
     display: none; }
   .menuNav {
