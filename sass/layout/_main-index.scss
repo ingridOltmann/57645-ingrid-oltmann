@@ -13,17 +13,17 @@
         background-color: black;
         padding: .5rem;
     } 
-    section{
+    .banner{
+        width: 100%;
         div{
             width: 100%;
             height: 25rem;
             div{
                 width: 100%;
-                height: auto;
+                height: auto;                
                 div{/*item publi1*/
                     width: 100%;
                     height: auto;
-                    justify-content: center;
                     align-content: center;
                     align-items: center;
                     .publi1{
@@ -35,6 +35,7 @@
                         flex-direction: row;
                         justify-content: center;
                         align-content: center;
+                        align-items: center;
                         justify-content: space-around;
                         .infoP{
                             width: 50%;
@@ -43,22 +44,26 @@
                             flex-direction: column;
                             justify-content: center;
                             justify-content: space-around;
+                            align-content: center;
                             align-items: center;
                             .tituloBanner{
-                                font-size: 2.25rem;
+                                font-size: 3rem;
                                 font-weight: 300;
+                                text-align: center;
                             }
                             div{
-                                width: 100%;
-                                height: auto;                                
+                                width: 26.6875rem;
+                                height: auto;    
+                                justify-content: center;                            
                                 img{
-                                    width: 50%;
+                                    width: 100%;
                                     height: auto;
+                                    align-self: center;
                                 }
                             }
                             .sutBanner{
                                 display: inline;
-                                font-size: 1.5rem;
+                                font-size: 1.25rem;
                                 font-weight: 300;
                                 text-align: center;
                             }
@@ -66,9 +71,12 @@
                         div{
                             width: 50%;
                             height: auto;
+                            justify-content: center;
                             align-items: center;
+                            align-content: center;
                             img{
                                 width: 50%;
+                                align-self: center;
                             }
                         }
                     }
@@ -181,7 +189,7 @@
             }
         }
     }    
-    .recomendados{
+    section{
         width: 100%;
         height: 15.625rem;
         margin-top: 2rem;
@@ -189,7 +197,6 @@
         flex-direction: column;
         justify-content: center;
         justify-items: center;
-        align-content: center;
         h2{
             width: 100%;
             height: auto;
@@ -200,20 +207,37 @@
             justify-content: center;
             text-align: center;
         }
-        .productos{
+        .productos{        
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 128px;
+            overflow-x: scroll;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: x proximity;   
+            overflow: hidden;  
+            gap: 1rem;
+            /*
             width: 100%;
             height: auto;
             margin: 2rem;
+            display: flex;
+            flex-direction: row;            
             display: grid;
             grid-template-columns: repeat(6,1fr);
             grid-template-rows: 1,1fr;
             justify-content: center;
             justify-content: space-between;
             align-content: center;
+            align-items: center;*/
             div{
+                position: relative;
+                scroll-snap-align: center;
+                margin: 1rem;
                 width: 6.875rem;
                 height: 6.875rem;
                 align-items: center;
+                align-content: center;
                 .item{
                     width: 100%;
                     height: auto;
@@ -224,6 +248,8 @@
         }      
     } 
     .noticias{
+        width: 100%;
+        height: 28.125rem;
         h2{
             width: 100%;
             height: auto;
@@ -235,12 +261,21 @@
             text-align: center;
         }
         .articulos{
+            width: 100vw;
+            min-width: fit-content;
+            height: 21.875rem;
             display: flex;
             flex-direction: row;
+            overflow-x: scroll;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: x proximity;
+            gap: 15px;
             justify-content: space-between;
             .nota1{
                 width: 23.125rem;
                 height: 18.75rem;
+                position: relative;
+                scroll-snap-align: center;
                 margin: .5rem;
                 border-radius: 1.5625rem;
                 background-image: url(https://www.mascotasanasydivertidas.com/wp-content/uploads/sites/12/2022/04/image5-min.png);

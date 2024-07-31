@@ -52,6 +52,21 @@
     .menuNav{
         display: none;
     }
+
+.mainIndex{
+    width: 100%;
+    h1{
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: start;
+        color: black;
+        background-color: white;
+    }
+}
+.tituloBanner{
+    font-size: 1.5rem;
+}
+
     /*FOOTER*/
     footer{
         width: 100vw;
@@ -76,7 +91,6 @@
 
     /*MAIN INDEX*/
     main h1{
-        font-family: "Roboto", sans-serif;
         font-size: 1rem;
         font-weight: 500;
         color: black;
@@ -90,7 +104,7 @@
 
     .tituloBanner{
         font-family: "Roboto", sans-serif;
-        font-size: .875rem;
+        font-size: .625rem;
     }
     .subTituloBanner{
         font-family: "Roboto", sans-serif;
@@ -109,17 +123,26 @@
         justify-content: space-around;
     }
 
+
     .productos{
         display: flex;
-        height: 8rem;
+        height: 128px;
         overflow-x: scroll;
         overscroll-behavior-x: contain;
         scroll-snap-type: x proximity;   
-        overflow: hidden;  
-    }
-    .item{
-        overflow: hidden;
-        margin: .5rem;
+        overflow: hidden; 
+        div{
+            width: 6.875rem;
+            height: 6.875rem;
+            position: relative;
+            scroll-snap-align: center;
+            overflow: hidden;
+            margin: .5rem;
+            .item{
+                width: 100%;
+                height: auto;
+            }
+        }
     }
 
     /*MAIN VETERINARIA*/
@@ -130,7 +153,7 @@
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(8,1fr);
         grid-template-areas: 
-        "breadcrumVeterinaria"
+        "breadcrum"
         "tituloPagina"
         "afiliate"
         "beneficios1"
@@ -139,7 +162,7 @@
         "planes"
         "agendaConsulta";
     }
-    .breadcrumVeterinaria{
+    .breadcrum{
         height: 1rem;
         width: 100vw;
         margin-left: 1.5rem;
@@ -149,7 +172,7 @@
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
-        grid-area: breadcrumVeterinaria;
+        grid-area: breadcrum;
         color: black;
         font-family: "Roboto", sans-serif;
         font-size: .75rem;

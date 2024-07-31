@@ -4,16 +4,16 @@
     height: 1.5rem;
     display: flex;
     flex-direction: row;
+    align-content: center;
     align-items: center;
-    justify-content: start;
-    
+    justify-content: start;    
     a{
         color: black;
-        font-family: "Roboto", sans-serif;
         font-size: .75rem;
         font-weight: 400;
         text-decoration: none;
         padding-left: .5rem;
+        align-self: center;
     }
     img{
         margin-left: .5rem;
@@ -22,11 +22,11 @@
     }
     p{
         color: black;
-        font-family: "Roboto", sans-serif;
         font-size: .75rem;
         font-weight: 400;
         text-decoration: none;
         padding-left: .5rem;
+        align-self: baseline;
     }
     
 }

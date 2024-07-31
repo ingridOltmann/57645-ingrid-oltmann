@@ -31,156 +31,164 @@ html, body {
     font-weight: 400;
     background-color: black;
     padding: .5rem; }
-  .mainIndex section div {
-    width: 100%;
-    height: 25rem; }
-    .mainIndex section div div {
+  .mainIndex .banner {
+    width: 100%; }
+    .mainIndex .banner div {
       width: 100%;
-      height: auto; }
-      .mainIndex section div div div {
-        /*item publi1*/
+      height: 25rem; }
+      .mainIndex .banner div div {
         width: 100%;
-        height: auto;
-        justify-content: center;
-        align-content: center;
-        align-items: center; }
-        .mainIndex section div div div .publi1 {
+        height: auto; }
+        .mainIndex .banner div div div {
+          /*item publi1*/
           width: 100%;
           height: auto;
-          padding: 2rem;
-          background-color: #efefef;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
           align-content: center;
-          justify-content: space-around; }
-          .mainIndex section div div div .publi1 .infoP {
-            width: 50%;
-            height: 9.375rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            justify-content: space-around;
-            align-items: center; }
-            .mainIndex section div div div .publi1 .infoP .tituloBanner {
-              font-size: 2.25rem;
-              font-weight: 300; }
-            .mainIndex section div div div .publi1 .infoP div {
-              width: 100%;
-              height: auto; }
-              .mainIndex section div div div .publi1 .infoP div img {
-                width: 50%;
-                height: auto; }
-            .mainIndex section div div div .publi1 .infoP .sutBanner {
-              display: inline;
-              font-size: 1.5rem;
-              font-weight: 300;
-              text-align: center; }
-          .mainIndex section div div div .publi1 div {
-            width: 50%;
-            height: auto;
-            align-items: center; }
-            .mainIndex section div div div .publi1 div img {
-              width: 50%; }
-      .mainIndex section div div div {
-        width: 100%;
-        height: 25rem; }
-        .mainIndex section div div div .publi2 {
-          width: 100%;
-          height: auto;
-          padding-left: 2rem;
-          padding-right: 2rem;
-          padding-top: 2rem;
-          background-color: white;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          column-gap: 0; }
-          .mainIndex section div div div .publi2 .tituloBanner {
+          align-items: center; }
+          .mainIndex .banner div div div .publi1 {
             width: 100%;
             height: auto;
-            font-size: 2.25rem;
-            font-weight: 300;
-            align-content: start;
-            padding-left: 2rem; }
-          .mainIndex section div div div .publi2 .ferProd {
-            width: 100%;
-            height: 9.375rem;
+            padding: 2rem;
+            background-color: #efefef;
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-content: baseline;
-            justify-content: space-between; }
-            .mainIndex section div div div .publi2 .ferProd img {
-              width: 30%;
-              height: auto;
-              margin-left: 1rem;
-              margin-right: 1rem; }
-          .mainIndex section div div div .publi2 div {
-            width: 100%;
-            height: auto;
-            display: inline-flex;
-            justify-content: end; }
-            .mainIndex section div div div .publi2 div .logoFer {
-              width: 10%;
-              height: auto; }
-      .mainIndex section div div div {
-        width: 100%;
-        height: 25rem;
-        justify-content: center;
-        align-content: center;
-        align-items: center; }
-        .mainIndex section div div div .publi3 {
-          width: 100%;
-          height: 25rem;
-          background-color: #efefef;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          justify-content: space-around; }
-          .mainIndex section div div div .publi3 div {
-            width: 40%;
-            height: 25rem; }
-            .mainIndex section div div div .publi3 div img {
-              width: 90%;
-              justify-items: baseline; }
-          .mainIndex section div div div .publi3 .infoP {
-            width: 40%;
-            height: 25rem;
-            padding: 2rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
             align-content: center;
+            align-items: center;
             justify-content: space-around; }
-            .mainIndex section div div div .publi3 .infoP .tituloBanner {
-              font-size: 2.25rem;
-              font-weight: 300; }
-            .mainIndex section div div div .publi3 .infoP div {
-              width: 90%;
-              height: auto;
+            .mainIndex .banner div div div .publi1 .infoP {
+              width: 50%;
+              height: 9.375rem;
               display: flex;
-              flex-wrap: wrap;
+              flex-direction: column;
+              justify-content: center;
+              justify-content: space-around;
               align-content: center;
               align-items: center; }
-              .mainIndex section div div div .publi3 .infoP div img {
+              .mainIndex .banner div div div .publi1 .infoP .tituloBanner {
+                font-size: 3rem;
+                font-weight: 300;
+                text-align: center; }
+              .mainIndex .banner div div div .publi1 .infoP div {
+                width: 26.6875rem;
+                height: auto;
+                justify-content: center; }
+                .mainIndex .banner div div div .publi1 .infoP div img {
+                  width: 100%;
+                  height: auto;
+                  align-self: center; }
+              .mainIndex .banner div div div .publi1 .infoP .sutBanner {
+                display: inline;
+                font-size: 1.25rem;
+                font-weight: 300;
+                text-align: center; }
+            .mainIndex .banner div div div .publi1 div {
+              width: 50%;
+              height: auto;
+              justify-content: center;
+              align-items: center;
+              align-content: center; }
+              .mainIndex .banner div div div .publi1 div img {
                 width: 50%;
-                height: auto; }
-            .mainIndex section div div div .publi3 .infoP .sutBanner {
-              display: inline;
-              font-size: 1.5rem;
+                align-self: center; }
+        .mainIndex .banner div div div {
+          width: 100%;
+          height: 25rem; }
+          .mainIndex .banner div div div .publi2 {
+            width: 100%;
+            height: auto;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-top: 2rem;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            column-gap: 0; }
+            .mainIndex .banner div div div .publi2 .tituloBanner {
+              width: 100%;
+              height: auto;
+              font-size: 2.25rem;
               font-weight: 300;
-              text-align: center; }
-  .mainIndex .recomendados {
+              align-content: start;
+              padding-left: 2rem; }
+            .mainIndex .banner div div div .publi2 .ferProd {
+              width: 100%;
+              height: 9.375rem;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-content: baseline;
+              justify-content: space-between; }
+              .mainIndex .banner div div div .publi2 .ferProd img {
+                width: 30%;
+                height: auto;
+                margin-left: 1rem;
+                margin-right: 1rem; }
+            .mainIndex .banner div div div .publi2 div {
+              width: 100%;
+              height: auto;
+              display: inline-flex;
+              justify-content: end; }
+              .mainIndex .banner div div div .publi2 div .logoFer {
+                width: 10%;
+                height: auto; }
+        .mainIndex .banner div div div {
+          width: 100%;
+          height: 25rem;
+          justify-content: center;
+          align-content: center;
+          align-items: center; }
+          .mainIndex .banner div div div .publi3 {
+            width: 100%;
+            height: 25rem;
+            background-color: #efefef;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-around; }
+            .mainIndex .banner div div div .publi3 div {
+              width: 40%;
+              height: 25rem; }
+              .mainIndex .banner div div div .publi3 div img {
+                width: 90%;
+                justify-items: baseline; }
+            .mainIndex .banner div div div .publi3 .infoP {
+              width: 40%;
+              height: 25rem;
+              padding: 2rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-content: center;
+              justify-content: space-around; }
+              .mainIndex .banner div div div .publi3 .infoP .tituloBanner {
+                font-size: 2.25rem;
+                font-weight: 300; }
+              .mainIndex .banner div div div .publi3 .infoP div {
+                width: 90%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                align-items: center; }
+                .mainIndex .banner div div div .publi3 .infoP div img {
+                  width: 50%;
+                  height: auto; }
+              .mainIndex .banner div div div .publi3 .infoP .sutBanner {
+                display: inline;
+                font-size: 1.5rem;
+                font-weight: 300;
+                text-align: center; }
+  .mainIndex section {
     width: 100%;
     height: 15.625rem;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-items: center;
-    align-content: center; }
-    .mainIndex .recomendados h2 {
+    justify-items: center; }
+    .mainIndex section h2 {
       width: 100%;
       height: auto;
       font-size: 1.5rem;
@@ -189,131 +197,167 @@ html, body {
       flex-direction: row;
       justify-content: center;
       text-align: center; }
-    .mainIndex .recomendados .productos {
-      width: 100%;
-      height: auto;
-      margin: 2rem;
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: 1,1fr;
+    .mainIndex section .productos {
+      display: flex;
+      flex-direction: row;
       justify-content: center;
-      justify-content: space-between;
-      align-content: center; }
-      .mainIndex .recomendados .productos div {
+      height: 128px;
+      overflow-x: scroll;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x proximity;
+      overflow: hidden;
+      gap: 1rem;
+      /*
+            width: 100%;
+            height: auto;
+            margin: 2rem;
+            display: flex;
+            flex-direction: row;            
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: 1,1fr;
+            justify-content: center;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;*/ }
+      .mainIndex section .productos div {
+        position: relative;
+        scroll-snap-align: center;
+        margin: 1rem;
         width: 6.875rem;
         height: 6.875rem;
-        align-items: center; }
-        .mainIndex .recomendados .productos div .item {
+        align-items: center;
+        align-content: center; }
+        .mainIndex section .productos div .item {
           width: 100%;
           height: auto;
           align-self: center;
           align-content: center; }
-  .mainIndex .noticias h2 {
+  .mainIndex .noticias {
     width: 100%;
-    height: auto;
-    font-size: 1.5rem;
-    font-weight: 400;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center; }
-  .mainIndex .noticias .articulos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-    .mainIndex .noticias .articulos .nota1 {
-      width: 23.125rem;
-      height: 18.75rem;
-      margin: .5rem;
-      border-radius: 1.5625rem;
-      background-image: url(https://www.mascotasanasydivertidas.com/wp-content/uploads/sites/12/2022/04/image5-min.png);
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      align-content: end; }
-      .mainIndex .noticias .articulos .nota1 h3 {
-        margin-inline: .5rem;
-        padding-top: 1rem;
-        font-size: 1rem;
-        font-weight: 500;
-        text-align: center;
-        color: ghostwhite; }
-    .mainIndex .noticias .articulos .nota2 {
-      width: 23.125rem;
-      height: 18.75rem;
-      margin: .5rem;
-      border-radius: 1.5625rem;
-      background-image: url(https://images.unsplash.com/photo-1627666889380-fb66b4a14993?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      align-content: end; }
-      .mainIndex .noticias .articulos .nota2 h3 {
-        margin-inline: .5rem;
-        padding-top: 1rem;
-        font-size: 1rem;
-        font-weight: 500;
-        text-align: center;
-        color: ghostwhite; }
-    .mainIndex .noticias .articulos .nota3 {
-      width: 23.125rem;
-      height: 18.75rem;
-      margin: .5rem;
-      border-radius: 1.5625rem;
-      background-image: url(https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      align-content: end; }
-      .mainIndex .noticias .articulos .nota3 h3 {
-        margin-inline: .5rem;
-        padding-top: 1rem;
-        font-size: 1rem;
-        font-weight: 500;
-        text-align: center;
-        color: ghostwhite; }
+    height: 28.125rem; }
+    .mainIndex .noticias h2 {
+      width: 100%;
+      height: auto;
+      font-size: 1.5rem;
+      font-weight: 400;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center; }
+    .mainIndex .noticias .articulos {
+      width: 100vw;
+      min-width: fit-content;
+      height: 21.875rem;
+      display: flex;
+      flex-direction: row;
+      overflow-x: scroll;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x proximity;
+      gap: 15px;
+      justify-content: space-between; }
+      .mainIndex .noticias .articulos .nota1 {
+        width: 23.125rem;
+        height: 18.75rem;
+        position: relative;
+        scroll-snap-align: center;
+        margin: .5rem;
+        border-radius: 1.5625rem;
+        background-image: url(https://www.mascotasanasydivertidas.com/wp-content/uploads/sites/12/2022/04/image5-min.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        align-content: end; }
+        .mainIndex .noticias .articulos .nota1 h3 {
+          margin-inline: .5rem;
+          padding-top: 1rem;
+          font-size: 1rem;
+          font-weight: 500;
+          text-align: center;
+          color: ghostwhite; }
+      .mainIndex .noticias .articulos .nota2 {
+        width: 23.125rem;
+        height: 18.75rem;
+        margin: .5rem;
+        border-radius: 1.5625rem;
+        background-image: url(https://images.unsplash.com/photo-1627666889380-fb66b4a14993?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        align-content: end; }
+        .mainIndex .noticias .articulos .nota2 h3 {
+          margin-inline: .5rem;
+          padding-top: 1rem;
+          font-size: 1rem;
+          font-weight: 500;
+          text-align: center;
+          color: ghostwhite; }
+      .mainIndex .noticias .articulos .nota3 {
+        width: 23.125rem;
+        height: 18.75rem;
+        margin: .5rem;
+        border-radius: 1.5625rem;
+        background-image: url(https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        align-content: end; }
+        .mainIndex .noticias .articulos .nota3 h3 {
+          margin-inline: .5rem;
+          padding-top: 1rem;
+          font-size: 1rem;
+          font-weight: 500;
+          text-align: center;
+          color: ghostwhite; }
 
-.contenidoAp {
+.mainAlimentosP h1 {
+  text-align: center;
+  text-decoration: none;
+  color: ghostwhite;
+  font-size: 1.25rem;
+  font-weight: 400;
+  background-color: black;
+  padding: .5rem; }
+
+.mainAlimentosP .contenidoAp {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+  .mainAlimentosP .contenidoAp .mainFiltro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    grid-area: mainFiltro; }
+    .mainAlimentosP .contenidoAp .mainFiltro p {
+      width: 12.5rem;
+      padding: .5rem;
+      margin-left: 1.5rem;
+      background-color: black;
+      color: ghostwhite;
+      font-family: "Roboto", sans-serif;
+      font-size: .75rem;
+      font-weight: 400;
+      text-decoration: none; }
+    .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop {
+      padding: 0s;
+      margin-left: 1.5rem;
+      width: 12.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      border: black;
+      border-width: .125rem;
+      border-style: solid; }
+      .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop label {
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-size: .75rem;
+        font-weight: 400;
+        text-decoration: none;
+        padding: .5rem; }
 
-.mainFiltro {
-  display: flex;
-  flex-direction: column;
-  margin-top: 1.5rem;
-  grid-area: mainFiltro; }
-  .mainFiltro p {
-    width: 12.5rem;
-    padding: .5rem;
-    margin-left: 1.5rem;
-    background-color: black;
-    color: ghostwhite;
-    font-family: "Roboto", sans-serif;
-    font-size: .75rem;
-    font-weight: 400;
-    text-decoration: none; }
-
-.mainFiltroop {
-  padding: .5rem;
-  margin-left: 1.5rem;
-  width: 12.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  border: black;
-  border-width: .125rem;
-  border-style: solid; }
-  .mainFiltroop label {
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: .75rem;
-    font-weight: 400;
-    text-decoration: none;
-    padding: .5rem; }
-
-.alimentosPerros {
+.mainAlimentosP .alimentosPerros {
   margin: 1rem;
   margin-right: 1.5rem;
   width: 64.9375rem;
@@ -322,18 +366,18 @@ html, body {
   grid-template-rows: repeat(12, 1fr);
   gap: .5rem; }
 
-.alimPerro1 {
+.mainAlimentosP .alimPerro1 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
-  .alimPerro1 a {
+  align-items: center; }
+  .mainAlimentosP .alimPerro1 a {
     width: 20rem;
     height: auto; }
-    .alimPerro1 a img {
+    .mainAlimentosP .alimPerro1 a img {
       width: 100%; }
-  .alimPerro1 .infoProd1 {
+  .mainAlimentosP .alimPerro1 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -341,42 +385,45 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro1 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+    .mainAlimentosP .alimPerro1 .infoProd1 p {
+      font-size: .875rem;
       font-weight: 400; }
-    .alimPerro1 .infoProd1 select {
-      border: unset; }
-  .alimPerro1 .infoProd2 {
+    .mainAlimentosP .alimPerro1 .infoProd1 select {
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
+  .mainAlimentosP .alimPerro1 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
-    .alimPerro1 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
+    align-items: center;
+    align-content: center; }
+    .mainAlimentosP .alimPerro1 .infoProd2 p {
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro1 .infoProd2 select {
-      border: unset; }
-    .alimPerro1 .infoProd2 button {
+    .mainAlimentosP .alimPerro1 .infoProd2 select {
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
+    .mainAlimentosP .alimPerro1 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro2 {
+.mainAlimentosP .alimPerro2 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro2 a {
+  .mainAlimentosP .alimPerro2 a {
     width: 20rem;
     height: auto; }
-    .alimPerro2 a img {
+    .mainAlimentosP .alimPerro2 a img {
       width: 100%; }
-  .alimPerro2 .infoProd1 {
+  .mainAlimentosP .alimPerro2 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -384,13 +431,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro2 .infoProd1 p {
+    .mainAlimentosP .alimPerro2 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro2 .infoProd1 select {
+    .mainAlimentosP .alimPerro2 .infoProd1 select {
       border: unset; }
-  .alimPerro2 .infoProd2 {
+  .mainAlimentosP .alimPerro2 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -398,28 +445,28 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro2 .infoProd2 p {
+    .mainAlimentosP .alimPerro2 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro2 .infoProd2 select {
+    .mainAlimentosP .alimPerro2 .infoProd2 select {
       border: unset; }
-    .alimPerro2 .infoProd2 button {
+    .mainAlimentosP .alimPerro2 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro3 {
+.mainAlimentosP .alimPerro3 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro3 a {
+  .mainAlimentosP .alimPerro3 a {
     width: 20rem;
     height: auto; }
-    .alimPerro3 a img {
+    .mainAlimentosP .alimPerro3 a img {
       width: 100%; }
-  .alimPerro3 .infoProd1 {
+  .mainAlimentosP .alimPerro3 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -427,13 +474,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro3 .infoProd1 p {
+    .mainAlimentosP .alimPerro3 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro3 .infoProd1 select {
+    .mainAlimentosP .alimPerro3 .infoProd1 select {
       border: unset; }
-  .alimPerro3 .infoProd2 {
+  .mainAlimentosP .alimPerro3 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -441,28 +488,28 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro3 .infoProd2 p {
+    .mainAlimentosP .alimPerro3 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro3 .infoProd2 select {
+    .mainAlimentosP .alimPerro3 .infoProd2 select {
       border: unset; }
-    .alimPerro3 .infoProd2 button {
+    .mainAlimentosP .alimPerro3 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro4 {
+.mainAlimentosP .alimPerro4 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro4 a {
+  .mainAlimentosP .alimPerro4 a {
     width: 20rem;
     height: auto; }
-    .alimPerro4 a img {
+    .mainAlimentosP .alimPerro4 a img {
       width: 100%; }
-  .alimPerro4 .infoProd1 {
+  .mainAlimentosP .alimPerro4 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -470,13 +517,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro4 .infoProd1 p {
+    .mainAlimentosP .alimPerro4 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro4 .infoProd1 select {
+    .mainAlimentosP .alimPerro4 .infoProd1 select {
       border: unset; }
-  .alimPerro4 .infoProd2 {
+  .mainAlimentosP .alimPerro4 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -484,28 +531,28 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro4 .infoProd2 p {
+    .mainAlimentosP .alimPerro4 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro4 .infoProd2 select {
+    .mainAlimentosP .alimPerro4 .infoProd2 select {
       border: unset; }
-    .alimPerro4 .infoProd2 button {
+    .mainAlimentosP .alimPerro4 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro5 {
+.mainAlimentosP .alimPerro5 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro5 a {
+  .mainAlimentosP .alimPerro5 a {
     width: 20rem;
     height: auto; }
-    .alimPerro5 a img {
+    .mainAlimentosP .alimPerro5 a img {
       width: 100%; }
-  .alimPerro5 .infoProd1 {
+  .mainAlimentosP .alimPerro5 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -513,13 +560,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro5 .infoProd1 p {
+    .mainAlimentosP .alimPerro5 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro5 .infoProd1 select {
+    .mainAlimentosP .alimPerro5 .infoProd1 select {
       border: unset; }
-  .alimPerro5 .infoProd2 {
+  .mainAlimentosP .alimPerro5 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -527,28 +574,28 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro5 .infoProd2 p {
+    .mainAlimentosP .alimPerro5 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro5 .infoProd2 select {
+    .mainAlimentosP .alimPerro5 .infoProd2 select {
       border: unset; }
-    .alimPerro5 .infoProd2 button {
+    .mainAlimentosP .alimPerro5 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro6 {
+.mainAlimentosP .alimPerro6 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro6 a {
+  .mainAlimentosP .alimPerro6 a {
     width: 20rem;
     height: auto; }
-    .alimPerro6 a img {
+    .mainAlimentosP .alimPerro6 a img {
       width: 100%; }
-  .alimPerro6 .infoProd1 {
+  .mainAlimentosP .alimPerro6 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -556,13 +603,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro6 .infoProd1 p {
+    .mainAlimentosP .alimPerro6 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro6 .infoProd1 select {
+    .mainAlimentosP .alimPerro6 .infoProd1 select {
       border: unset; }
-  .alimPerro6 .infoProd2 {
+  .mainAlimentosP .alimPerro6 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -570,28 +617,28 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro6 .infoProd2 p {
+    .mainAlimentosP .alimPerro6 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro6 .infoProd2 select {
+    .mainAlimentosP .alimPerro6 .infoProd2 select {
       border: unset; }
-    .alimPerro6 .infoProd2 button {
+    .mainAlimentosP .alimPerro6 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro7 {
+.mainAlimentosP .alimPerro7 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro7 a {
+  .mainAlimentosP .alimPerro7 a {
     width: 20rem;
     height: auto; }
-    .alimPerro7 a img {
+    .mainAlimentosP .alimPerro7 a img {
       width: 100%; }
-  .alimPerro7 .infoProd1 {
+  .mainAlimentosP .alimPerro7 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -599,13 +646,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro7 .infoProd1 p {
+    .mainAlimentosP .alimPerro7 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro7 .infoProd1 select {
+    .mainAlimentosP .alimPerro7 .infoProd1 select {
       border: unset; }
-  .alimPerro7 .infoProd2 {
+  .mainAlimentosP .alimPerro7 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -613,28 +660,28 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro7 .infoProd2 p {
+    .mainAlimentosP .alimPerro7 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro7 .infoProd2 select {
+    .mainAlimentosP .alimPerro7 .infoProd2 select {
       border: unset; }
-    .alimPerro7 .infoProd2 button {
+    .mainAlimentosP .alimPerro7 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro8 {
+.mainAlimentosP .alimPerro8 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro8 a {
+  .mainAlimentosP .alimPerro8 a {
     width: 20rem;
     height: auto; }
-    .alimPerro8 a img {
+    .mainAlimentosP .alimPerro8 a img {
       width: 100%; }
-  .alimPerro8 .infoProd1 {
+  .mainAlimentosP .alimPerro8 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -642,13 +689,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro8 .infoProd1 p {
+    .mainAlimentosP .alimPerro8 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro8 .infoProd1 select {
+    .mainAlimentosP .alimPerro8 .infoProd1 select {
       border: unset; }
-  .alimPerro8 .infoProd2 {
+  .mainAlimentosP .alimPerro8 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -656,28 +703,28 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro8 .infoProd2 p {
+    .mainAlimentosP .alimPerro8 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro8 .infoProd2 select {
+    .mainAlimentosP .alimPerro8 .infoProd2 select {
       border: unset; }
-    .alimPerro8 .infoProd2 button {
+    .mainAlimentosP .alimPerro8 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro9 {
+.mainAlimentosP .alimPerro9 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro9 a {
+  .mainAlimentosP .alimPerro9 a {
     width: 20rem;
     height: auto; }
-    .alimPerro9 a img {
+    .mainAlimentosP .alimPerro9 a img {
       width: 100%; }
-  .alimPerro9 .infoProd1 {
+  .mainAlimentosP .alimPerro9 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -685,13 +732,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro9 .infoProd1 p {
+    .mainAlimentosP .alimPerro9 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro9 .infoProd1 select {
+    .mainAlimentosP .alimPerro9 .infoProd1 select {
       border: unset; }
-  .alimPerro9 .infoProd2 {
+  .mainAlimentosP .alimPerro9 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -699,28 +746,28 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro9 .infoProd2 p {
+    .mainAlimentosP .alimPerro9 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro9 .infoProd2 select {
+    .mainAlimentosP .alimPerro9 .infoProd2 select {
       border: unset; }
-    .alimPerro9 .infoProd2 button {
+    .mainAlimentosP .alimPerro9 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro10 {
+.mainAlimentosP .alimPerro10 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro10 a {
+  .mainAlimentosP .alimPerro10 a {
     width: 20rem;
     height: auto; }
-    .alimPerro10 a img {
+    .mainAlimentosP .alimPerro10 a img {
       width: 100%; }
-  .alimPerro10 .infoProd1 {
+  .mainAlimentosP .alimPerro10 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -728,13 +775,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro10 .infoProd1 p {
+    .mainAlimentosP .alimPerro10 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro10 .infoProd1 select {
+    .mainAlimentosP .alimPerro10 .infoProd1 select {
       border: unset; }
-  .alimPerro10 .infoProd2 {
+  .mainAlimentosP .alimPerro10 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -742,28 +789,28 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro10 .infoProd2 p {
+    .mainAlimentosP .alimPerro10 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro10 .infoProd2 select {
+    .mainAlimentosP .alimPerro10 .infoProd2 select {
       border: unset; }
-    .alimPerro10 .infoProd2 button {
+    .mainAlimentosP .alimPerro10 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro11 {
+.mainAlimentosP .alimPerro11 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro11 a {
+  .mainAlimentosP .alimPerro11 a {
     width: 20rem;
     height: auto; }
-    .alimPerro11 a img {
+    .mainAlimentosP .alimPerro11 a img {
       width: 100%; }
-  .alimPerro11 .infoProd1 {
+  .mainAlimentosP .alimPerro11 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -771,13 +818,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro11 .infoProd1 p {
+    .mainAlimentosP .alimPerro11 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro11 .infoProd1 select {
+    .mainAlimentosP .alimPerro11 .infoProd1 select {
       border: unset; }
-  .alimPerro11 .infoProd2 {
+  .mainAlimentosP .alimPerro11 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -785,28 +832,28 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro11 .infoProd2 p {
+    .mainAlimentosP .alimPerro11 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro11 .infoProd2 select {
+    .mainAlimentosP .alimPerro11 .infoProd2 select {
       border: unset; }
-    .alimPerro11 .infoProd2 button {
+    .mainAlimentosP .alimPerro11 .infoProd2 button {
       background-color: white;
       border: none; }
 
-.alimPerro12 {
+.mainAlimentosP .alimPerro12 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif; }
-  .alimPerro12 a {
+  .mainAlimentosP .alimPerro12 a {
     width: 20rem;
     height: auto; }
-    .alimPerro12 a img {
+    .mainAlimentosP .alimPerro12 a img {
       width: 100%; }
-  .alimPerro12 .infoProd1 {
+  .mainAlimentosP .alimPerro12 .infoProd1 {
     margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -814,13 +861,13 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro12 .infoProd1 p {
+    .mainAlimentosP .alimPerro12 .infoProd1 p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem;
       font-weight: 400; }
-    .alimPerro12 .infoProd1 select {
+    .mainAlimentosP .alimPerro12 .infoProd1 select {
       border: unset; }
-  .alimPerro12 .infoProd2 {
+  .mainAlimentosP .alimPerro12 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
     height: 2.5625rem;
@@ -828,15 +875,173 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .alimPerro12 .infoProd2 p {
+    .mainAlimentosP .alimPerro12 .infoProd2 p {
       font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
-    .alimPerro12 .infoProd2 select {
+    .mainAlimentosP .alimPerro12 .infoProd2 select {
       border: unset; }
-    .alimPerro12 .infoProd2 button {
+    .mainAlimentosP .alimPerro12 .infoProd2 button {
       background-color: white;
       border: none; }
+
+.mainVet {
+  width: 100%;
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "breadcrum breadcrum breadcrum" "tituloPagina tituloPagina tituloPagina" "afiliate afiliate afiliate" "beneficios1 bonificaciones urgencias" "planes planes planes" "agendaConsulta agendaConsulta agendaConsulta";
+  gap: 1.25rem; }
+
+.breadcrum {
+  height: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: .25rem;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-area: breadcrum;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: .75rem;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.breadcrum p {
+  margin-left: .5rem; }
+
+.breadcrum a {
+  margin-left: .5rem; }
+
+.breadcrum img {
+  margin-left: .5rem;
+  height: 1rem;
+  width: 1rem; }
+
+.tituloPagina {
+  grid-area: tituloPagina; }
+
+.afiliate {
+  background-color: #D62F38;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: ghostwhite;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  grid-area: afiliate; }
+
+.beneficios1 {
+  margin-left: 1.5rem;
+  grid-area: beneficios1; }
+
+.bonificaciones {
+  grid-area: bonificaciones; }
+
+.urgencias {
+  margin-right: 1.5rem;
+  grid-area: urgencias; }
+
+.planes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  grid-area: planes; }
+
+.agendaConsulta {
+  background-color: #D62F38;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: ghostwhite;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  grid-area: agendaConsulta; }
+
+.mainVet h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: .875rem;
+  font-weight: 400;
+  color: ghostwhite;
+  background-color: black;
+  padding: .5rem;
+  text-align: center; }
+
+.beneficios1 p {
+  margin-top: .5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: .75rem;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  line-height: 1.25rem;
+  padding: 1rem; }
+
+.bonificaciones li {
+  margin-top: .5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: .75rem;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  list-style: none; }
+
+.urgencias p {
+  margin-top: .5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: .75rem;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  line-height: 1.25rem;
+  padding: 1rem; }
+
+.planes p {
+  font-family: "Roboto", sans-serif;
+  font-size: .75rem;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  line-height: 1.25rem;
+  padding: 1rem; }
+
+.planes {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: column; }
+
+.afiliaciones {
+  margin-top: .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.categoriasPlan {
+  display: flex;
+  flex-direction: row;
+  align-self: center; }
+
+.mensual {
+  width: 25rem;
+  margin: .5rem;
+  display: flex;
+  flex-direction: column; }
+
+.anual {
+  width: 25rem;
+  margin: .5rem;
+  display: flex;
+  flex-direction: column; }
 
 .carouselExample {
   width: 100%; }
@@ -977,26 +1182,27 @@ footer {
   height: 1.5rem;
   display: flex;
   flex-direction: row;
+  align-content: center;
   align-items: center;
   justify-content: start; }
   .breadcrum a {
     color: black;
-    font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 400;
     text-decoration: none;
-    padding-left: .5rem; }
+    padding-left: .5rem;
+    align-self: center; }
   .breadcrum img {
     margin-left: .5rem;
     height: 1rem;
     width: 1rem; }
   .breadcrum p {
     color: black;
-    font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 400;
     text-decoration: none;
-    padding-left: .5rem; }
+    padding-left: .5rem;
+    align-self: baseline; }
 
 @media (min-width: 1440px) {
   /*HEADER*/
@@ -1033,6 +1239,9 @@ footer {
           header header nav .navR .navR a .navR a img {
             width: 100%;
             height: auto; }
+  main {
+    width: 100%;
+    height: auto; }
   /*FOOTER*/
   footer {
     height: 14.125rem;
@@ -1180,6 +1389,16 @@ footer {
         display: none; }
   .menuNav {
     display: none; }
+  .mainIndex {
+    width: 100%; }
+    .mainIndex h1 {
+      font-size: 1rem;
+      font-weight: 500;
+      text-align: start;
+      color: black;
+      background-color: white; }
+  .tituloBanner {
+    font-size: 1.5rem; }
   /*FOOTER*/
   footer {
     width: 100vw;
@@ -1199,7 +1418,6 @@ footer {
     display: none; }
   /*MAIN INDEX*/
   main h1 {
-    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     color: black;
@@ -1211,7 +1429,7 @@ footer {
     text-align: left; }
   .tituloBanner {
     font-family: "Roboto", sans-serif;
-    font-size: .875rem; }
+    font-size: .625rem; }
   .subTituloBanner {
     font-family: "Roboto", sans-serif;
     font-size: .375rem; }
@@ -1226,14 +1444,21 @@ footer {
     justify-content: space-around; }
   .productos {
     display: flex;
-    height: 8rem;
+    height: 128px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     overflow: hidden; }
-  .item {
-    overflow: hidden;
-    margin: .5rem; }
+    .productos div {
+      width: 6.875rem;
+      height: 6.875rem;
+      position: relative;
+      scroll-snap-align: center;
+      overflow: hidden;
+      margin: .5rem; }
+      .productos div .item {
+        width: 100%;
+        height: auto; }
   /*MAIN VETERINARIA*/
   .mainVet {
     width: 100wv;
@@ -1241,8 +1466,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);
-    grid-template-areas: "breadcrumVeterinaria" "tituloPagina" "afiliate" "beneficios1" "bonificaciones" "urgencias" "planes" "agendaConsulta"; }
-  .breadcrumVeterinaria {
+    grid-template-areas: "breadcrum" "tituloPagina" "afiliate" "beneficios1" "bonificaciones" "urgencias" "planes" "agendaConsulta"; }
+  .breadcrum {
     height: 1rem;
     width: 100vw;
     margin-left: 1.5rem;
@@ -1252,7 +1477,7 @@ footer {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    grid-area: breadcrumVeterinaria;
+    grid-area: breadcrum;
     color: black;
     font-family: "Roboto", sans-serif;
     font-size: .75rem;
@@ -1354,8 +1579,17 @@ footer {
           height: auto; }
   .buscador {
     display: none; }
-  .menuNav {
+  header div {
     display: none; }
+  .mainIndex h1 {
+    height: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: start;
+    color: black;
+    background-color: none; }
+  .mainIndex .tituloBanner {
+    font-size: 1.5rem; }
   /*FOOTER*/
   footer {
     width: 100vw;
@@ -1374,12 +1608,10 @@ footer {
     display: none; }
   /*MAIN INDEX*/
   main h1 {
-    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     color: black;
     background-color: white;
-    justify-content: start;
     padding-top: 0;
     padding-bottom: 0;
     margin-left: .5rem;

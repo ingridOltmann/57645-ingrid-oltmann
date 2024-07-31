@@ -28,9 +28,23 @@
     .buscador{
         display: none;
     }
-    .menuNav{
+    header div{
         display: none;
     }
+
+.mainIndex{
+    h1{
+        height: auto;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: start;
+        color: black;
+        background-color: none;
+    }
+    .tituloBanner{
+        font-size: 1.5rem;
+    }
+}
     /*FOOTER*/
     footer{
         width: 100vw;
@@ -54,12 +68,10 @@
 
     /*MAIN INDEX*/
     main h1{
-        font-family: "Roboto", sans-serif;
         font-size: 1rem;
         font-weight: 500;
         color: black;
         background-color: white;
-        justify-content: start;
         padding-top: 0;
         padding-bottom: 0;
         margin-left: .5rem;
