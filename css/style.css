@@ -335,27 +335,24 @@ html, body {
       margin-left: 1.5rem;
       background-color: black;
       color: ghostwhite;
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400;
       text-decoration: none; }
     .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop {
-      padding: 0s;
+      padding-left: .5rem;
       margin-left: 1.5rem;
       width: 12.5rem;
       display: flex;
       flex-direction: column;
-      align-items: start;
       border: black;
       border-width: .125rem;
       border-style: solid; }
-      .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop label {
+      .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop div label {
         color: black;
-        font-family: "Roboto", sans-serif;
         font-size: .75rem;
         font-weight: 400;
         text-decoration: none;
-        padding: .5rem; }
+        padding: 0; }
 
 .mainAlimentosP .alimentosPerros {
   margin: 1rem;
@@ -417,7 +414,7 @@ html, body {
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro2 a {
     width: 20rem;
     height: auto; }
@@ -432,11 +429,12 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro2 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro2 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro2 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
@@ -444,13 +442,15 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro2 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro2 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro2 .infoProd2 button {
       background-color: white;
       border: none; }
@@ -460,7 +460,7 @@ html, body {
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro3 a {
     width: 20rem;
     height: auto; }
@@ -475,11 +475,12 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro3 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro3 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro3 .infoProd2 {
     margin-inline: .5rem;
     width: 20rem;
@@ -487,13 +488,15 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro3 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro3 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro3 .infoProd2 button {
       background-color: white;
       border: none; }
@@ -503,7 +506,7 @@ html, body {
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro4 a {
     width: 20rem;
     height: auto; }
@@ -518,35 +521,47 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro4 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro4 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro4 .infoProd2 {
-    margin-inline: .5rem;
+    margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro4 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
-      font-weight: 400; }
+      font-weight: 400;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro4 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro4 .infoProd2 button {
       background-color: white;
-      border: none; }
+      align-self: baseline;
+      border: none;
+      width: 1.5rem;
+      height: 1.5rem; }
+      .mainAlimentosP .alimPerro4 .infoProd2 button img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        align-content: center; }
 
 .mainAlimentosP .alimPerro5 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro5 a {
     width: 20rem;
     height: auto; }
@@ -561,35 +576,47 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro5 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro5 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro5 .infoProd2 {
-    margin-inline: .5rem;
+    margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro5 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
-      font-weight: 400; }
+      font-weight: 400;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro5 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro5 .infoProd2 button {
       background-color: white;
-      border: none; }
+      align-self: baseline;
+      border: none;
+      width: 1.5rem;
+      height: 1.5rem; }
+      .mainAlimentosP .alimPerro5 .infoProd2 button img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        align-content: center; }
 
 .mainAlimentosP .alimPerro6 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro6 a {
     width: 20rem;
     height: auto; }
@@ -604,35 +631,47 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro6 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro6 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro6 .infoProd2 {
-    margin-inline: .5rem;
+    margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro6 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
-      font-weight: 400; }
+      font-weight: 400;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro6 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro6 .infoProd2 button {
       background-color: white;
-      border: none; }
+      align-self: baseline;
+      border: none;
+      width: 1.5rem;
+      height: 1.5rem; }
+      .mainAlimentosP .alimPerro6 .infoProd2 button img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        align-content: center; }
 
 .mainAlimentosP .alimPerro7 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro7 a {
     width: 20rem;
     height: auto; }
@@ -647,35 +686,47 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro7 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro7 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro7 .infoProd2 {
-    margin-inline: .5rem;
+    margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro7 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
-      font-weight: 400; }
+      font-weight: 400;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro7 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro7 .infoProd2 button {
       background-color: white;
-      border: none; }
+      align-self: baseline;
+      border: none;
+      width: 1.5rem;
+      height: 1.5rem; }
+      .mainAlimentosP .alimPerro7 .infoProd2 button img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        align-content: center; }
 
 .mainAlimentosP .alimPerro8 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro8 a {
     width: 20rem;
     height: auto; }
@@ -690,35 +741,47 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro8 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro8 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro8 .infoProd2 {
-    margin-inline: .5rem;
+    margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro8 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
-      font-weight: 400; }
+      font-weight: 400;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro8 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro8 .infoProd2 button {
       background-color: white;
-      border: none; }
+      align-self: baseline;
+      border: none;
+      width: 1.5rem;
+      height: 1.5rem; }
+      .mainAlimentosP .alimPerro8 .infoProd2 button img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        align-content: center; }
 
 .mainAlimentosP .alimPerro9 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro9 a {
     width: 20rem;
     height: auto; }
@@ -733,35 +796,47 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro9 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro9 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro9 .infoProd2 {
-    margin-inline: .5rem;
+    margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro9 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
-      font-weight: 400; }
+      font-weight: 400;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro9 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro9 .infoProd2 button {
       background-color: white;
-      border: none; }
+      align-self: baseline;
+      border: none;
+      width: 1.5rem;
+      height: 1.5rem; }
+      .mainAlimentosP .alimPerro9 .infoProd2 button img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        align-content: center; }
 
 .mainAlimentosP .alimPerro10 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro10 a {
     width: 20rem;
     height: auto; }
@@ -776,35 +851,47 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro10 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro10 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro10 .infoProd2 {
-    margin-inline: .5rem;
+    margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro10 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
-      font-weight: 400; }
+      font-weight: 400;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro10 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro10 .infoProd2 button {
       background-color: white;
-      border: none; }
+      align-self: baseline;
+      border: none;
+      width: 1.5rem;
+      height: 1.5rem; }
+      .mainAlimentosP .alimPerro10 .infoProd2 button img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        align-content: center; }
 
 .mainAlimentosP .alimPerro11 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro11 a {
     width: 20rem;
     height: auto; }
@@ -819,35 +906,47 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro11 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro11 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro11 .infoProd2 {
-    margin-inline: .5rem;
+    margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro11 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
-      font-weight: 400; }
+      font-weight: 400;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro11 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro11 .infoProd2 button {
       background-color: white;
-      border: none; }
+      align-self: baseline;
+      border: none;
+      width: 1.5rem;
+      height: 1.5rem; }
+      .mainAlimentosP .alimPerro11 .infoProd2 button img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        align-content: center; }
 
 .mainAlimentosP .alimPerro12 {
   width: 20.8125rem;
   height: 26.625rem;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif; }
+  align-items: center; }
   .mainAlimentosP .alimPerro12 a {
     width: 20rem;
     height: auto; }
@@ -862,28 +961,40 @@ html, body {
     justify-content: space-around;
     align-items: center; }
     .mainAlimentosP .alimPerro12 .infoProd1 p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem;
+      font-size: .875rem;
       font-weight: 400; }
     .mainAlimentosP .alimPerro12 .infoProd1 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
   .mainAlimentosP .alimPerro12 .infoProd2 {
-    margin-inline: .5rem;
+    margin: .5rem;
     width: 20rem;
     height: 2.5625rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
     .mainAlimentosP .alimPerro12 .infoProd2 p {
-      font-family: "Roboto", sans-serif;
       font-size: .75rem;
-      font-weight: 400; }
+      font-weight: 400;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro12 .infoProd2 select {
-      border: unset; }
+      border: unset;
+      font-size: .75rem;
+      align-self: baseline; }
     .mainAlimentosP .alimPerro12 .infoProd2 button {
       background-color: white;
-      border: none; }
+      align-self: baseline;
+      border: none;
+      width: 1.5rem;
+      height: 1.5rem; }
+      .mainAlimentosP .alimPerro12 .infoProd2 button img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        align-content: center; }
 
 .mainVet {
   width: 100%;

@@ -24,32 +24,31 @@
             margin-left: 1.5rem;
             background-color: black;
             color: ghostwhite;
-            font-family: "Roboto", sans-serif;
             font-size: .75rem;
             font-weight: 400;
             text-decoration: none;    
         }
         .mainFiltroop{
-            padding: 0s;
+            padding-left: .5rem;
             margin-left: 1.5rem;
             width: 12.5rem;
             display: flex;
             flex-direction: column;
-            align-items: start;
             border: black;
             border-width: .125rem;
             border-style: solid;
-            label{
-                color: black;
-                font-family: "Roboto", sans-serif;
-                font-size: .75rem;
-                font-weight: 400;
-                text-decoration: none;
-                padding: .5rem;
+            div{
+                label{
+                    color: black;
+                    font-size: .75rem;
+                    font-weight: 400;
+                    text-decoration: none;
+                    padding: 0;
+                } 
             }    
         }
     }
-    }
+}
 
 
 
@@ -126,7 +125,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -143,12 +142,13 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
@@ -158,14 +158,16 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
@@ -179,7 +181,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -196,12 +198,13 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
@@ -211,14 +214,16 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
@@ -232,7 +237,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -249,33 +254,46 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
-            margin-inline: .5rem;
+            margin: .5rem;
             width: 20rem;
             height: 2.5625rem;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
+                align-self: baseline;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
+                align-self: baseline;
                 border: none;
+                width: 1.5rem;
+                height: 1.5rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    align-content: center;
+                }
             }
         }    
     }
@@ -285,7 +303,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -302,33 +320,46 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
-            margin-inline: .5rem;
+            margin: .5rem;
             width: 20rem;
             height: 2.5625rem;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
+                align-self: baseline;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
+                align-self: baseline;
                 border: none;
+                width: 1.5rem;
+                height: 1.5rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    align-content: center;
+                }
             }
         }    
     }
@@ -338,7 +369,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -355,33 +386,46 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
-            margin-inline: .5rem;
+            margin: .5rem;
             width: 20rem;
             height: 2.5625rem;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
+                align-self: baseline;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
+                align-self: baseline;
                 border: none;
+                width: 1.5rem;
+                height: 1.5rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    align-content: center;
+                }
             }
         }    
     }
@@ -391,7 +435,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -408,33 +452,46 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
-            margin-inline: .5rem;
+            margin: .5rem;
             width: 20rem;
             height: 2.5625rem;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
+                align-self: baseline;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
+                align-self: baseline;
                 border: none;
+                width: 1.5rem;
+                height: 1.5rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    align-content: center;
+                }
             }
         }    
     }
@@ -444,7 +501,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -461,33 +518,46 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
-            margin-inline: .5rem;
+            margin: .5rem;
             width: 20rem;
             height: 2.5625rem;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
+                align-self: baseline;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
+                align-self: baseline;
                 border: none;
+                width: 1.5rem;
+                height: 1.5rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    align-content: center;
+                }
             }
         }    
     }
@@ -497,7 +567,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -514,33 +584,46 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
-            margin-inline: .5rem;
+            margin: .5rem;
             width: 20rem;
             height: 2.5625rem;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
+                align-self: baseline;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
+                align-self: baseline;
                 border: none;
+                width: 1.5rem;
+                height: 1.5rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    align-content: center;
+                }
             }
         }    
     }
@@ -550,7 +633,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -567,33 +650,46 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
-            margin-inline: .5rem;
+            margin: .5rem;
             width: 20rem;
             height: 2.5625rem;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
+                align-self: baseline;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
+                align-self: baseline;
                 border: none;
+                width: 1.5rem;
+                height: 1.5rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    align-content: center;
+                }
             }
         }    
     }
@@ -603,7 +699,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -620,33 +716,46 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
-            margin-inline: .5rem;
+            margin: .5rem;
             width: 20rem;
             height: 2.5625rem;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
+                align-self: baseline;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
+                align-self: baseline;
                 border: none;
+                width: 1.5rem;
+                height: 1.5rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    align-content: center;
+                }
             }
         }    
     }
@@ -656,7 +765,7 @@
         height: 26.625rem;
         display: flex;
         flex-direction: column;
-        font-family: "Roboto", sans-serif;
+        align-items: center;
         a{
             width: 20rem;
             height: auto;
@@ -673,34 +782,47 @@
             justify-content: space-around;
             align-items: center;            
             p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
+                font-size: .875rem;
                 font-weight: 400;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
         }
         .infoProd2{
-            margin-inline: .5rem;
+            margin: .5rem;
             width: 20rem;
             height: 2.5625rem;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: center;        
+            align-items: center;
+            align-content: center;
             p{
-                font-family: "Roboto", sans-serif;
                 font-size: .75rem;
                 font-weight: 400;
+                align-self: baseline;
             }
             select{
                 border: unset;
+                font-size: .75rem;
+                align-self: baseline;
             }
             button{
                 background-color: white;
+                align-self: baseline;
                 border: none;
+                width: 1.5rem;
+                height: 1.5rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    align-content: center;
+                }
             }
         }    
     }
-}
+}   
