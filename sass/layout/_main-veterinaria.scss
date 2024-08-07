@@ -45,7 +45,7 @@
                 p{
                     margin-top: .5rem;
                     font-size: .75rem;
-                    font-weight: 300;
+                    font-weight: 400;
                     color: black;
                     text-align: center;
                     line-height: 1.25rem;
@@ -68,7 +68,7 @@
             p{
                 margin-top: .5rem;
                 font-size: .75rem;
-                font-weight: 300;
+                font-weight: 400;
                 color: black;
                 text-align: center;
                 line-height: 1.25rem;
@@ -80,7 +80,7 @@
             justify-content: center;
             margin-top: .5rem;
             font-size: .75rem;
-            font-weight: 300;
+            font-weight: 400;
             color: black;
             text-align: center;
             line-height: 1rem;
@@ -132,6 +132,8 @@
                     flex-direction: row;
                     justify-content: center;
                     justify-content: space-between;
+                    font-size: .75rem;
+                    font-weight: 400;
                 }
             }
             .anual{
@@ -159,6 +161,10 @@
                     flex-direction: row;
                     justify-content: center;
                     justify-content: space-between;
+                    p{
+                        font-size: .75rem;
+                        font-weight: 400;
+                    }
                 }
             }
             

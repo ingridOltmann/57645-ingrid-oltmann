@@ -3,6 +3,7 @@
     width: 100vw;
     section h1{
         width: 100%;
+        height: auto;
         font-size: 1.25rem;
         font-weight: 400;
         text-align: center;
@@ -11,139 +12,143 @@
         background-color: black;
         padding: .5rem;
     } 
-    section #carouselExample{
+    .banner{
         width: 100%;
-        height: auto;
-        margin-bottom: 2rem;
-        .carousel-inner{
-            width: 100vw;
+        min-height: 21.875rem;
+        #carouselExample{
+            width: 100%;
             height: auto;
-            .publi1{
+            margin-bottom: 2rem;
+            .carousel-inner{
                 width: 100vw;
-                height: 25rem;
-                display: flex;
-                flex-direction: row;
-                padding-left: 1.5rem;
-                padding-right: 1.5rem;
-                align-items: center;
-                justify-items: center;
-                justify-content: space-around;
-                background-color: #efefef;
-                .infoP{
-                    width: 15.625rem;
-                    height: auto;
-                    .tituloBanner{
-                        font-size: 1.5rem;
-                        font-weight: 300;                    
+                height: 21.875rem;
+                .publi1{
+                    width: 100vw;
+                    height: 21.875rem;
+                    display: flex;
+                    flex-direction: row;
+                    padding-left: 1.5rem;
+                    padding-right: 1.5rem;
+                    align-items: center;
+                    justify-items: center;
+                    justify-content: space-around;
+                    background-color: #efefef;
+                    .infoP{
+                        width: 15.625rem;
+                        height: auto;
+                        .tituloBanner{
+                            font-size: 1.5rem;
+                            font-weight: 300;                    
+                        }
+                        .logoTow{
+                            width: 26.75rem;
+                            height: auto;
+                            img{
+                                width: 50%;
+                                height: auto;
+                            }
+                        }
+                        .subtBanner{
+                            font-size: .75rem;
+                            font-weight: 300;
+                        }
                     }
-                    .logoTow{
-                        width: 26.75rem;
+                    .bolsasTow{
+                        width: 15.625rem;
                         height: auto;
                         img{
-                            width: 50%;
+                            width: 100%;
                             height: auto;
                         }
                     }
-                    .subtBanner{
-                        font-size: .75rem;
-                        font-weight: 300;
-                    }
                 }
-                .bolsasTow{
-                    width: 15.625rem;
-                    height: auto;
-                    img{
+            }
+            div{
+                width: 100vw;
+                height: auto;
+                .publi2{
+                    width: 100vw;
+                    height: 25rem;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 2rem;
+                    .tituloPubli2{
+                        font-size: 1.5rem;
+                        font-weight: 300;
+                        text-align: start;
+                    }
+                    .ferProd{
                         width: 100%;
                         height: auto;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+                        img{
+                            width: 30%;
+                            height: auto;
+                            margin-left: 1rem;
+                            margin-right: 1rem;
+                        }
+                    }
+                    .logoFer{
+                        width: 100%;
+                        justify-content: end;
+                        img{
+                            width: 25%;
+                            height: auto;
+                            justify-self: end;
+                        }
                     }
                 }
             }
-        }
-        div{
-            width: 100vw;
-            height: auto;
-            .publi2{
+            div{
                 width: 100vw;
-                height: 25rem;
-                display: flex;
-                flex-direction: column;
-                padding: 2rem;
-                .tituloPubli2{
-                    font-size: 1.5rem;
-                    font-weight: 300;
-                    text-align: start;
-                }
-                .ferProd{
-                    width: 100%;
-                    height: auto;
+                height: auto;
+                .publi3{
+                    width: 100vw;
+                    height: 25rem;
+                    padding: 2rem;
                     display: flex;
                     flex-direction: row;
                     justify-content: space-around;
                     align-items: center;
-                    img{
-                        width: 30%;
-                        height: auto;
-                        margin-left: 1rem;
-                        margin-right: 1rem;
-                    }
-                }
-                .logoFer{
-                    width: 100%;
-                    justify-content: end;
-                    img{
-                        width: 25%;
-                        height: auto;
-                        justify-self: end;
-                    }
-                }
-            }
-        }
-        div{
-            width: 100vw;
-            height: auto;
-            .publi3{
-                width: 100vw;
-                height: 25rem;
-                padding: 2rem;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: center;
-                background-color: #efefef;
-                .personaje{
-                    width: 18.75rem;
-                    height: auto;
-                    img{
-                        width: 100%;
-                        height: auto;
-                        align-self: baseline;
-                    }
-                }
-                .infoP3{
-                    width: 50%;
-                    height: auto;
-                    .tituloPubli3{
-                        font-size: 1.5rem;
-                        font-weight: 400;
-                        text-align: center;
-                    }
-                    .logoNobivac{
-                        width: 26.75rem;
+                    background-color: #efefef;
+                    .personaje{
+                        width: 18.75rem;
                         height: auto;
                         img{
-                            width: 50%;
+                            width: 100%;
                             height: auto;
+                            align-self: baseline;
                         }
                     }
-                    .subtPubli3{
-                        font-size: .75rem;
-                        font-weight: 300;
-                        text-align: center;
+                    .infoP3{
+                        width: 50%;
+                        height: auto;
+                        .tituloPubli3{
+                            font-size: 1.5rem;
+                            font-weight: 400;
+                            text-align: center;
+                        }
+                        .logoNobivac{
+                            width: 26.75rem;
+                            height: auto;
+                            img{
+                                width: 50%;
+                                height: auto;
+                            }
+                        }
+                        .subtPubli3{
+                            font-size: .75rem;
+                            font-weight: 300;
+                            text-align: center;
+                        }
                     }
                 }
-            }
-        }        
-    }
+            }        
+        }
+    } 
     .recomendados{
         width: 100%;
         height: auto;

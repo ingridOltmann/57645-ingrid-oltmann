@@ -3,7 +3,7 @@
 header{
     width: 100vw;
     header nav{
-        width: 100vw;
+        width: 100;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -44,33 +44,5 @@ header{
 }
 
     /*FOOTER*/
-    footer{
-        height: 14.125rem;
-        padding: 1.5rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .isotipo{
-        margin: .5rem;
-        width: 25%;
-    }
-    /*MAIN INDEX*/
-    .mainIndex{
-        width: 100vw;
-        height: auto;
-        h1{
-            color: ghostwhite;
-            background-color: black;
-        }
-        .productos{
-            display: flex;
-            height: 8rem;
-            overflow-x: scroll;
-            overscroll-behavior-x: contain;
-            scroll-snap-type: x proximity;   
-            overflow: hidden;  
-        }
-    }
-    
+
 }

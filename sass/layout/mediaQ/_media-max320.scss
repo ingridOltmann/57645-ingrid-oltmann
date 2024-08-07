@@ -31,7 +31,7 @@
     header div{
         display: none;
     }
-}
+
 .mainIndex{
     h1{
         height: auto;
@@ -83,10 +83,10 @@
         height: 9.375rem;
         padding: 1rem;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
-        a{
-            width: 3rem;
+        div a{
+            width: 2.25rem;
             height: auto;
             .isotipo{
                 width: 100%;
@@ -95,10 +95,7 @@
         }
         section{
             display: flex;
-            flex-direction: row;
-            article{
-                display: none;
-            }
+            flex-direction: column;
         }
     }
     
@@ -124,19 +121,6 @@
 
     /*MAIN ENVIOS*/
 
-    .coordiEnvios{
-        width: 100%;
-        margin: 1rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3,1fr);
-        justify-content: center;
-        column-gap: 1.5rem;
-    }
-    .coordiEnvios img{
-        width: 80%;
-        height: auto;
-    }
 
     /*MAINVETERINARIA*/
     .mainVet{
@@ -146,25 +130,164 @@
             font-size: 1rem;
             font-weight: 400;
             text-align: start;
+            background-color: white;
             color: black;
-            background-color: none;
+            padding-left: 1.5rem;
         } 
         .afiliate{
                 background-color: #D62F38;
-                font-size: 1rem;
+                font-size: .75rem;
                 font-weight: 400;
                 color: ghostwhite;
-                padding-top: .5rem;
-                padding-bottom: .5rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
                 text-align: center;
             }
-    
         .beneficios{
             width: 100vw;
             display: grid;
             grid-template-columns: 1fr;
             justify-content: center;
             justify-content: space-between;
-            gap: 1rem;    
+            gap: .5rem;
+            .beneficios1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                div{
+                    margin-left: 1rem;
+                    margin-right: 1rem;    
+                    h2{
+                        width: 100%;
+                        font-size: .75rem;
+                        font-weight: 400;
+                        color: ghostwhite;
+                        background-color: black;
+                        padding: .5rem;
+                        text-align: center;
+                    }
+                    p{
+                        margin-top: .5rem;
+                        font-size: .5625rem;
+                        font-weight: 400;
+                        color: black;
+                        text-align: center;
+                        line-height: .75rem;
+                    }
+                }
+            }
+            div{
+                margin-left: 1rem;
+                margin-right: 1rem;    
+                h2{
+                    width: 100%;
+                    font-size: .75rem;
+                    font-weight: 400;
+                    color: ghostwhite;
+                    background-color: black;
+                    padding: .5rem;
+                    text-align: center;
+                }
+                p{
+                    margin-top: .5rem;
+                    font-size: .5625rem;
+                    font-weight: 400;
+                    color: black;
+                    text-align: center;
+                    line-height: 1rem;
+                }
+            }
+            div ul li{
+                list-style: none;
+                justify-content: center;
+                margin-top: .5rem;
+                font-size: .5625rem;
+                font-weight: 400;
+                color: black;
+                text-align: center;
+                line-height: .75rem;
+            }
+        }
+        .planes{ 
+            margin-left: 1rem;
+            margin-right: 1rem;    
+            h2{
+                width: 100%;
+                font-size: .75rem;
+                font-weight: 400;
+                color: ghostwhite;
+                background-color: black;
+                padding: .5rem;
+                text-align: center;
+            }
+            .afiliaciones{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 1rem;
+                .mensual{
+                    width: 80%;
+                    justify-content: space-around;
+                    h3{
+                        font-size: .75rem;
+                        font-weight: 400
+                        ;
+                    }
+                    p{
+                        font-size: .5625rem;
+                        font-weight: 400;
+                    }
+                }
+                .anual{
+                    width: 80%;
+                    justify-content: space-around;
+                    h3{
+                        font-size: .75rem;
+                        font-weight: 400;
+                    }
+                    p{
+                        font-size: .5625rem;
+                        font-weight: 400;
+                    }
+                }
+            }        
+        }
+        .agendaConsulta{
+            font-size: .75rem;
+            font-weight: 400;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }    
+    }
+
+    /*MAIN ENVIOS*/
+    .mainEnvios{
+        .tituloPagina{
+            h1{
+                width: 100vw;
+                height: auto;
+                font-size: 1rem;
+                font-weight: 400;
+                text-align: start;
+                background-color: white;
+                color: black;
+                padding-left: 1.5rem;
+            }
+        }  
+        .coordiEnvios{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+            img{
+                width: 80%;
+                height: auto;
+                margin: 1rem;
+            }
         }
     }
+    
+}

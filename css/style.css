@@ -4,6 +4,20 @@
   padding: 0;
   box-sizing: border-box; }
 
+html, body {
+  height: 100%; }
+
+body {
+  margin: 0;
+  width: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+footer {
+  justify-self: end;
+  bottom: 0; }
+
 .iconos {
   width: 1.5rem;
   height: 1.5rem;
@@ -12,12 +26,16 @@
 
 body {
   margin: 0;
-  min-height: 100vh; }
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
 
 .mainIndex {
   width: 100vw; }
   .mainIndex section h1 {
     width: 100%;
+    height: auto;
     font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
@@ -25,113 +43,116 @@ body {
     color: ghostwhite;
     background-color: black;
     padding: .5rem; }
-  .mainIndex section #carouselExample {
+  .mainIndex .banner {
     width: 100%;
-    height: auto;
-    margin-bottom: 2rem; }
-    .mainIndex section #carouselExample .carousel-inner {
-      width: 100vw;
-      height: auto; }
-      .mainIndex section #carouselExample .carousel-inner .publi1 {
+    min-height: 21.875rem; }
+    .mainIndex .banner #carouselExample {
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem; }
+      .mainIndex .banner #carouselExample .carousel-inner {
         width: 100vw;
-        height: 25rem;
-        display: flex;
-        flex-direction: row;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        align-items: center;
-        justify-items: center;
-        justify-content: space-around;
-        background-color: #efefef; }
-        .mainIndex section #carouselExample .carousel-inner .publi1 .infoP {
-          width: 15.625rem;
-          height: auto; }
-          .mainIndex section #carouselExample .carousel-inner .publi1 .infoP .tituloBanner {
-            font-size: 1.5rem;
-            font-weight: 300; }
-          .mainIndex section #carouselExample .carousel-inner .publi1 .infoP .logoTow {
-            width: 26.75rem;
+        height: 21.875rem; }
+        .mainIndex .banner #carouselExample .carousel-inner .publi1 {
+          width: 100vw;
+          height: 21.875rem;
+          display: flex;
+          flex-direction: row;
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+          align-items: center;
+          justify-items: center;
+          justify-content: space-around;
+          background-color: #efefef; }
+          .mainIndex .banner #carouselExample .carousel-inner .publi1 .infoP {
+            width: 15.625rem;
             height: auto; }
-            .mainIndex section #carouselExample .carousel-inner .publi1 .infoP .logoTow img {
-              width: 50%;
+            .mainIndex .banner #carouselExample .carousel-inner .publi1 .infoP .tituloBanner {
+              font-size: 1.5rem;
+              font-weight: 300; }
+            .mainIndex .banner #carouselExample .carousel-inner .publi1 .infoP .logoTow {
+              width: 26.75rem;
               height: auto; }
-          .mainIndex section #carouselExample .carousel-inner .publi1 .infoP .subtBanner {
-            font-size: .75rem;
-            font-weight: 300; }
-        .mainIndex section #carouselExample .carousel-inner .publi1 .bolsasTow {
-          width: 15.625rem;
-          height: auto; }
-          .mainIndex section #carouselExample .carousel-inner .publi1 .bolsasTow img {
-            width: 100%;
+              .mainIndex .banner #carouselExample .carousel-inner .publi1 .infoP .logoTow img {
+                width: 50%;
+                height: auto; }
+            .mainIndex .banner #carouselExample .carousel-inner .publi1 .infoP .subtBanner {
+              font-size: .75rem;
+              font-weight: 300; }
+          .mainIndex .banner #carouselExample .carousel-inner .publi1 .bolsasTow {
+            width: 15.625rem;
             height: auto; }
-    .mainIndex section #carouselExample div {
-      width: 100vw;
-      height: auto; }
-      .mainIndex section #carouselExample div .publi2 {
+            .mainIndex .banner #carouselExample .carousel-inner .publi1 .bolsasTow img {
+              width: 100%;
+              height: auto; }
+      .mainIndex .banner #carouselExample div {
         width: 100vw;
-        height: 25rem;
-        display: flex;
-        flex-direction: column;
-        padding: 2rem; }
-        .mainIndex section #carouselExample div .publi2 .tituloPubli2 {
-          font-size: 1.5rem;
-          font-weight: 300;
-          text-align: start; }
-        .mainIndex section #carouselExample div .publi2 .ferProd {
-          width: 100%;
-          height: auto;
+        height: auto; }
+        .mainIndex .banner #carouselExample div .publi2 {
+          width: 100vw;
+          height: 25rem;
+          display: flex;
+          flex-direction: column;
+          padding: 2rem; }
+          .mainIndex .banner #carouselExample div .publi2 .tituloPubli2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            text-align: start; }
+          .mainIndex .banner #carouselExample div .publi2 .ferProd {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center; }
+            .mainIndex .banner #carouselExample div .publi2 .ferProd img {
+              width: 30%;
+              height: auto;
+              margin-left: 1rem;
+              margin-right: 1rem; }
+          .mainIndex .banner #carouselExample div .publi2 .logoFer {
+            width: 100%;
+            justify-content: end; }
+            .mainIndex .banner #carouselExample div .publi2 .logoFer img {
+              width: 25%;
+              height: auto;
+              justify-self: end; }
+      .mainIndex .banner #carouselExample div {
+        width: 100vw;
+        height: auto; }
+        .mainIndex .banner #carouselExample div .publi3 {
+          width: 100vw;
+          height: 25rem;
+          padding: 2rem;
           display: flex;
           flex-direction: row;
           justify-content: space-around;
-          align-items: center; }
-          .mainIndex section #carouselExample div .publi2 .ferProd img {
-            width: 30%;
-            height: auto;
-            margin-left: 1rem;
-            margin-right: 1rem; }
-        .mainIndex section #carouselExample div .publi2 .logoFer {
-          width: 100%;
-          justify-content: end; }
-          .mainIndex section #carouselExample div .publi2 .logoFer img {
-            width: 25%;
-            height: auto;
-            justify-self: end; }
-    .mainIndex section #carouselExample div {
-      width: 100vw;
-      height: auto; }
-      .mainIndex section #carouselExample div .publi3 {
-        width: 100vw;
-        height: 25rem;
-        padding: 2rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        background-color: #efefef; }
-        .mainIndex section #carouselExample div .publi3 .personaje {
-          width: 18.75rem;
-          height: auto; }
-          .mainIndex section #carouselExample div .publi3 .personaje img {
-            width: 100%;
-            height: auto;
-            align-self: baseline; }
-        .mainIndex section #carouselExample div .publi3 .infoP3 {
-          width: 50%;
-          height: auto; }
-          .mainIndex section #carouselExample div .publi3 .infoP3 .tituloPubli3 {
-            font-size: 1.5rem;
-            font-weight: 400;
-            text-align: center; }
-          .mainIndex section #carouselExample div .publi3 .infoP3 .logoNobivac {
-            width: 26.75rem;
+          align-items: center;
+          background-color: #efefef; }
+          .mainIndex .banner #carouselExample div .publi3 .personaje {
+            width: 18.75rem;
             height: auto; }
-            .mainIndex section #carouselExample div .publi3 .infoP3 .logoNobivac img {
-              width: 50%;
+            .mainIndex .banner #carouselExample div .publi3 .personaje img {
+              width: 100%;
+              height: auto;
+              align-self: baseline; }
+          .mainIndex .banner #carouselExample div .publi3 .infoP3 {
+            width: 50%;
+            height: auto; }
+            .mainIndex .banner #carouselExample div .publi3 .infoP3 .tituloPubli3 {
+              font-size: 1.5rem;
+              font-weight: 400;
+              text-align: center; }
+            .mainIndex .banner #carouselExample div .publi3 .infoP3 .logoNobivac {
+              width: 26.75rem;
               height: auto; }
-          .mainIndex section #carouselExample div .publi3 .infoP3 .subtPubli3 {
-            font-size: .75rem;
-            font-weight: 300;
-            text-align: center; }
+              .mainIndex .banner #carouselExample div .publi3 .infoP3 .logoNobivac img {
+                width: 50%;
+                height: auto; }
+            .mainIndex .banner #carouselExample div .publi3 .infoP3 .subtPubli3 {
+              font-size: .75rem;
+              font-weight: 300;
+              text-align: center; }
   .mainIndex .recomendados {
     width: 100%;
     height: auto;
@@ -993,7 +1014,7 @@ body {
         .mainVet .beneficios .beneficios1 div p {
           margin-top: .5rem;
           font-size: .75rem;
-          font-weight: 300;
+          font-weight: 400;
           color: black;
           text-align: center;
           line-height: 1.25rem;
@@ -1012,7 +1033,7 @@ body {
       .mainVet .beneficios div p {
         margin-top: .5rem;
         font-size: .75rem;
-        font-weight: 300;
+        font-weight: 400;
         color: black;
         text-align: center;
         line-height: 1.25rem;
@@ -1022,7 +1043,7 @@ body {
       justify-content: center;
       margin-top: .5rem;
       font-size: .75rem;
-      font-weight: 300;
+      font-weight: 400;
       color: black;
       text-align: center;
       line-height: 1rem; }
@@ -1069,7 +1090,9 @@ body {
           display: flex;
           flex-direction: row;
           justify-content: center;
-          justify-content: space-between; }
+          justify-content: space-between;
+          font-size: .75rem;
+          font-weight: 400; }
       .mainVet .planes .afiliaciones .anual {
         width: 40%;
         margin-left: 1.5rem;
@@ -1094,6 +1117,9 @@ body {
           flex-direction: row;
           justify-content: center;
           justify-content: space-between; }
+          .mainVet .planes .afiliaciones .anual div p {
+            font-size: .75rem;
+            font-weight: 400; }
   .mainVet .agendaConsulta {
     width: 100%;
     background-color: #D62F38;
@@ -1232,7 +1258,9 @@ h2{
 }*/
 .mainEnvios {
   width: 100vw;
-  height: 100vh; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   .mainEnvios .tituloPagina h1 {
     width: 100%;
     font-size: 1.25rem;
@@ -1243,26 +1271,29 @@ h2{
     background-color: black;
     padding: .5rem; }
   .mainEnvios .coordiEnvios {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    justify-content: space-around; }
+    justify-content: space-around;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; }
     .mainEnvios .coordiEnvios img {
       width: 30%;
       height: auto;
       margin: 2rem; }
 
 header {
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   position: sticky;
-  top: 0px; }
+  top: 0px;
+  z-index: 2; }
   header nav {
-    width: 100vw;
+    width: 100%;
     height: 6.875rem;
     padding-right: 1.5rem;
     display: flex;
@@ -1316,7 +1347,7 @@ header {
           width: 100%;
           height: auto; }
   header .menuNav {
-    width: 100vw;
+    width: 100%;
     height: auto;
     padding-right: 1.5rem;
     display: flex;
@@ -1337,14 +1368,17 @@ header {
 
 footer {
   width: 100vw;
+  min-height: 9.375rem;
   background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.25rem; }
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  bottom: 0px; }
   footer div {
-    width: 100%;
+    width: 50%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -1408,8 +1442,8 @@ footer {
   transform: translateY(-0.625rem); }
 
 .breadcrum {
-  margin: 1.5rem;
-  width: 100%;
+  margin-bottom: 1.5rem;
+  width: 100vw;
   height: 1.5rem;
   display: flex;
   flex-direction: row;
@@ -1440,7 +1474,7 @@ footer {
   header {
     width: 100vw; }
     header header nav {
-      width: 100vw;
+      width: 100;
       display: flex;
       flex-direction: row;
       justify-content: space-between; }
@@ -1470,30 +1504,7 @@ footer {
           header header nav .navR .navR a .navR a img {
             width: 100%;
             height: auto; }
-  /*FOOTER*/
-  footer {
-    height: 14.125rem;
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-  .isotipo {
-    margin: .5rem;
-    width: 25%; }
-  /*MAIN INDEX*/
-  .mainIndex {
-    width: 100vw;
-    height: auto; }
-    .mainIndex h1 {
-      color: ghostwhite;
-      background-color: black; }
-    .mainIndex .productos {
-      display: flex;
-      height: 8rem;
-      overflow-x: scroll;
-      overscroll-behavior-x: contain;
-      scroll-snap-type: x proximity;
-      overflow: hidden; } }
+  /*FOOTER*/ }
 
 @media (min-width: 740px) and (max-width: 1440px) {
   /*HEADER*/
@@ -1526,78 +1537,69 @@ footer {
         width: 17.875rem;
         height: 6.875rem;
         justify-content: start;
-        align-content: center; } }
-
-/*FOOTER*/
-footer {
-  height: 14.125rem;
-  padding: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-.isotipo {
-  margin: .5rem;
-  width: 25%; }
-
-.art {
-  margin: .5rem; }
-
-.art p {
-  display: none; }
-
-/*MAIN INDEX*/
-.tituloBanner {
-  font-family: "Roboto", sans-serif;
-  font-size: .875rem; }
-
-.subTituloBanner {
-  font-family: "Roboto", sans-serif;
-  font-size: .375rem; }
-
-.towCanionWetlands {
-  width: 25%;
-  height: auto; }
-
-.towLogo {
-  width: 50%;
-  height: fit-content; }
-
-.banner {
-  height: 11rem;
-  justify-content: space-around;
-  justify-content: center; }
-
-.productos {
-  display: flex;
-  height: 8rem;
-  overflow-x: scroll;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
-  overflow: hidden; }
-
-.item {
-  overflow: hidden;
-  margin: .5rem; }
-
-/*MAIN ENVIOS*/
-.mainEnvios {
-  width: 100vw; }
-  .mainEnvios .tituloPagina h1 {
-    width: 100vw;
-    height: auto;
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: center;
-    color: ghostwhite;
-    background-color: black; }
-  .mainEnvios .coordiEnvios {
-    width: 100%;
+        align-content: center; }
+  /*FOOTER*/
+  footer {
+    height: 14.125rem;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem; }
+    justify-content: space-between; }
+  .isotipo {
+    margin: .5rem;
+    width: 25%; }
+  .art {
+    margin: .5rem; }
+  .art p {
+    display: none; }
+  /*MAIN INDEX*/
+  .tituloBanner {
+    font-family: "Roboto", sans-serif;
+    font-size: .875rem; }
+  .subTituloBanner {
+    font-family: "Roboto", sans-serif;
+    font-size: .375rem; }
+  .towCanionWetlands {
+    width: 25%;
+    height: auto; }
+  .towLogo {
+    width: 50%;
+    height: fit-content; }
+  .banner {
+    height: 11rem;
+    justify-content: space-around;
+    justify-content: center; }
+  .productos {
+    display: flex;
+    height: 8rem;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    overflow: hidden; }
+  .item {
+    overflow: hidden;
+    margin: .5rem; }
+  /*MAIN ENVIOS*/
+  .mainEnvios {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .mainEnvios .tituloPagina h1 {
+      width: 100vw;
+      height: auto;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+      color: ghostwhite;
+      background-color: black; }
+    .mainEnvios .coordiEnvios {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem; } }
 
 @media (min-width: 320px) and (max-width: 740px) {
   /*HEADER*/
@@ -1793,7 +1795,7 @@ footer {
         .mainVet .beneficios .beneficios1 div p {
           margin-top: .5rem;
           font-size: .5625rem;
-          font-weight: 300;
+          font-weight: 400;
           color: black;
           text-align: center;
           line-height: .75rem; }
@@ -1811,7 +1813,7 @@ footer {
       .mainVet .beneficios div p {
         margin-top: .5rem;
         font-size: .5625rem;
-        font-weight: 300;
+        font-weight: 400;
         color: black;
         text-align: center;
         line-height: 1rem; }
@@ -1820,7 +1822,7 @@ footer {
       justify-content: center;
       margin-top: .5rem;
       font-size: .5rem;
-      font-weight: 300;
+      font-weight: 400;
       color: black;
       text-align: center;
       line-height: .75rem; }
@@ -1852,30 +1854,34 @@ footer {
         width: 80%;
         justify-content: space-around; }
         .mainVet .planes .afiliaciones .anual h3 {
-          font-size: .75rem; }
+          font-size: .75rem;
+          font-weight: 400; }
         .mainVet .planes .afiliaciones .anual p {
-          font-size: .5625rem; }
+          font-size: .5625rem;
+          font-weight: 400; }
   .mainVet .agendaConsulta {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: .75rem;
+    font-weight: 400;
     padding-top: 1rem;
-    padding-bottom: 1rem; } }
-
-/*MAIN ENVIOS*/
-.mainEnvios .tituloPagina h1 {
-  width: 100vw;
-  height: auto;
-  font-size: 1rem;
-  font-weight: 400;
-  text-align: start;
-  background-color: white;
-  color: black;
-  padding-left: 1.5rem; }
-
-.mainEnvios .coordiEnvios {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem; }
+    padding-bottom: 1rem; }
+  /*MAIN ENVIOS*/
+  .mainEnvios .tituloPagina h1 {
+    width: 100vw;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: start;
+    background-color: white;
+    color: black;
+    padding-left: 1.5rem; }
+  .mainEnvios .coordiEnvios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem; }
+    .mainEnvios .coordiEnvios img {
+      width: 80%;
+      height: auto;
+      margin: 1rem; } }
