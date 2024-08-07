@@ -42,11 +42,7 @@ header{
         }
     }
 }
-main{
-    width: 100%;
-    height: auto;
-}
-    
+
     /*FOOTER*/
     footer{
         height: 14.125rem;
@@ -60,12 +56,21 @@ main{
         width: 25%;
     }
     /*MAIN INDEX*/
-    .productos{
-        display: flex;
-        height: 8rem;
-        overflow-x: scroll;
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x proximity;   
-        overflow: hidden;  
+    .mainIndex{
+        width: 100vw;
+        height: auto;
+        h1{
+            color: ghostwhite;
+            background-color: black;
+        }
+        .productos{
+            display: flex;
+            height: 8rem;
+            overflow-x: scroll;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: x proximity;   
+            overflow: hidden;  
+        }
     }
+    
 }

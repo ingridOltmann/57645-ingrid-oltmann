@@ -1,197 +1,152 @@
 
 .mainIndex{ 
-    width: 100%;
-    height: auto;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    h1{
+    width: 100vw;
+    section h1{
+        width: 100%;
+        font-size: 1.25rem;
+        font-weight: 400;
         text-align: center;
         text-decoration: none;
         color: ghostwhite;
-        font-size: 1.25rem;
-        font-weight: 400;
         background-color: black;
         padding: .5rem;
     } 
-    .banner{
+    section #carouselExample{
         width: 100%;
-        div{
-            width: 100%;
-            height: 25rem;
-            div{
-                width: 100%;
-                height: auto;                
-                div{/*item publi1*/
-                    width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+        .carousel-inner{
+            width: 100vw;
+            height: auto;
+            .publi1{
+                width: 100vw;
+                height: 25rem;
+                display: flex;
+                flex-direction: row;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                align-items: center;
+                justify-items: center;
+                justify-content: space-around;
+                background-color: #efefef;
+                .infoP{
+                    width: 15.625rem;
                     height: auto;
-                    align-content: center;
-                    align-items: center;
-                    .publi1{
-                        width: 100%;
+                    .tituloBanner{
+                        font-size: 1.5rem;
+                        font-weight: 300;                    
+                    }
+                    .logoTow{
+                        width: 26.75rem;
                         height: auto;
-                        padding: 2rem;
-                        background-color: map-get($colores, colorSec );
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
-                        align-content: center;
-                        align-items: center;
-                        justify-content: space-around;
-                        .infoP{
-                            width: 50%;
-                            height: 9.375rem;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            justify-content: space-around;
-                            align-content: center;
-                            align-items: center;
-                            .tituloBanner{
-                                font-size: 3rem;
-                                font-weight: 300;
-                                text-align: center;
-                            }
-                            div{
-                                width: 26.6875rem;
-                                height: auto;    
-                                justify-content: center;                            
-                                img{
-                                    width: 100%;
-                                    height: auto;
-                                    align-self: center;
-                                }
-                            }
-                            .sutBanner{
-                                display: inline;
-                                font-size: 1.25rem;
-                                font-weight: 300;
-                                text-align: center;
-                            }
-                        }
-                        div{
+                        img{
                             width: 50%;
                             height: auto;
-                            justify-content: center;
-                            align-items: center;
-                            align-content: center;
-                            img{
-                                width: 50%;
-                                align-self: center;
-                            }
                         }
                     }
+                    .subtBanner{
+                        font-size: .75rem;
+                        font-weight: 300;
+                    }
                 }
-                div{
-                    width:100%;
-                    height: 25rem;
-                    .publi2{
+                .bolsasTow{
+                    width: 15.625rem;
+                    height: auto;
+                    img{
                         width: 100%;
                         height: auto;
-                        padding-left: 2rem;
-                        padding-right: 2rem;
-                        padding-top: 2rem;
-                        background-color: white;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        column-gap: 0;
-                        .tituloBanner{
-                            width: 100%;
-                            height: auto;
-                            font-size: 2.25rem;
-                            font-weight: 300;
-                            align-content: start;
-                            padding-left: 2rem;
-                        }        
-                        .ferProd{
-                            width: 100%;
-                            height: 9.375rem;
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: center;
-                            align-content: baseline;
-                            justify-content: space-between;
-                            img{
-                                width: 30%;
-                                height: auto;
-                                margin-left: 1rem;
-                                margin-right: 1rem;
-                            }
-                        }
-                        div{
-                            width: 100%;
-                            height: auto;
-                            display: inline-flex;
-                            justify-content: end;
-                            .logoFer{
-                                width: 10%;
-                                height: auto;
-                            }
-                        }
-                    }
-                }
-                div{
-                    width: 100%;
-                    height: 25rem;
-                    justify-content: center;
-                    align-content: center;
-                    align-items: center;
-                    .publi3{
-                        width: 100%;
-                        height: 25rem;
-                        background-color: map-get($colores, colorSec );
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
-                        justify-content: space-around;
-                        div{
-                            width: 40%;
-                            height: 25rem;
-                            img{
-                                width: 90%;
-                                justify-items: baseline;
-                            }
-                        }
-                        .infoP{
-                            width: 40%;
-                            height: 25rem;
-                            padding: 2rem;
-                            display: flex;
-                            flex-direction: column;                            
-                            justify-content: center;
-                            align-content: center;
-                            justify-content: space-around;
-                            .tituloBanner{
-                                font-size: 2.25rem;
-                                font-weight: 300;
-                            }
-                            div{
-                                width: 90%;
-                                height: auto;
-                                display: flex;
-                                flex-wrap: wrap;
-                                align-content: center;
-                                align-items: center;
-                                img{
-                                    width: 50%;
-                                    height: auto;
-                                }
-                            }
-                            .sutBanner{
-                                display: inline;
-                                font-size: 1.5rem;
-                                font-weight: 300;
-                                text-align: center;
-                            }
-                        }
                     }
                 }
             }
         }
-    }    
-    section{
+        div{
+            width: 100vw;
+            height: auto;
+            .publi2{
+                width: 100vw;
+                height: 25rem;
+                display: flex;
+                flex-direction: column;
+                padding: 2rem;
+                .tituloPubli2{
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    text-align: start;
+                }
+                .ferProd{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    img{
+                        width: 30%;
+                        height: auto;
+                        margin-left: 1rem;
+                        margin-right: 1rem;
+                    }
+                }
+                .logoFer{
+                    width: 100%;
+                    justify-content: end;
+                    img{
+                        width: 25%;
+                        height: auto;
+                        justify-self: end;
+                    }
+                }
+            }
+        }
+        div{
+            width: 100vw;
+            height: auto;
+            .publi3{
+                width: 100vw;
+                height: 25rem;
+                padding: 2rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #efefef;
+                .personaje{
+                    width: 18.75rem;
+                    height: auto;
+                    img{
+                        width: 100%;
+                        height: auto;
+                        align-self: baseline;
+                    }
+                }
+                .infoP3{
+                    width: 50%;
+                    height: auto;
+                    .tituloPubli3{
+                        font-size: 1.5rem;
+                        font-weight: 400;
+                        text-align: center;
+                    }
+                    .logoNobivac{
+                        width: 26.75rem;
+                        height: auto;
+                        img{
+                            width: 50%;
+                            height: auto;
+                        }
+                    }
+                    .subtPubli3{
+                        font-size: .75rem;
+                        font-weight: 300;
+                        text-align: center;
+                    }
+                }
+            }
+        }        
+    }
+    .recomendados{
         width: 100%;
-        height: 15.625rem;
+        height: auto;
         margin-top: 2rem;
         display: flex;
         flex-direction: column;
@@ -231,7 +186,6 @@
             align-content: center;
             align-items: center;*/
             div{
-                position: relative;
                 scroll-snap-align: center;
                 margin: 1rem;
                 width: 6.875rem;
@@ -248,8 +202,8 @@
         }      
     } 
     .noticias{
-        width: 100%;
-        height: 28.125rem;
+        width: 100vw;
+        height: auto;
         h2{
             width: 100%;
             height: auto;
@@ -261,7 +215,9 @@
             text-align: center;
         }
         .articulos{
-            width: 100vw;
+            width: 100%;
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
             min-width: fit-content;
             height: 21.875rem;
             display: flex;
@@ -270,9 +226,9 @@
             overscroll-behavior-x: contain;
             scroll-snap-type: x proximity;
             gap: 15px;
-            justify-content: space-between;
+            justify-content: space-around;
             .nota1{
-                width: 23.125rem;
+                width: 30%;
                 height: 18.75rem;
                 position: relative;
                 scroll-snap-align: center;
@@ -293,7 +249,7 @@
                 }
             }
             .nota2{
-                width: 23.125rem;
+                width: 30%;
                 height: 18.75rem;
                 margin: .5rem;
                 border-radius: 1.5625rem;
@@ -312,7 +268,7 @@
                 }
             }
             .nota3{
-                width: 23.125rem;
+                width: 30%;
                 height: 18.75rem;
                 margin: .5rem;
                 border-radius: 1.5625rem;

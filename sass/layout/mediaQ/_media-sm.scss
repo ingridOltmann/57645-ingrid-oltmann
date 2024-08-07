@@ -49,48 +49,93 @@
             }
         }
     }
-    .menuNav{
+    header .menuNav{
         display: none;
     }
-
-.mainIndex{
-    width: 100%;
-    h1{
-        font-size: 1rem;
-        font-weight: 500;
-        text-align: start;
-        color: black;
-        background-color: white;
-    }
-}
-.tituloBanner{
-    font-size: 1.5rem;
-}
 
     /*FOOTER*/
     footer{
         width: 100vw;
-        height: 14.125rem;
-        padding: 1.5rem;
+        background-color: black;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: .625rem;
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            a{
+                width: 3rem;
+                height: auto;
+                .isotipo{
+                    margin: .5rem;
+                    width: 100%;
+                }            
+            }
+            p{
+                color: ghostwhite;
+                font-size: .5625rem;
+                text-align: center;
+                align-self: center;
+            }    
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .menu{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                flex-wrap: wrap;
+                li{
+                    list-style: none;
+                    .menu-item{
+                        text-decoration: none;
+                        font-size: .75rem;
+                        color: ghostwhite;
+                        display: inline-block;
+                        opacity: 0.3;
+                        transition: 0.3s;
+                        .menu-item:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                flex-wrap: wrap;
+                .icon-item{
+                    list-style: none;
+                    .icon{
+                        color: ghostwhite;
+                        width: 1.5rem;
+                        display: inline-block;
+                        margin: 0 .625rem;
+                        transition: 0.5s;                
+                    }
+                }
+            }
+        }    
     }
-    footer section{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        column-gap: .5rem;
-    }
-    .isotipo{
-        margin: .5rem;
-        width: 25%;
-    }
-    .art p{
-        display: none;
-    }
-
+    
+    .icon:hover{
+        transform: translateY(-0.625rem);
+    } 
+    
     /*MAIN INDEX*/
-    main h1{
+    .mainIndex section h1{
         font-size: 1rem;
         font-weight: 500;
         color: black;
@@ -147,120 +192,159 @@
 
     /*MAIN VETERINARIA*/
     .mainVet{
-        width: 100wv;
-        margin-bottom: 2.5rem;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(8,1fr);
-        grid-template-areas: 
-        "breadcrum"
-        "tituloPagina"
-        "afiliate"
-        "beneficios1"
-        "bonificaciones"
-        "urgencias"
-        "planes"
-        "agendaConsulta";
-    }
-    .breadcrum{
-        height: 1rem;
-        width: 100vw;
-        margin-left: 1.5rem;
-        margin-top: 1rem;
-        margin-bottom: .25rem;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        grid-area: breadcrum;
-        color: black;
-        font-family: "Roboto", sans-serif;
-        font-size: .75rem;
-        font-weight: 400;
-        text-decoration: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .tituloPagina{
-        width: 100vw;
-        grid-area: tituloPagina;
-        height: 1.5rem;
-        grid-column-start: 1;
-        grid-column-end: 2;
-
-        }
-    .afiliate{
-        width: 100vw;
-        background-color: #D62F38;
-        font-family: "Roboto", sans-serif;
-        font-size: .5625rem;
-        font-weight: 500;
-        color: ghostwhite;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        text-align: center;
-        grid-area: afiliate;
-        grid-column-start: 1;
-        grid-column-end: 2;
-
-    }
-        .beneficios1{
+        .tituloPagina h1{
             width: 100vw;
-            grid-area: beneficios1;        
-            grid-column-start: 1;
-            grid-column-end: 2;            
-        }
-        .bonificaciones{
+            height: auto;
+            font-size: 1rem;
+            font-weight: 400;
+            text-align: start;
+            background-color: white;
+            color: black;
+            padding-left: 1.5rem;
+        } 
+        .afiliate{
+                background-color: #D62F38;
+                font-size: .75rem;
+                font-weight: 400;
+                color: ghostwhite;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                text-align: center;
+            }
+        .beneficios{
             width: 100vw;
-        grid-area: bonificaciones;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        }
-        .urgencias{
-            width: 100vw;
-            grid-area: urgencias;
-            grid-column-start: 1;
-            grid-column-end: 2;    
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            justify-content: space-between;
+            gap: .5rem;
+            .beneficios1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                div{
+                    margin-left: 1rem;
+                    margin-right: 1rem;    
+                    h2{
+                        width: 100%;
+                        font-size: .75rem;
+                        font-weight: 400;
+                        color: ghostwhite;
+                        background-color: black;
+                        padding: .5rem;
+                        text-align: center;
+                    }
+                    p{
+                        margin-top: .5rem;
+                        font-size: .5625rem;
+                        font-weight: 300;
+                        color: black;
+                        text-align: center;
+                        line-height: .75rem;
+                    }
+                }
+            }
+            div{
+                margin-left: 1rem;
+                margin-right: 1rem;    
+                h2{
+                    width: 100%;
+                    font-size: .75rem;
+                    font-weight: 400;
+                    color: ghostwhite;
+                    background-color: black;
+                    padding: .5rem;
+                    text-align: center;
+                }
+                p{
+                    margin-top: .5rem;
+                    font-size: .5625rem;
+                    font-weight: 300;
+                    color: black;
+                    text-align: center;
+                    line-height: 1rem;
+                }
+            }
+            div ul li{
+                list-style: none;
+                justify-content: center;
+                margin-top: .5rem;
+                font-size: .5rem;
+                font-weight: 300;
+                color: black;
+                text-align: center;
+                line-height: .75rem;
+            }
         }
         .planes{ 
-            width: 100vw;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            justify-content: center;
-            grid-area: planes;
-            grid-column-start: 1;
-            grid-column-end: 2;
-    
+            margin-left: 1rem;
+            margin-right: 1rem;    
+            h2{
+                width: 100%;
+                font-size: .75rem;
+                font-weight: 400;
+                color: ghostwhite;
+                background-color: black;
+                padding: .5rem;
+                text-align: center;
+            }
+            .afiliaciones{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 1rem;
+                .mensual{
+                    width: 80%;
+                    justify-content: space-around;
+                    h3{
+                        font-size: .75rem;
+                    }
+                    p{
+                        font-size: .5625rem;
+                    }
+                }
+                .anual{
+                    width: 80%;
+                    justify-content: space-around;
+                    h3{
+                        font-size: .75rem;
+                    }
+                    p{
+                        font-size: .5625rem;
+                    }
+                }
+            }        
         }
         .agendaConsulta{
-            width: 100vw;
-            background-color: #D62F38;
-            font-family: "Roboto", sans-serif;
-            font-size: 1.5rem;
+            font-size: 1rem;
             font-weight: 300;
-            color: ghostwhite;
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-            text-align: center;
-            grid-area: agendaConsulta;
-            grid-column-start: 1;
-            grid-column-end: 2;
-    
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }    
+    }
+}
+
+/*MAIN ENVIOS*/
+.mainEnvios{
+    .tituloPagina{
+        h1{
+            width: 100vw;
+            height: auto;
+            font-size: 1rem;
+            font-weight: 400;
+            text-align: start;
+            background-color: white;
+            color: black;
+            padding-left: 1.5rem;
         }
-    /*MAIN ENVIOS*/
+    }  
     .coordiEnvios{
         width: 100%;
-        margin: 1rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3,1fr);
-        justify-content: center;
-        column-gap: 1.5rem;
-    }
-    .coordiEnvios img{
-        width: 80%;
-        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }

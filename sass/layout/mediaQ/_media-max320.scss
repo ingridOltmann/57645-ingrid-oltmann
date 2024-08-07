@@ -31,7 +31,7 @@
     header div{
         display: none;
     }
-
+}
 .mainIndex{
     h1{
         height: auto;
@@ -41,64 +41,67 @@
         color: black;
         background-color: none;
     }
-    .tituloBanner{
-        font-size: 1.5rem;
+        #carouselIndex{
+            width: 100%;
+            height: auto;
+            .carousel-inner{
+                width: 100%;
+                height: auto;
+                .carousel-item{
+                    width: 100%;
+                    height: auto;
+                    .publi1{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        .infoP{
+                            padding: .5rem;
+                            .tituloBanner{
+                                font-size: 1rem;
+                                font-weight: 400;
+                                text-align: center;
+                                align-self: baseline;
+                            }
+                            div{
+                                width: 13.75rem;
+                                height: auto;
+                                img{
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
-}
     /*FOOTER*/
     footer{
         width: 100vw;
-        height: 14.125rem;
-        padding: 1.5rem;
+        height: 9.375rem;
+        padding: 1rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        a{
+            width: 3rem;
+            height: auto;
+            .isotipo{
+                width: 100%;
+                height: auto;
+            }
+        }
+        section{
+            display: flex;
+            flex-direction: row;
+            article{
+                display: none;
+            }
+        }
     }
-    .isotipo{
-        margin: .5rem;
-        width: 25%;
-    }
-    footer section{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .art p{
-        display: none;
-    }
-
-    /*MAIN INDEX*/
-    main h1{
-        font-size: 1rem;
-        font-weight: 500;
-        color: black;
-        background-color: white;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-left: .5rem;
-        text-align: left;
-    }
-
-    .tituloBanner{
-        font-family: "Roboto", sans-serif;
-        font-size: .875rem;
-    }
-    .subTituloBanner{
-        font-family: "Roboto", sans-serif;
-        font-size: .375rem;
-    }
-    .towCanionWetlands{
-        width: 25%;
-        height: fit-content;
-    }
-    .towLogo{
-        width: 50%;
-        height: fit-content;
-    }
-    .banner{
-        height: 11rem;
-        justify-content: space-around;
-        justify-items: center;
-    }
+    
 
     /*MAIN PRODUCTO2*/
     .carousel-inner{
@@ -107,7 +110,6 @@
     .carousel-item{
         display: block;
         margin-right: 0;
-        flex: 0 0 calc(100%/3);
     }
     .carousel-inner{
         padding: 1em;
@@ -135,4 +137,34 @@
         width: 80%;
         height: auto;
     }
-}
+
+    /*MAINVETERINARIA*/
+    .mainVet{
+        .tituloPagina h1{
+            width: 100vw;
+            height: auto;
+            font-size: 1rem;
+            font-weight: 400;
+            text-align: start;
+            color: black;
+            background-color: none;
+        } 
+        .afiliate{
+                background-color: #D62F38;
+                font-size: 1rem;
+                font-weight: 400;
+                color: ghostwhite;
+                padding-top: .5rem;
+                padding-bottom: .5rem;
+                text-align: center;
+            }
+    
+        .beneficios{
+            width: 100vw;
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            justify-content: space-between;
+            gap: 1rem;    
+        }
+    }

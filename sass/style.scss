@@ -5,13 +5,14 @@
 @import "./base/tipografias";
 @import "./base/iconos";
 
-
+@import "./layout/body";
 @import "./layout/main-index";
 @import "./layout/main-alimentos-perros";
+@import "./layout/main-producto2";
 @import "./layout/main-veterinaria";
+@import "./layout/main-envios";
 
 
-@import "./components/bootstrap";
 @import "./components/header";
 @import "./components/footer";
 @import "./components/breadcrum";
@@ -19,4 +20,5 @@
 @import "./layout/mediaQ/media-min1440";
 @import "./layout/mediaQ/media-md";
 @import "./layout/mediaQ/media-sm";
-@import "./layout/mediaQ/media-max320";
+
+

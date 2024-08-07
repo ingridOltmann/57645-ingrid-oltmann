@@ -1,9 +1,187 @@
 .mainVet{
-    width: 100%;
+    width: 100vw;    
+    section h1{
+        width: 100%;
+        font-size: 1.25rem;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: none;
+        color: ghostwhite;
+        background-color: black;
+        padding: .5rem;
+    } 
+    .afiliate{
+            background-color: #D62F38;
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: ghostwhite;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            text-align: center;
+        }
+    .beneficios{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        justify-content: space-between;
+        gap: 1rem;
+        .beneficios1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            div{
+                margin-left: 1.5rem;
+                margin-right: 1.5rem;    
+                h2{
+                    width: 100%;
+                    font-size: .875rem;
+                    font-weight: 400;
+                    color: ghostwhite;
+                    background-color: black;
+                    padding: .5rem;
+                    text-align: center;
+                }
+                p{
+                    margin-top: .5rem;
+                    font-size: .75rem;
+                    font-weight: 300;
+                    color: black;
+                    text-align: center;
+                    line-height: 1.25rem;
+                    padding: 1rem;
+                }
+            }
+        }
+        div{
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;    
+            h2{
+                width: 100%;
+                font-size: .875rem;
+                font-weight: 400;
+                color: ghostwhite;
+                background-color: black;
+                padding: .5rem;
+                text-align: center;
+            }
+            p{
+                margin-top: .5rem;
+                font-size: .75rem;
+                font-weight: 300;
+                color: black;
+                text-align: center;
+                line-height: 1.25rem;
+                padding: 1rem;
+            }
+        }
+        div ul li{
+            list-style: none;
+            justify-content: center;
+            margin-top: .5rem;
+            font-size: .75rem;
+            font-weight: 300;
+            color: black;
+            text-align: center;
+            line-height: 1rem;
+        }
+    }
+    .planes{ 
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            width: 100%;
+            font-size: .875rem;
+            font-weight: 400;
+            color: ghostwhite;
+            background-color: black;
+            padding: .5rem;
+            text-align: center;
+        }
+        .afiliaciones{
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center; 
+            justify-content: space-around; 
+            .mensual{
+                width: 40%;
+                margin-left: 1.5rem;
+                margin-right: 1.5rem;            
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h3{
+                margin-left: 1.5rem;
+                margin-right: 1.5rem;            
+                width: 100%;
+                font-size: .875rem;
+                font-weight: 400;
+                color: ghostwhite;
+                background-color: black;
+                padding: .5rem;
+                text-align: center;
+                }
+                div{
+                    width: 80%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    justify-content: space-between;
+                }
+            }
+            .anual{
+                width: 40%;
+                margin-left: 1.5rem;
+                margin-right: 1.5rem;            
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h3{
+                margin-left: 1.5rem;
+                margin-right: 1.5rem;            
+                width: 100%;
+                font-size: .875rem;
+                font-weight: 400;
+                color: ghostwhite;
+                background-color: black;
+                padding: .5rem;
+                text-align: center;
+                }
+                div{
+                    width: 80%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    justify-content: space-between;
+                }
+            }
+            
+        }
+    }
+    .agendaConsulta{
+        width: 100%;
+        background-color: #D62F38;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: ghostwhite;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        text-align: center;    
+    }
+}
+
+
+/*.mainVet{
     margin-bottom: 2.5rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: 6fr;
     grid-template-areas: 
     "breadcrum breadcrum breadcrum"
     "tituloPagina tituloPagina tituloPagina"
@@ -13,42 +191,16 @@
     "agendaConsulta agendaConsulta agendaConsulta";
     gap: 1.25rem;
 }
-.breadcrum{
-    height: 1.5rem;
-    margin-left: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: .25rem;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-area: breadcrum;
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: .75rem;
+h2{
+    font-size: .875rem;
     font-weight: 400;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.breadcrum p{
-    margin-left: .5rem;
-}
-.breadcrum a{
-    margin-left: .5rem;
-}
-.breadcrum img{
-    margin-left: .5rem;
-    height: 1rem;
-    width: 1rem;
-}
-.tituloPagina{
-grid-area: tituloPagina;
+    color: ghostwhite;
+    background-color: black;
+    padding: .5rem;
+    text-align: center;
 }
 .afiliate{
     background-color: #D62F38;
-    font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
     color: ghostwhite;
@@ -62,21 +214,20 @@ grid-area: tituloPagina;
     grid-area: beneficios1;
 }
 .bonificaciones{
-grid-area: bonificaciones;
+    grid-area: bonificaciones;
 }
 .urgencias{
     margin-right: 1.5rem;
-grid-area: urgencias;
+    grid-area: urgencias;
 }
 .planes{ 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-grid-area: planes;
+    grid-area: planes;
 }
 .agendaConsulta{
     background-color: #D62F38;
-    font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
     font-weight: 300;
     color: ghostwhite;
@@ -86,19 +237,8 @@ grid-area: planes;
     grid-area: agendaConsulta;
 }
 
-.mainVet h2{
-    font-family: "Roboto", sans-serif;
-    font-size: .875rem;
-    font-weight: 400;
-    color: ghostwhite;
-    background-color: black;
-    padding: .5rem;
-    text-align: center;
-}
-
 .beneficios1 p{
     margin-top: .5rem;
-    font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 300;
     color: black;
@@ -118,7 +258,6 @@ grid-area: planes;
 }
 .urgencias p{
     margin-top: .5rem;
-    font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 300;
     color: black;
@@ -127,7 +266,6 @@ grid-area: planes;
     padding: 1rem;
 }
 .planes p{
-    font-family: "Roboto", sans-serif;
     font-size: .75rem;
     font-weight: 300;
     color: black;
@@ -164,4 +302,4 @@ grid-area: planes;
     margin: .5rem;
     display: flex;
     flex-direction: column;
-}
+}*/
