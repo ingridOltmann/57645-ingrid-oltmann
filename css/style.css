@@ -45,54 +45,69 @@ body {
     padding: .5rem; }
   .mainIndex .banner {
     width: 100%;
-    min-height: 21.875rem; }
+    max-height: 27.5rem; }
     .mainIndex .banner #carouselExample {
       width: 100%;
       height: auto;
       margin-bottom: 2rem; }
       .mainIndex .banner #carouselExample .carousel-inner {
-        width: 100vw;
-        height: 21.875rem; }
-        .mainIndex .banner #carouselExample .carousel-inner .publi1 {
-          width: 100vw;
-          height: 21.875rem;
-          display: flex;
-          flex-direction: row;
-          padding-left: 1.5rem;
-          padding-right: 1.5rem;
-          align-items: center;
-          justify-items: center;
-          justify-content: space-around;
-          background-color: #efefef; }
-          .mainIndex .banner #carouselExample .carousel-inner .publi1 .infoP {
-            width: 15.625rem;
-            height: auto; }
-            .mainIndex .banner #carouselExample .carousel-inner .publi1 .infoP .tituloBanner {
-              font-size: 1.5rem;
-              font-weight: 300; }
-            .mainIndex .banner #carouselExample .carousel-inner .publi1 .infoP .logoTow {
-              width: 26.75rem;
-              height: auto; }
-              .mainIndex .banner #carouselExample .carousel-inner .publi1 .infoP .logoTow img {
+        width: 100%;
+        height: 27.5rem; }
+        .mainIndex .banner #carouselExample .carousel-inner div {
+          width: 100%;
+          justify-content: center; }
+          .mainIndex .banner #carouselExample .carousel-inner div .publi1 {
+            width: 100%;
+            height: 21.875rem;
+            display: flex;
+            flex-direction: row;
+            margin-right: 1.5rem;
+            margin-left: 1.5rem;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            justify-content: space-around;
+            background-color: #efefef; }
+            .mainIndex .banner #carouselExample .carousel-inner div .publi1 .infoP {
+              width: 50%;
+              height: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center; }
+              .mainIndex .banner #carouselExample .carousel-inner div .publi1 .infoP .tituloBanner {
+                font-size: 1.5rem;
+                font-weight: 300;
+                text-align: center; }
+              .mainIndex .banner #carouselExample .carousel-inner div .publi1 .infoP .logoTow {
                 width: 50%;
-                height: auto; }
-            .mainIndex .banner #carouselExample .carousel-inner .publi1 .infoP .subtBanner {
-              font-size: .75rem;
-              font-weight: 300; }
-          .mainIndex .banner #carouselExample .carousel-inner .publi1 .bolsasTow {
-            width: 15.625rem;
-            height: auto; }
-            .mainIndex .banner #carouselExample .carousel-inner .publi1 .bolsasTow img {
+                height: auto;
+                flex-wrap: wrap;
+                justify-content: center;
+                justify-content: space-around; }
+                .mainIndex .banner #carouselExample .carousel-inner div .publi1 .infoP .logoTow img {
+                  width: 100%;
+                  height: auto;
+                  align-self: center; }
+              .mainIndex .banner #carouselExample .carousel-inner div .publi1 .infoP .subtBanner {
+                font-size: .75rem;
+                font-weight: 300; }
+            .mainIndex .banner #carouselExample .carousel-inner div .publi1 .bolsasTow {
               width: 100%;
-              height: auto; }
+              height: auto;
+              flex-wrap: wrap; }
+              .mainIndex .banner #carouselExample .carousel-inner div .publi1 .bolsasTow img {
+                width: 40%;
+                height: auto; }
       .mainIndex .banner #carouselExample div {
-        width: 100vw;
-        height: auto; }
+        width: 100%;
+        height: 21.875rem; }
         .mainIndex .banner #carouselExample div .publi2 {
-          width: 100vw;
-          height: 25rem;
+          width: 100%;
+          height: 27.5rem;
           display: flex;
           flex-direction: column;
+          justify-content: space-between;
           padding: 2rem; }
           .mainIndex .banner #carouselExample div .publi2 .tituloPubli2 {
             font-size: 1.5rem;
@@ -100,29 +115,31 @@ body {
             text-align: start; }
           .mainIndex .banner #carouselExample div .publi2 .ferProd {
             width: 100%;
-            height: auto;
+            height: 6.25rem;
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
-            align-items: center; }
+            justify-content: space-between;
+            align-content: center;
+            flex-wrap: wrap; }
             .mainIndex .banner #carouselExample div .publi2 .ferProd img {
-              width: 30%;
+              width: 25%;
               height: auto;
               margin-left: 1rem;
               margin-right: 1rem; }
           .mainIndex .banner #carouselExample div .publi2 .logoFer {
             width: 100%;
-            justify-content: end; }
+            height: auto;
+            align-self: end;
+            flex-wrap: wrap; }
             .mainIndex .banner #carouselExample div .publi2 .logoFer img {
-              width: 25%;
-              height: auto;
-              justify-self: end; }
+              width: 15%;
+              height: auto; }
       .mainIndex .banner #carouselExample div {
-        width: 100vw;
-        height: auto; }
+        width: 100%;
+        height: 21.875rem; }
         .mainIndex .banner #carouselExample div .publi3 {
-          width: 100vw;
-          height: 25rem;
+          width: 100%;
+          height: 21.875rem;
           padding: 2rem;
           display: flex;
           flex-direction: row;
@@ -131,24 +148,32 @@ body {
           background-color: #efefef; }
           .mainIndex .banner #carouselExample div .publi3 .personaje {
             width: 18.75rem;
-            height: auto; }
+            height: auto;
+            align-items: end; }
             .mainIndex .banner #carouselExample div .publi3 .personaje img {
               width: 100%;
               height: auto;
-              align-self: baseline; }
+              align-self: center; }
           .mainIndex .banner #carouselExample div .publi3 .infoP3 {
             width: 50%;
-            height: auto; }
+            height: 25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }
             .mainIndex .banner #carouselExample div .publi3 .infoP3 .tituloPubli3 {
               font-size: 1.5rem;
               font-weight: 400;
               text-align: center; }
             .mainIndex .banner #carouselExample div .publi3 .infoP3 .logoNobivac {
-              width: 26.75rem;
-              height: auto; }
+              width: 50%;
+              height: auto;
+              justify-content: center;
+              flex-wrap: wrap; }
               .mainIndex .banner #carouselExample div .publi3 .infoP3 .logoNobivac img {
-                width: 50%;
-                height: auto; }
+                width: 100%;
+                height: auto;
+                justify-self: center; }
             .mainIndex .banner #carouselExample div .publi3 .infoP3 .subtPubli3 {
               font-size: .75rem;
               font-weight: 300;
@@ -284,691 +309,105 @@ body {
           text-align: center;
           color: ghostwhite; }
 
-.mainAlimentosP h1 {
-  text-align: center;
-  text-decoration: none;
-  color: ghostwhite;
-  font-size: 1.25rem;
-  font-weight: 400;
-  background-color: black;
-  padding: .5rem; }
-
-.mainAlimentosP .contenidoAp {
+.mainAlimentosP {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-  .mainAlimentosP .contenidoAp .mainFiltro {
+  height: auto; }
+  .mainAlimentosP .tituloPagina h1 {
+    text-align: center;
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: black;
+    padding: .5rem; }
+  .mainAlimentosP .contenidoAp {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    margin-top: 1.5rem;
-    grid-area: mainFiltro; }
-    .mainAlimentosP .contenidoAp .mainFiltro p {
-      width: 12.5rem;
-      padding: .5rem;
-      margin-left: 1.5rem;
-      background-color: black;
-      color: ghostwhite;
-      font-size: .75rem;
-      font-weight: 400;
-      text-decoration: none; }
-    .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop {
-      padding-left: .5rem;
-      margin-left: 1.5rem;
-      width: 12.5rem;
+    flex-direction: row;
+    justify-content: space-around; }
+    .mainAlimentosP .contenidoAp .mainFiltro {
       display: flex;
       flex-direction: column;
-      border: black;
-      border-width: .125rem;
-      border-style: solid; }
-      .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop div label {
-        color: black;
+      margin-top: 1.5rem;
+      padding: 0px; }
+      .mainAlimentosP .contenidoAp .mainFiltro p {
+        width: 12.5rem;
+        padding: .5rem;
+        margin-left: 1.5rem;
+        background-color: black;
+        color: ghostwhite;
         font-size: .75rem;
         font-weight: 400;
-        text-decoration: none;
-        padding: 0; }
-
-.mainAlimentosP .alimentosPerros {
-  margin: 1rem;
-  margin-right: 1.5rem;
-  width: 64.9375rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  gap: .5rem; }
-
-.mainAlimentosP .alimPerro1 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro1 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro1 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro1 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro1 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro1 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro1 .infoProd2 {
-    margin-inline: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro1 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro1 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro1 .infoProd2 button {
-      background-color: white;
-      border: none; }
-
-.mainAlimentosP .alimPerro2 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro2 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro2 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro2 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro2 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro2 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro2 .infoProd2 {
-    margin-inline: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro2 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro2 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro2 .infoProd2 button {
-      background-color: white;
-      border: none; }
-
-.mainAlimentosP .alimPerro3 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro3 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro3 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro3 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro3 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro3 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro3 .infoProd2 {
-    margin-inline: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro3 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro3 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro3 .infoProd2 button {
-      background-color: white;
-      border: none; }
-
-.mainAlimentosP .alimPerro4 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro4 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro4 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro4 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro4 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro4 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro4 .infoProd2 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro4 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro4 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro4 .infoProd2 button {
-      background-color: white;
-      align-self: baseline;
-      border: none;
-      width: 1.5rem;
-      height: 1.5rem; }
-      .mainAlimentosP .alimPerro4 .infoProd2 button img {
-        width: 100%;
-        height: auto;
+        text-decoration: none; }
+      .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop {
+        padding-left: .5rem;
+        margin-left: 1.5rem;
+        width: 12.5rem;
+        display: flex;
+        flex-direction: column;
+        border: black;
+        border-width: .125rem;
+        border-style: solid; }
+        .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop div label {
+          color: black;
+          font-size: .75rem;
+          font-weight: 400;
+          text-decoration: none;
+          padding: 0; }
+    .mainAlimentosP .contenidoAp .alimentosPerros {
+      margin: 1rem;
+      margin-right: 1.5rem;
+      width: 64.9375rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "alimPerro" "alimPerro" "alimPerro"   "alimPerro" "alimPerro" "alimPerro"   "alimPerro" "alimPerro" "alimPerro"   "alimPerro" "alimPerro" "alimPerro";
+      gap: .5rem; }
+    .mainAlimentosP .contenidoAp .alimPerro {
+      width: 20.8125rem;
+      height: 26.625rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .mainAlimentosP .contenidoAp .alimPerro a {
+        width: 20rem;
+        height: auto; }
+        .mainAlimentosP .contenidoAp .alimPerro a img {
+          width: 100%; }
+      .mainAlimentosP .contenidoAp .alimPerro .infoProd1 {
+        margin: .5rem;
+        width: 20rem;
+        height: 2.5625rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+        .mainAlimentosP .contenidoAp .alimPerro .infoProd1 p {
+          font-size: .875rem;
+          font-weight: 400; }
+        .mainAlimentosP .contenidoAp .alimPerro .infoProd1 select {
+          border: unset;
+          font-size: .75rem;
+          align-self: baseline; }
+      .mainAlimentosP .contenidoAp .alimPerro .infoProd2 {
+        margin-inline: .5rem;
+        width: 20rem;
+        height: 2.5625rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
         align-content: center; }
-
-.mainAlimentosP .alimPerro5 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro5 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro5 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro5 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro5 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro5 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro5 .infoProd2 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro5 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro5 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro5 .infoProd2 button {
-      background-color: white;
-      align-self: baseline;
-      border: none;
-      width: 1.5rem;
-      height: 1.5rem; }
-      .mainAlimentosP .alimPerro5 .infoProd2 button img {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        align-content: center; }
-
-.mainAlimentosP .alimPerro6 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro6 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro6 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro6 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro6 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro6 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro6 .infoProd2 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro6 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro6 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro6 .infoProd2 button {
-      background-color: white;
-      align-self: baseline;
-      border: none;
-      width: 1.5rem;
-      height: 1.5rem; }
-      .mainAlimentosP .alimPerro6 .infoProd2 button img {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        align-content: center; }
-
-.mainAlimentosP .alimPerro7 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro7 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro7 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro7 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro7 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro7 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro7 .infoProd2 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro7 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro7 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro7 .infoProd2 button {
-      background-color: white;
-      align-self: baseline;
-      border: none;
-      width: 1.5rem;
-      height: 1.5rem; }
-      .mainAlimentosP .alimPerro7 .infoProd2 button img {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        align-content: center; }
-
-.mainAlimentosP .alimPerro8 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro8 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro8 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro8 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro8 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro8 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro8 .infoProd2 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro8 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro8 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro8 .infoProd2 button {
-      background-color: white;
-      align-self: baseline;
-      border: none;
-      width: 1.5rem;
-      height: 1.5rem; }
-      .mainAlimentosP .alimPerro8 .infoProd2 button img {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        align-content: center; }
-
-.mainAlimentosP .alimPerro9 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro9 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro9 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro9 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro9 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro9 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro9 .infoProd2 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro9 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro9 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro9 .infoProd2 button {
-      background-color: white;
-      align-self: baseline;
-      border: none;
-      width: 1.5rem;
-      height: 1.5rem; }
-      .mainAlimentosP .alimPerro9 .infoProd2 button img {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        align-content: center; }
-
-.mainAlimentosP .alimPerro10 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro10 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro10 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro10 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro10 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro10 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro10 .infoProd2 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro10 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro10 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro10 .infoProd2 button {
-      background-color: white;
-      align-self: baseline;
-      border: none;
-      width: 1.5rem;
-      height: 1.5rem; }
-      .mainAlimentosP .alimPerro10 .infoProd2 button img {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        align-content: center; }
-
-.mainAlimentosP .alimPerro11 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro11 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro11 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro11 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro11 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro11 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro11 .infoProd2 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro11 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro11 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro11 .infoProd2 button {
-      background-color: white;
-      align-self: baseline;
-      border: none;
-      width: 1.5rem;
-      height: 1.5rem; }
-      .mainAlimentosP .alimPerro11 .infoProd2 button img {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        align-content: center; }
-
-.mainAlimentosP .alimPerro12 {
-  width: 20.8125rem;
-  height: 26.625rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .mainAlimentosP .alimPerro12 a {
-    width: 20rem;
-    height: auto; }
-    .mainAlimentosP .alimPerro12 a img {
-      width: 100%; }
-  .mainAlimentosP .alimPerro12 .infoProd1 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    .mainAlimentosP .alimPerro12 .infoProd1 p {
-      font-size: .875rem;
-      font-weight: 400; }
-    .mainAlimentosP .alimPerro12 .infoProd1 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-  .mainAlimentosP .alimPerro12 .infoProd2 {
-    margin: .5rem;
-    width: 20rem;
-    height: 2.5625rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
-    .mainAlimentosP .alimPerro12 .infoProd2 p {
-      font-size: .75rem;
-      font-weight: 400;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro12 .infoProd2 select {
-      border: unset;
-      font-size: .75rem;
-      align-self: baseline; }
-    .mainAlimentosP .alimPerro12 .infoProd2 button {
-      background-color: white;
-      align-self: baseline;
-      border: none;
-      width: 1.5rem;
-      height: 1.5rem; }
-      .mainAlimentosP .alimPerro12 .infoProd2 button img {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        align-content: center; }
+        .mainAlimentosP .contenidoAp .alimPerro .infoProd2 p {
+          font-size: .75rem;
+          font-weight: 400; }
+        .mainAlimentosP .contenidoAp .alimPerro .infoProd2 select {
+          border: unset;
+          font-size: .75rem;
+          align-self: baseline; }
+        .mainAlimentosP .contenidoAp .alimPerro .infoProd2 button {
+          background-color: white;
+          border: none; }
 
 .mainVet {
   width: 100vw; }
@@ -1504,7 +943,10 @@ footer {
           header header nav .navR .navR a .navR a img {
             width: 100%;
             height: auto; }
-  /*FOOTER*/ }
+  /*FOOTER*/
+  /*MAIN ALIMENTOS PERROS*/
+  .filtroHamb {
+    display: none; } }
 
 @media (min-width: 740px) and (max-width: 1440px) {
   /*HEADER*/
@@ -1553,32 +995,6 @@ footer {
   .art p {
     display: none; }
   /*MAIN INDEX*/
-  .tituloBanner {
-    font-family: "Roboto", sans-serif;
-    font-size: .875rem; }
-  .subTituloBanner {
-    font-family: "Roboto", sans-serif;
-    font-size: .375rem; }
-  .towCanionWetlands {
-    width: 25%;
-    height: auto; }
-  .towLogo {
-    width: 50%;
-    height: fit-content; }
-  .banner {
-    height: 11rem;
-    justify-content: space-around;
-    justify-content: center; }
-  .productos {
-    display: flex;
-    height: 8rem;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-    overflow: hidden; }
-  .item {
-    overflow: hidden;
-    margin: .5rem; }
   /*MAIN ENVIOS*/
   .mainEnvios {
     width: 100vw;
@@ -1599,7 +1015,106 @@ footer {
       flex-direction: row;
       gap: 1rem;
       margin-top: 1rem;
-      margin-bottom: 1rem; } }
+      margin-bottom: 1rem; }
+  /*MAIN ALIMENTOS PERROS*/
+  .mainAlimentosP .tituloPagina h1 {
+    width: 100vw;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: ghostwhite;
+    background-color: black; }
+  .mainAlimentosP .filtroHamb {
+    display: none; }
+  .mainAlimentosP .contenidoAp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .mainAlimentosP .contenidoAp .mainFiltro {
+      width: 6.25rem;
+      display: flex;
+      flex-direction: column;
+      padding: 0px; }
+      .mainAlimentosP .contenidoAp .mainFiltro p {
+        width: 100%;
+        padding: .5rem;
+        margin-left: 1rem;
+        background-color: black;
+        color: ghostwhite;
+        font-size: .5625rem;
+        font-weight: 300;
+        text-decoration: none; }
+      .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop {
+        width: 6.25rem;
+        padding-left: .5rem;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        border: black;
+        border-width: .125rem;
+        border-style: solid; }
+        .mainAlimentosP .contenidoAp .mainFiltro .mainFiltroop div label {
+          color: black;
+          font-size: .5625rem;
+          font-weight: 00;
+          text-decoration: none;
+          padding: 0; }
+  .mainAlimentosP .alimentosPerros {
+    margin: 1rem;
+    margin-right: 1.5rem;
+    width: 64.9375rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: "alimPerro"    "alimPerro"   "alimPerro"  "alimPerro"    "alimPerro"   "alimPerro"  "alimPerro"    "alimPerro"   "alimPerro"    "alimPerro"   "alimPerro"  "alimPerro";
+    gap: .5rem; }
+  .mainAlimentosP .alimPerro {
+    width: 9.375rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .mainAlimentosP .alimPerro a {
+      width: 6.25rem;
+      height: auto; }
+      .mainAlimentosP .alimPerro a img {
+        width: 100%; }
+    .mainAlimentosP .alimPerro .infoProd1 {
+      margin: .5rem;
+      width: 20rem;
+      height: 2.5625rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center; }
+      .mainAlimentosP .alimPerro .infoProd1 p {
+        font-size: .875rem;
+        font-weight: 400; }
+      .mainAlimentosP .alimPerro .infoProd1 select {
+        border: unset;
+        font-size: .75rem;
+        align-self: baseline; }
+    .mainAlimentosP .alimPerro .infoProd2 {
+      margin-inline: .5rem;
+      width: 20rem;
+      height: 2.5625rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center; }
+      .mainAlimentosP .alimPerro .infoProd2 p {
+        font-size: .75rem;
+        font-weight: 400; }
+      .mainAlimentosP .alimPerro .infoProd2 select {
+        border: unset;
+        font-size: .75rem;
+        align-self: baseline; }
+      .mainAlimentosP .alimPerro .infoProd2 button {
+        background-color: white;
+        border: none; } }
 
 @media (min-width: 320px) and (max-width: 740px) {
   /*HEADER*/
@@ -1720,21 +1235,140 @@ footer {
     padding-bottom: 0;
     margin-left: .5rem;
     text-align: left; }
-  .tituloBanner {
-    font-family: "Roboto", sans-serif;
-    font-size: .625rem; }
-  .subTituloBanner {
-    font-family: "Roboto", sans-serif;
-    font-size: .375rem; }
-  .towCanionWetlands {
-    width: 25%;
-    height: fit-content; }
-  .towLogo {
-    width: 50%;
-    height: fit-content; }
   .banner {
-    height: 11rem;
-    justify-content: space-around; }
+    width: 100%;
+    max-height: 15.625rem; }
+    .banner #carouselExample {
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem; }
+      .banner #carouselExample .carousel-inner {
+        width: 100%;
+        height: 15.625rem; }
+        .banner #carouselExample .carousel-inner div {
+          width: 100%;
+          justify-content: center; }
+          .banner #carouselExample .carousel-inner div .publi1 {
+            width: 100%;
+            height: 12.5rem;
+            display: flex;
+            flex-direction: row;
+            margin-right: 1.5rem;
+            margin-left: 1.5rem;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            justify-content: space-around;
+            background-color: #efefef; }
+            .banner #carouselExample .carousel-inner div .publi1 .infoP {
+              width: 50%;
+              height: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center; }
+              .banner #carouselExample .carousel-inner div .publi1 .infoP .tituloBanner {
+                font-size: 1rem;
+                font-weight: 300;
+                text-align: center; }
+              .banner #carouselExample .carousel-inner div .publi1 .infoP .logoTow {
+                width: 50%;
+                height: auto;
+                flex-wrap: wrap;
+                justify-content: center;
+                justify-content: space-around; }
+                .banner #carouselExample .carousel-inner div .publi1 .infoP .logoTow img {
+                  width: 100%;
+                  height: auto;
+                  align-self: center; }
+              .banner #carouselExample .carousel-inner div .publi1 .infoP .subtBanner {
+                font-size: 9rem;
+                font-weight: 300; }
+            .banner #carouselExample .carousel-inner div .publi1 .bolsasTow {
+              width: 50%;
+              height: auto;
+              flex-wrap: wrap; }
+              .banner #carouselExample .carousel-inner div .publi1 .bolsasTow img {
+                width: 100%;
+                height: auto; }
+      .banner #carouselExample div {
+        width: 100%;
+        height: 15.625rem; }
+        .banner #carouselExample div .publi2 {
+          width: 100%;
+          height: 12.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          padding: 2rem;
+          flex-wrap: wrap; }
+          .banner #carouselExample div .publi2 .tituloPubli2 {
+            font-size: 1rem;
+            font-weight: 300;
+            text-align: start; }
+          .banner #carouselExample div .publi2 .ferProd {
+            width: 100%;
+            height: 3.125rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around; }
+            .banner #carouselExample div .publi2 .ferProd img {
+              width: 25%;
+              height: auto;
+              margin-left: .5rem;
+              margin-right: .5rem; }
+          .banner #carouselExample div .publi2 .logoFer {
+            width: 100%;
+            height: auto;
+            align-self: end;
+            flex-wrap: wrap; }
+            .banner #carouselExample div .publi2 .logoFer img {
+              width: 15%;
+              height: auto; }
+      .banner #carouselExample div {
+        width: 100%;
+        height: 15.625rem; }
+        .banner #carouselExample div .publi3 {
+          width: 100%;
+          height: 21.875rem;
+          padding: 2rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          background-color: #efefef; }
+          .banner #carouselExample div .publi3 .personaje {
+            width: 18.75rem;
+            height: auto;
+            align-items: end; }
+            .banner #carouselExample div .publi3 .personaje img {
+              width: 100%;
+              height: auto;
+              align-self: center; }
+          .banner #carouselExample div .publi3 .infoP3 {
+            width: 50%;
+            height: 12.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+            .banner #carouselExample div .publi3 .infoP3 .tituloPubli3 {
+              font-size: 1.5rem;
+              font-weight: 400;
+              text-align: center; }
+            .banner #carouselExample div .publi3 .infoP3 .logoNobivac {
+              width: 50%;
+              height: auto;
+              justify-content: center;
+              flex-wrap: wrap; }
+              .banner #carouselExample div .publi3 .infoP3 .logoNobivac img {
+                width: 100%;
+                height: auto;
+                justify-self: center; }
+            .banner #carouselExample div .publi3 .infoP3 .subtPubli3 {
+              font-size: .75rem;
+              font-weight: 300;
+              text-align: center; }
   .productos {
     display: flex;
     height: 128px;
@@ -1884,4 +1518,77 @@ footer {
     .mainEnvios .coordiEnvios img {
       width: 80%;
       height: auto;
-      margin: 1rem; } }
+      margin: 1rem; }
+  /*MAIN ALIMENTOS PERROS*/
+  .mainAlimentosP {
+    width: 100%;
+    height: auto; }
+    .mainAlimentosP .tituloPagina h1 {
+      width: 100vw;
+      height: auto;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: start;
+      background-color: white;
+      color: black;
+      padding-left: 1.5rem; }
+    .mainAlimentosP .contenidoAp {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      .mainAlimentosP .contenidoAp .mainFiltro {
+        display: none; }
+    .mainAlimentosP .alimentosPerros {
+      margin: 1rem;
+      margin-right: 1.5rem;
+      width: 64.9375rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      gap: .5rem; }
+    .mainAlimentosP .alimPerro {
+      width: 9.375rem;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .mainAlimentosP .alimPerro a {
+        width: 6.25rem;
+        height: auto; }
+        .mainAlimentosP .alimPerro a img {
+          width: 100%; }
+      .mainAlimentosP .alimPerro .infoProd1 {
+        margin: .5rem;
+        width: 20rem;
+        height: 2.5625rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+        .mainAlimentosP .alimPerro .infoProd1 p {
+          font-size: .875rem;
+          font-weight: 400; }
+        .mainAlimentosP .alimPerro .infoProd1 select {
+          border: unset;
+          font-size: .75rem;
+          align-self: baseline; }
+      .mainAlimentosP .alimPerro .infoProd2 {
+        margin-inline: .5rem;
+        width: 20rem;
+        height: 2.5625rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center; }
+        .mainAlimentosP .alimPerro .infoProd2 p {
+          font-size: .75rem;
+          font-weight: 400; }
+        .mainAlimentosP .alimPerro .infoProd2 select {
+          border: unset;
+          font-size: .75rem;
+          align-self: baseline; }
+        .mainAlimentosP .alimPerro .infoProd2 button {
+          background-color: white;
+          border: none; } }

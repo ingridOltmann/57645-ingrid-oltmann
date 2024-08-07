@@ -14,63 +14,79 @@
     } 
     .banner{
         width: 100%;
-        min-height: 21.875rem;
+        max-height: 27.5rem;
         #carouselExample{
             width: 100%;
             height: auto;
             margin-bottom: 2rem;
             .carousel-inner{
-                width: 100vw;
-                height: 21.875rem;
-                .publi1{
-                    width: 100vw;
-                    height: 21.875rem;
-                    display: flex;
-                    flex-direction: row;
-                    padding-left: 1.5rem;
-                    padding-right: 1.5rem;
-                    align-items: center;
-                    justify-items: center;
-                    justify-content: space-around;
-                    background-color: #efefef;
-                    .infoP{
-                        width: 15.625rem;
-                        height: auto;
-                        .tituloBanner{
-                            font-size: 1.5rem;
-                            font-weight: 300;                    
-                        }
-                        .logoTow{
-                            width: 26.75rem;
+                width: 100%;
+                height: 27.5rem;
+                div{
+                    width: 100%;
+                    justify-content: center;
+                    .publi1{
+                        width: 100%;
+                        height: 21.875rem;
+                        display: flex;
+                        flex-direction: row;
+                        margin-right: 1.5rem;
+                        margin-left: 1.5rem;
+                        align-items: center;
+                        justify-content: center;
+                        align-content: center;
+                        justify-content: space-around;
+                        background-color: #efefef;
+                        .infoP{
+                            width: 50%;
                             height: auto;
-                            img{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .tituloBanner{
+                                font-size: 1.5rem;
+                                font-weight: 300;
+                                text-align: center;                    
+                            }
+                            .logoTow{
                                 width: 50%;
                                 height: auto;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                justify-content: space-around;
+                                img{
+                                    width: 100%;
+                                    height: auto;
+                                    align-self: center;
+                                }
+                            }
+                            .subtBanner{
+                                font-size: .75rem;
+                                font-weight: 300;
                             }
                         }
-                        .subtBanner{
-                            font-size: .75rem;
-                            font-weight: 300;
-                        }
-                    }
-                    .bolsasTow{
-                        width: 15.625rem;
-                        height: auto;
-                        img{
+                        .bolsasTow{
                             width: 100%;
                             height: auto;
+                            flex-wrap: wrap;
+                            img{
+                                width: 40%;
+                                height: auto;
+                            }
                         }
                     }
                 }
             }
             div{
-                width: 100vw;
-                height: auto;
+                width: 100%;
+                height: 21.875rem;
                 .publi2{
-                    width: 100vw;
-                    height: 25rem;
+                    width: 100%;
+                    height: 27.5rem;
                     display: flex;
                     flex-direction: column;
+                    justify-content: space-between;
                     padding: 2rem;
                     .tituloPubli2{
                         font-size: 1.5rem;
@@ -79,13 +95,14 @@
                     }
                     .ferProd{
                         width: 100%;
-                        height: auto;
+                        height: 6.25rem;
                         display: flex;
                         flex-direction: row;
-                        justify-content: space-around;
-                        align-items: center;
+                        justify-content: space-between;
+                        align-content: center;
+                        flex-wrap: wrap;
                         img{
-                            width: 30%;
+                            width: 25%;
                             height: auto;
                             margin-left: 1rem;
                             margin-right: 1rem;
@@ -93,21 +110,22 @@
                     }
                     .logoFer{
                         width: 100%;
-                        justify-content: end;
+                        height: auto;
+                        align-self: end;
+                        flex-wrap: wrap;
                         img{
-                            width: 25%;
+                            width: 15%;
                             height: auto;
-                            justify-self: end;
                         }
                     }
                 }
             }
             div{
-                width: 100vw;
-                height: auto;
+                width: 100%;
+                height: 21.875rem;
                 .publi3{
-                    width: 100vw;
-                    height: 25rem;
+                    width: 100%;
+                    height: 21.875rem;
                     padding: 2rem;
                     display: flex;
                     flex-direction: row;
@@ -117,26 +135,34 @@
                     .personaje{
                         width: 18.75rem;
                         height: auto;
+                        align-items: end;
                         img{
                             width: 100%;
                             height: auto;
-                            align-self: baseline;
+                            align-self: center;
                         }
                     }
                     .infoP3{
                         width: 50%;
-                        height: auto;
+                        height: 25rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
                         .tituloPubli3{
                             font-size: 1.5rem;
                             font-weight: 400;
                             text-align: center;
                         }
                         .logoNobivac{
-                            width: 26.75rem;
+                            width: 50%;
                             height: auto;
+                            justify-content: center;
+                            flex-wrap: wrap;
                             img{
-                                width: 50%;
+                                width: 100%;
                                 height: auto;
+                                justify-self: center;
                             }
                         }
                         .subtPubli3{
